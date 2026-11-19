@@ -1,0 +1,898 @@
+# Danh mục trận lũ. Test A, B ghi cứng theo thiết kế; trận huấn luyện 2016-2023 do
+# scripts/lap_danh_sach_tran.py (Task 6) điền từ GFM, mỗi trận có trường nguon.
+nguong_tran:
+  vu_gia_thu_bon: 0.002
+  huong: 0.0065
+  tra_khuc: 0.002
+  gianh: 0.002
+  ca: 0.002
+  hong_thai_binh: 0.003629
+su_kien:
+- ma: test_a_yagi_2024
+  luu_vuc: hong_thai_binh
+  bat_dau: 2024-09-01
+  ket_thuc: 2024-09-30
+  vai_tro: test_a
+  ems:
+  - EMSR754
+  nguon: Copernicus EMS EMSR754 (11/09/2024); UNOSAT GLIDE TC20240905VNM
+  ghi_chu: Bão Yagi, đồng bằng Bắc Bộ
+- ma: test_b_mien_trung_2025
+  luu_vuc:
+  - vu_gia_thu_bon
+  - huong
+  - tra_khuc
+  - gianh
+  - ca
+  bat_dau: 2025-10-01
+  ket_thuc: 2025-11-30
+  vai_tro: test_b
+  ems:
+  - EMSR844
+  - EMSR848
+  nguon: Copernicus EMS EMSR844 (11/10/2025), EMSR848 (30/10/2025)
+  ghi_chu: Lũ miền Trung 10-11/2025
+- ma: vu_gia_thu_bon_20171110
+  luu_vuc: vu_gia_thu_bon
+  bat_dau: &id001 2017-11-10
+  ket_thuc: *id001
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0566
+- ma: vu_gia_thu_bon_20201017
+  luu_vuc: vu_gia_thu_bon
+  bat_dau: &id002 2020-10-17
+  ket_thuc: *id002
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0968
+- ma: vu_gia_thu_bon_20211017
+  luu_vuc: vu_gia_thu_bon
+  bat_dau: 2021-10-17
+  ket_thuc: 2021-11-17
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 3 ngày ảnh, tỉ lệ ngập lớn nhất 0.0397
+- ma: vu_gia_thu_bon_20221019
+  luu_vuc: vu_gia_thu_bon
+  bat_dau: 2022-10-19
+  ket_thuc: 2022-10-27
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 2 ngày ảnh, tỉ lệ ngập lớn nhất 0.0121
+- ma: huong_20160913
+  luu_vuc: huong
+  bat_dau: 2016-09-13
+  ket_thuc: 2016-10-07
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 2 ngày ảnh, tỉ lệ ngập lớn nhất 0.0432
+- ma: huong_20170908
+  luu_vuc: huong
+  bat_dau: &id003 2017-09-08
+  ket_thuc: *id003
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0075
+- ma: huong_20180211
+  luu_vuc: huong
+  bat_dau: &id004 2018-02-11
+  ket_thuc: *id004
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0070
+- ma: huong_20181126
+  luu_vuc: huong
+  bat_dau: &id005 2018-11-26
+  ket_thuc: *id005
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0286
+- ma: huong_20181220
+  luu_vuc: huong
+  bat_dau: &id006 2018-12-20
+  ket_thuc: *id006
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.1096
+- ma: huong_20190922
+  luu_vuc: huong
+  bat_dau: 2019-09-22
+  ket_thuc: 2019-10-31
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 3 ngày ảnh, tỉ lệ ngập lớn nhất 0.0865
+- ma: huong_20191215
+  luu_vuc: huong
+  bat_dau: &id007 2019-12-15
+  ket_thuc: *id007
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0709
+- ma: huong_20200919
+  luu_vuc: huong
+  bat_dau: 2020-09-19
+  ket_thuc: 2020-10-28
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 4 ngày ảnh, tỉ lệ ngập lớn nhất 0.4170
+- ma: huong_20201106
+  luu_vuc: huong
+  bat_dau: 2020-11-06
+  ket_thuc: 2020-11-30
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 4 ngày ảnh, tỉ lệ ngập lớn nhất 0.1805
+- ma: huong_20210911
+  luu_vuc: huong
+  bat_dau: 2021-09-11
+  ket_thuc: 2021-10-08
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 3 ngày ảnh, tỉ lệ ngập lớn nhất 0.0393
+- ma: huong_20211113
+  luu_vuc: huong
+  bat_dau: 2021-11-13
+  ket_thuc: 2021-11-25
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 3 ngày ảnh, tỉ lệ ngập lớn nhất 0.1198
+- ma: huong_20211228
+  luu_vuc: huong
+  bat_dau: &id008 2021-12-28
+  ket_thuc: *id008
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0151
+- ma: huong_20220406
+  luu_vuc: huong
+  bat_dau: &id009 2022-04-06
+  ket_thuc: *id009
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0141
+- ma: huong_20220930
+  luu_vuc: huong
+  bat_dau: 2022-09-30
+  ket_thuc: 2022-10-24
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 3 ngày ảnh, tỉ lệ ngập lớn nhất 0.2677
+- ma: huong_20221223
+  luu_vuc: huong
+  bat_dau: 2022-12-23
+  ket_thuc: 2022-12-26
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 2 ngày ảnh, tỉ lệ ngập lớn nhất 0.1454
+- ma: huong_20230913
+  luu_vuc: huong
+  bat_dau: &id010 2023-09-13
+  ket_thuc: *id010
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0224
+- ma: huong_20231031
+  luu_vuc: huong
+  bat_dau: 2023-10-31
+  ket_thuc: 2023-11-03
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 2 ngày ảnh, tỉ lệ ngập lớn nhất 0.1291
+- ma: huong_20231206
+  luu_vuc: huong
+  bat_dau: &id011 2023-12-06
+  ket_thuc: *id011
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0520
+- ma: tra_khuc_20161103
+  luu_vuc: tra_khuc
+  bat_dau: &id012 2016-11-03
+  ket_thuc: *id012
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0146
+- ma: tra_khuc_20161201
+  luu_vuc: tra_khuc
+  bat_dau: 2016-12-01
+  ket_thuc: 2016-12-13
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 2 ngày ảnh, tỉ lệ ngập lớn nhất 0.0635
+- ma: tra_khuc_20171122
+  luu_vuc: tra_khuc
+  bat_dau: 2017-11-22
+  ket_thuc: 2017-12-04
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 2 ngày ảnh, tỉ lệ ngập lớn nhất 0.0195
+- ma: tra_khuc_20181004
+  luu_vuc: tra_khuc
+  bat_dau: &id013 2018-10-04
+  ket_thuc: *id013
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0169
+- ma: tra_khuc_20181129
+  luu_vuc: tra_khuc
+  bat_dau: &id014 2018-11-29
+  ket_thuc: *id014
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0023
+- ma: tra_khuc_20181211
+  luu_vuc: tra_khuc
+  bat_dau: 2018-12-11
+  ket_thuc: 2018-12-15
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 2 ngày ảnh, tỉ lệ ngập lớn nhất 0.0632
+- ma: tra_khuc_20191019
+  luu_vuc: tra_khuc
+  bat_dau: 2019-10-19
+  ket_thuc: 2019-10-31
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 2 ngày ảnh, tỉ lệ ngập lớn nhất 0.0817
+- ma: tra_khuc_20191112
+  luu_vuc: tra_khuc
+  bat_dau: &id015 2019-11-12
+  ket_thuc: *id015
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0046
+- ma: tra_khuc_20201017
+  luu_vuc: tra_khuc
+  bat_dau: &id016 2020-10-17
+  ket_thuc: *id016
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0032
+- ma: tra_khuc_20201029
+  luu_vuc: tra_khuc
+  bat_dau: 2020-10-29
+  ket_thuc: 2020-10-31
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 2 ngày ảnh, tỉ lệ ngập lớn nhất 0.0187
+- ma: tra_khuc_20201106
+  luu_vuc: tra_khuc
+  bat_dau: &id017 2020-11-06
+  ket_thuc: *id017
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0443
+- ma: tra_khuc_20201130
+  luu_vuc: tra_khuc
+  bat_dau: &id018 2020-11-30
+  ket_thuc: *id018
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0388
+- ma: tra_khuc_20210914
+  luu_vuc: tra_khuc
+  bat_dau: &id019 2021-09-14
+  ket_thuc: *id019
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0027
+- ma: tra_khuc_20211008
+  luu_vuc: tra_khuc
+  bat_dau: &id020 2021-10-08
+  ket_thuc: *id020
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0235
+- ma: tra_khuc_20211024
+  luu_vuc: tra_khuc
+  bat_dau: &id021 2021-10-24
+  ket_thuc: *id021
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0323
+- ma: tra_khuc_20211113
+  luu_vuc: tra_khuc
+  bat_dau: 2021-11-13
+  ket_thuc: 2021-11-17
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 2 ngày ảnh, tỉ lệ ngập lớn nhất 0.0144
+- ma: tra_khuc_20211129
+  luu_vuc: tra_khuc
+  bat_dau: &id022 2021-11-29
+  ket_thuc: *id022
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0144
+- ma: tra_khuc_20211231
+  luu_vuc: tra_khuc
+  bat_dau: &id023 2021-12-31
+  ket_thuc: *id023
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0021
+- ma: tra_khuc_20221015
+  luu_vuc: tra_khuc
+  bat_dau: &id024 2022-10-15
+  ket_thuc: *id024
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0149
+- ma: tra_khuc_20221027
+  luu_vuc: tra_khuc
+  bat_dau: &id025 2022-10-27
+  ket_thuc: *id025
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0051
+- ma: tra_khuc_20221230
+  luu_vuc: tra_khuc
+  bat_dau: &id026 2022-12-30
+  ket_thuc: *id026
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0060
+- ma: tra_khuc_20231115
+  luu_vuc: tra_khuc
+  bat_dau: &id027 2023-11-15
+  ket_thuc: *id027
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0463
+- ma: gianh_20160913
+  luu_vuc: gianh
+  bat_dau: &id028 2016-09-13
+  ket_thuc: *id028
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0521
+- ma: gianh_20161031
+  luu_vuc: gianh
+  bat_dau: &id029 2016-10-31
+  ket_thuc: *id029
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0086
+- ma: gianh_20170916
+  luu_vuc: gianh
+  bat_dau: &id030 2017-09-16
+  ket_thuc: *id030
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0238
+- ma: gianh_20171010
+  luu_vuc: gianh
+  bat_dau: &id031 2017-10-10
+  ket_thuc: *id031
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.1683
+- ma: gianh_20171103
+  luu_vuc: gianh
+  bat_dau: &id032 2017-11-03
+  ket_thuc: *id032
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0045
+- ma: gianh_20181216
+  luu_vuc: gianh
+  bat_dau: &id033 2018-12-16
+  ket_thuc: *id033
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0176
+- ma: gianh_20190903
+  luu_vuc: gianh
+  bat_dau: 2019-09-03
+  ket_thuc: 2019-09-06
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 2 ngày ảnh, tỉ lệ ngập lớn nhất 0.2322
+- ma: gianh_20191016
+  luu_vuc: gianh
+  bat_dau: &id034 2019-10-16
+  ket_thuc: *id034
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0168
+- ma: gianh_20191024
+  luu_vuc: gianh
+  bat_dau: &id035 2019-10-24
+  ket_thuc: *id035
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0060
+- ma: gianh_20191028
+  luu_vuc: gianh
+  bat_dau: &id036 2019-10-28
+  ket_thuc: *id036
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0053
+- ma: gianh_20191129
+  luu_vuc: gianh
+  bat_dau: &id037 2019-11-29
+  ket_thuc: *id037
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0177
+- ma: gianh_20201010
+  luu_vuc: gianh
+  bat_dau: &id038 2020-10-10
+  ket_thuc: *id038
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0984
+- ma: gianh_20201018
+  luu_vuc: gianh
+  bat_dau: 2020-10-18
+  ket_thuc: 2020-10-22
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 2 ngày ảnh, tỉ lệ ngập lớn nhất 0.0344
+- ma: gianh_20201028
+  luu_vuc: gianh
+  bat_dau: 2020-10-28
+  ket_thuc: 2020-11-02
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 3 ngày ảnh, tỉ lệ ngập lớn nhất 0.1882
+- ma: gianh_20201105
+  luu_vuc: gianh
+  bat_dau: &id039 2020-11-05
+  ket_thuc: *id039
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0120
+- ma: gianh_20201109
+  luu_vuc: gianh
+  bat_dau: &id040 2020-11-09
+  ket_thuc: *id040
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0023
+- ma: gianh_20201127
+  luu_vuc: gianh
+  bat_dau: &id041 2020-11-27
+  ket_thuc: *id041
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0079
+- ma: gianh_20210911
+  luu_vuc: gianh
+  bat_dau: &id042 2021-09-11
+  ket_thuc: *id042
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0322
+- ma: gianh_20210923
+  luu_vuc: gianh
+  bat_dau: &id043 2021-09-23
+  ket_thuc: *id043
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0069
+- ma: gianh_20211017
+  luu_vuc: gianh
+  bat_dau: &id044 2021-10-17
+  ket_thuc: *id044
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0256
+- ma: gianh_20211029
+  luu_vuc: gianh
+  bat_dau: 2021-10-29
+  ket_thuc: 2021-11-03
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 2 ngày ảnh, tỉ lệ ngập lớn nhất 0.0251
+- ma: gianh_20221008
+  luu_vuc: gianh
+  bat_dau: 2022-10-08
+  ket_thuc: 2022-10-12
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 2 ngày ảnh, tỉ lệ ngập lớn nhất 0.0055
+- ma: gianh_20221029
+  luu_vuc: gianh
+  bat_dau: &id045 2022-10-29
+  ket_thuc: *id045
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0036
+- ma: gianh_20221122
+  luu_vuc: gianh
+  bat_dau: 2022-11-22
+  ket_thuc: 2022-11-29
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 3 ngày ảnh, tỉ lệ ngập lớn nhất 0.1325
+- ma: gianh_20221207
+  luu_vuc: gianh
+  bat_dau: &id046 2022-12-07
+  ket_thuc: *id046
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0037
+- ma: gianh_20230925
+  luu_vuc: gianh
+  bat_dau: &id047 2023-09-25
+  ket_thuc: *id047
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0240
+- ma: gianh_20231007
+  luu_vuc: gianh
+  bat_dau: &id048 2023-10-07
+  ket_thuc: *id048
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0602
+- ma: gianh_20231027
+  luu_vuc: gianh
+  bat_dau: 2023-10-27
+  ket_thuc: 2023-11-05
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 3 ngày ảnh, tỉ lệ ngập lớn nhất 0.1033
+- ma: gianh_20231120
+  luu_vuc: gianh
+  bat_dau: 2023-11-20
+  ket_thuc: 2023-11-24
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 2 ngày ảnh, tỉ lệ ngập lớn nhất 0.0061
+- ma: gianh_20231206
+  luu_vuc: gianh
+  bat_dau: &id049 2023-12-06
+  ket_thuc: *id049
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0034
+- ma: ca_20160930
+  luu_vuc: ca
+  bat_dau: &id050 2016-09-30
+  ket_thuc: *id050
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0041
+- ma: ca_20170916
+  luu_vuc: ca
+  bat_dau: &id051 2017-09-16
+  ket_thuc: *id051
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0421
+- ma: ca_20171007
+  luu_vuc: ca
+  bat_dau: &id052 2017-10-07
+  ket_thuc: *id052
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0171
+- ma: ca_20181207
+  luu_vuc: ca
+  bat_dau: &id053 2018-12-07
+  ket_thuc: *id053
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0034
+- ma: ca_20181231
+  luu_vuc: ca
+  bat_dau: &id054 2018-12-31
+  ket_thuc: *id054
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0031
+- ma: ca_20190903
+  luu_vuc: ca
+  bat_dau: 2019-09-03
+  ket_thuc: 2019-09-09
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 2 ngày ảnh, tỉ lệ ngập lớn nhất 0.1115
+- ma: ca_20190921
+  luu_vuc: ca
+  bat_dau: &id055 2019-09-21
+  ket_thuc: *id055
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0022
+- ma: ca_20191015
+  luu_vuc: ca
+  bat_dau: &id056 2019-10-15
+  ket_thuc: *id056
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0656
+- ma: ca_20191027
+  luu_vuc: ca
+  bat_dau: &id057 2019-10-27
+  ket_thuc: *id057
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0028
+- ma: ca_20200921
+  luu_vuc: ca
+  bat_dau: 2020-09-21
+  ket_thuc: 2020-09-24
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 2 ngày ảnh, tỉ lệ ngập lớn nhất 0.0147
+- ma: ca_20201018
+  luu_vuc: ca
+  bat_dau: 2020-10-18
+  ket_thuc: 2020-10-24
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 2 ngày ảnh, tỉ lệ ngập lớn nhất 0.0794
+- ma: ca_20201108
+  luu_vuc: ca
+  bat_dau: &id058 2020-11-08
+  ket_thuc: *id058
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0034
+- ma: ca_20210916
+  luu_vuc: ca
+  bat_dau: &id059 2021-09-16
+  ket_thuc: *id059
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0023
+- ma: ca_20210928
+  luu_vuc: ca
+  bat_dau: &id060 2021-09-28
+  ket_thuc: *id060
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0137
+- ma: ca_20220911
+  luu_vuc: ca
+  bat_dau: &id061 2022-09-11
+  ket_thuc: *id061
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0162
+- ma: ca_20221005
+  luu_vuc: ca
+  bat_dau: &id062 2022-10-05
+  ket_thuc: *id062
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0974
+- ma: ca_20230930
+  luu_vuc: ca
+  bat_dau: 2023-09-30
+  ket_thuc: 2023-10-15
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 3 ngày ảnh, tỉ lệ ngập lớn nhất 0.0910
+- ma: ca_20231117
+  luu_vuc: ca
+  bat_dau: &id063 2023-11-17
+  ket_thuc: *id063
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0056
+- ma: hong_thai_binh_20160828
+  luu_vuc: hong_thai_binh
+  bat_dau: &id064 2016-08-28
+  ket_thuc: *id064
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0136
+- ma: hong_thai_binh_20170305
+  luu_vuc: hong_thai_binh
+  bat_dau: &id065 2017-03-05
+  ket_thuc: *id065
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0088
+- ma: hong_thai_binh_20170820
+  luu_vuc: hong_thai_binh
+  bat_dau: &id066 2017-08-20
+  ket_thuc: *id066
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0057
+- ma: hong_thai_binh_20170901
+  luu_vuc: hong_thai_binh
+  bat_dau: &id067 2017-09-01
+  ket_thuc: *id067
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0039
+- ma: hong_thai_binh_20170913
+  luu_vuc: hong_thai_binh
+  bat_dau: 2017-09-13
+  ket_thuc: 2017-09-16
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 2 ngày ảnh, tỉ lệ ngập lớn nhất 0.0103
+- ma: hong_thai_binh_20171022
+  luu_vuc: hong_thai_binh
+  bat_dau: &id068 2017-10-22
+  ket_thuc: *id068
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0086
+- ma: hong_thai_binh_20180303
+  luu_vuc: hong_thai_binh
+  bat_dau: &id069 2018-03-03
+  ket_thuc: *id069
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0048
+- ma: hong_thai_binh_20180324
+  luu_vuc: hong_thai_binh
+  bat_dau: &id070 2018-03-24
+  ket_thuc: *id070
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0051
+- ma: hong_thai_binh_20180821
+  luu_vuc: hong_thai_binh
+  bat_dau: &id071 2018-08-21
+  ket_thuc: *id071
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0067
+- ma: hong_thai_binh_20180911
+  luu_vuc: hong_thai_binh
+  bat_dau: &id072 2018-09-11
+  ket_thuc: *id072
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0042
+- ma: hong_thai_binh_20200807
+  luu_vuc: hong_thai_binh
+  bat_dau: &id073 2020-08-07
+  ket_thuc: *id073
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0043
+- ma: hong_thai_binh_20201018
+  luu_vuc: hong_thai_binh
+  bat_dau: &id074 2020-10-18
+  ket_thuc: *id074
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0089
+- ma: hong_thai_binh_20220821
+  luu_vuc: hong_thai_binh
+  bat_dau: &id075 2022-08-21
+  ket_thuc: *id075
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0037
+- ma: hong_thai_binh_20220902
+  luu_vuc: hong_thai_binh
+  bat_dau: &id076 2022-09-02
+  ket_thuc: *id076
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0038
+- ma: hong_thai_binh_20220921
+  luu_vuc: hong_thai_binh
+  bat_dau: &id077 2022-09-21
+  ket_thuc: *id077
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0038
+- ma: hong_thai_binh_20221005
+  luu_vuc: hong_thai_binh
+  bat_dau: &id078 2022-10-05
+  ket_thuc: *id078
+  vai_tro: train
+  ems: []
+  nguon: GFM
+  ghi_chu: 1 ngày ảnh, tỉ lệ ngập lớn nhất 0.0045

@@ -1,0 +1,14 @@
+# Điểm cửa ra (lon, lat) để dựng lưu vực thượng nguồn từ HydroBASINS cấp 10, và cách lấy vùng đồng bằng ngập.
+# Chọn 28/10/2026 theo bản đồ; kiểm bằng diện tích (results/luoi.json). cua_ra là danh sách điểm:
+# lưu vực có hai nhánh đổ ra gần cửa (Hương + Bồ, Gianh) thì gộp nhiều chuỗi HydroBASINS.
+cao_do_toi_da_aoi_m: 50
+luu_vuc:
+  vu_gia_thu_bon: {cua_ra: [[108.33, 15.87]], ghi_chu: "Thu Bồn gần Hội An"}
+  huong:          {cua_ra: [[107.58, 16.47], [107.55, 16.55]], ghi_chu: "sông Hương tại Huế + sông Bồ"}
+  tra_khuc:       {cua_ra: [[108.80, 15.13]], ghi_chu: "Trà Khúc tại TP Quảng Ngãi"}
+  gianh:          {cua_ra: [[106.35, 17.75], [106.42, 17.72]], ghi_chu: "hai chuỗi HydroBASINS của sông Gianh quanh Ba Đồn"}
+  ca:             {cua_ra: [[105.68, 18.70]], ghi_chu: "sông Lam (Cả) gần Bến Thủy"}
+  hong_thai_binh:
+    cua_ra: [[105.85, 21.05]]
+    ghi_chu: "sông Hồng tại Hà Nội, gom Đà, Thao, Lô (phần lớn ở Trung Quốc)"
+    khung_aoi: [105.2, 20.0, 107.1, 21.6]   # đồng bằng Hồng-Thái Bình: AOI lấy theo khung, không theo lưu vực

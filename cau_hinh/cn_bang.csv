@@ -1,0 +1,12 @@
+worldcover,ten,A,B,C,D,nguon_trang
+10,tree_cover,30,55,70,77,"Jaafar et al. 2019 Sci Data 6:145, Table 1, Tree Broadleaf Evergreen = Woods (good)"
+20,shrubland,40,58,72,79,"Jaafar et al. 2019 Table 1, Shrub Broadleaf Evergreen = avg Desert shrub (good) and Brush (good)"
+30,grassland,39,61,74,80,"Jaafar et al. 2019 Table 1, Natural grass = Grassland (good)"
+40,cropland,57,68,75,78,"Jaafar et al. 2019 Table 1, Managed grass (rainfed) = avg good condition all cropland types"
+50,built_up,98,98,98,98,"USDA NRCS TR-55 (1986) Table 2-2a, impervious areas (paved parking lots, roofs, driveways); Jaafar et al. 2019 average impervious for consolidated bare areas"
+60,bare,77,86,91,94,"Jaafar et al. 2019 Table 1, Bare soil = Fallow (bare soil)"
+70,snow_ice,77,86,91,94,"khong co o Viet Nam; gan nhu bare (Jaafar Table 1 Bare soil)"
+80,permanent_water,100,100,100,100,"Jaafar et al. 2019 Table 1, Water (for wetlands only); pixel nuoc thuong xuyen bi bo qua o nhan"
+90,herbaceous_wetland,100,100,100,100,"Jaafar et al. 2019 Table 1, Water (for wetlands only)"
+95,mangroves,100,100,100,100,"Jaafar et al. 2019 Table 1, Water (for wetlands only)"
+100,moss_lichen,39,61,74,80,"khong co o Viet Nam; gan nhu Natural grass (Jaafar Table 1)"

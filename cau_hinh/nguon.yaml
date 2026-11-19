@@ -1,0 +1,44 @@
+# Cấu hình nguồn dữ liệu, chốt sau khi dò (results/kiem_nguon.md, scripts/kiem_nguon.py), 28/10/2026.
+gee:
+  project: vn-floodcast          # phi thương mại, gói Community, billingEnabled: false
+  cach_tai: computePixels         # tải thẳng về máy, không qua Drive hay Cloud Storage
+  s1: COPERNICUS/S1_GRD
+  imerg: NASA/GPM_L3/IMERG_V07    # kiểm thuộc tính status từng ngày; 2025-10 trở đi là provisional
+  era5_land: ECMWF/ERA5_LAND/DAILY_AGGR
+  dem: COPERNICUS/DEM/GLO30_2024_1
+  soilgrids: projects/soilgrids-isric   # {clay,sand,silt,bdod,soc}_mean
+gfm:
+  api_base: https://api.gfm.eodc.eu/v2
+  cach_xac_thuc: POST /auth/login {email, password} -> Bearer access_token (18000 s); client_id dùng làm user_id
+  tao_aoi: POST /aoi/create {aoi_name, description, user_id, geoJSON (Polygon EPSG:4326)} -> aoi_id
+  liet_ke: GET /aoi/{aoi_id}/products?time=range&from=...&to=...
+  tai: GET /download/product/{product_id}/{user_id} -> download_link owncloud (zip cả ô Equi7 khoảng 20 MB; cắt rồi xóa)
+  san_pham:
+    ngap: ENSEMBLE_FLOOD          # 0/1/255
+    nuoc_quan_sat: ENSEMBLE_OBSWATER
+    loai_tru: ENSEMBLE_EXCLAYER   # 1 là bị loại trừ
+    nuoc_tham_chieu: REFERENCE_WATER_OUT
+    bat_dinh: ENSEMBLE_UNCERTAINTY
+  crs_tai_ve: EPSG:4326
+gfs:
+  nguon_theo_nam:
+    2016: ncar_ncss
+    2017: ncar_ncss
+    2018: ncar_ncss
+    2019: ncar_ncss
+    2020: ncar_ncss
+    2021: aws_bdp
+    2022: aws_bdp
+    2023: aws_bdp
+    2024: aws_bdp
+    2025: aws_bdp
+  ncar_ncss: https://tds.gdex.ucar.edu/thredds/ncss/grid/files/g/d084001/{yyyy}/{yyyymmdd}/gfs.0p25.{yyyymmdd}00.f{hhh}.grib2?var=Total_precipitation_surface_6_Hour_Accumulation&north=26&south=8&west=97&east=110&accept=netcdf3
+  aws_bdp: https://noaa-gfs-bdp-pds.s3.amazonaws.com/gfs.{yyyymmdd}/00/[atmos/]gfs.t00z.pgrb2.0p25.f{hhh}  # đọc theo byte qua .idx, trường APCP
+imerg_early:
+  nguon: gesdisc                  # GEE không có IMERG_V07_EARLY; cần tài khoản Earthdata (U3)
+  thay_bang: "gee:JAXA/GPM_L3/GSMaP/v8/operational"  # 28/10: Earthdata, GES DISC không kết nối được; băng hourlyPrecipRate
+ecmwf:
+  nguon: aws                      # 503 khi dò 28/10, thử lại ở Task 8
+hydrobasins:
+  gee_id: WWF/HydroSHEDS/v1/Basins/hybas_12
+  giay_phep: "chưa đọc; phải đọc trước khi công bố dữ liệu dẫn xuất"
