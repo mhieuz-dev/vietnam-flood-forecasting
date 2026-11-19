@@ -1,0 +1,13 @@
+{
+  "title": "Vietnam Flood Forecasting: code for an event-split benchmark of short-range flood inundation forecasting",
+  "upload_type": "software",
+  "description": "Code for the paper \"Do Geospatial Foundation Models Help Short-Range Flood Inundation Forecasting? An Event-Split Benchmark for Vietnam with Independent Label Checks\". It builds a benchmark for one- to three-day flood inundation forecasting at 20 m in six river basins of northern and central Vietnam from Sentinel-1, Copernicus GFM labels, static layers and observed and forecast rainfall, trains a TerraMind fusion model and five baselines, and writes every table of the paper from the evaluation results.",
+  "creators": [
+    {"name": "Ho, Minh-Hieu", "orcid": "0009-0004-8863-3239", "affiliation": "University of Economics Ho Chi Minh City (UEH)"},
+    {"name": "Le, Trong-Nghia", "affiliation": "University of Economics Ho Chi Minh City (UEH)"},
+    {"name": "Nguyen, Viet-Nam", "affiliation": "University of Economics Ho Chi Minh City (UEH)"},
+    {"name": "Nguyen, Thien-Bao", "affiliation": "University of Economics Ho Chi Minh City (UEH)"}
+  ],
+  "license": "MIT",
+  "keywords": ["flood forecasting", "Sentinel-1", "geospatial foundation models", "benchmark", "soil", "numerical weather prediction", "Vietnam"]
+}

@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this code or the benchmark, please cite the paper and the dataset."
+title: "Vietnam Flood Forecasting: code for an event-split benchmark of short-range flood inundation forecasting"
+type: software
+license: MIT
+repository-code: "https://github.com/mhieuz-dev/vietnam-flood-forecasting"
+version: 1.0.0
+authors:
+  - family-names: Ho
+    given-names: Minh-Hieu
+    orcid: "https://orcid.org/0009-0004-8863-3239"
+    affiliation: University of Economics Ho Chi Minh City (UEH)
+  - family-names: Le
+    given-names: Trong-Nghia
+    affiliation: University of Economics Ho Chi Minh City (UEH)
+  - family-names: Nguyen
+    given-names: Viet-Nam
+    affiliation: University of Economics Ho Chi Minh City (UEH)
+  - family-names: Nguyen
+    given-names: Thien-Bao
+    affiliation: University of Economics Ho Chi Minh City (UEH)
+keywords:
+  - flood forecasting
+  - Sentinel-1
+  - geospatial foundation models
+  - benchmark
+  - Vietnam
+preferred-citation:
+  type: article
+  title: "Do Geospatial Foundation Models Help Short-Range Flood Inundation Forecasting? An Event-Split Benchmark for Vietnam with Independent Label Checks"
+  authors:
+    - family-names: Ho
+      given-names: Minh-Hieu
+      orcid: "https://orcid.org/0009-0004-8863-3239"
+    - family-names: Le
+      given-names: Trong-Nghia
+    - family-names: Nguyen
+      given-names: Viet-Nam
+    - family-names: Nguyen
+      given-names: Thien-Bao
+  year: 2026
+  notes: "Manuscript submitted for publication."
