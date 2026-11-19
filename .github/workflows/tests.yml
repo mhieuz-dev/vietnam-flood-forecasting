@@ -1,0 +1,24 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.11"
+      - name: Install pinned dependencies (CPU build of PyTorch)
+        run: |
+          uv venv
+          uv pip install torch==2.14.1 torchvision==0.29.1 --index-url https://download.pytorch.org/whl/cpu
+          grep -vE '^(nvidia-|cuda-|triton|torch==|torchvision==|-e )' requirements.lock.txt > requirements.ci.txt
+          uv pip install -r requirements.ci.txt
+          uv pip install -e . --no-deps
+      - name: Run tests
+        run: uv run --no-sync pytest -q
