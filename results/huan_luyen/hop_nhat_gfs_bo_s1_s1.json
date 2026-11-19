@@ -1,0 +1,112 @@
+{
+ "ten": "hop_nhat_gfs_bo_s1_s1",
+ "cfg": {
+  "so_epoch": 30,
+  "so_mau_epoch": 20000,
+  "lr": 0.001,
+  "lr_lung": 0.0001,
+  "batch": 16,
+  "kien_nhan": 5,
+  "luu_vuc_bo_ra": null,
+  "bo": [
+   "s1"
+  ],
+  "nguon_du_bao_train": "gfs",
+  "chay_o": "kaggle",
+  "ten": "hop_nhat_gfs_bo_s1_s1",
+  "mo_hinh": "hop_nhat",
+  "seed": 1
+ },
+ "duong_cong": [
+  {
+   "epoch": 0,
+   "lr": 0.001,
+   "loss_train": 0.9492838339805603,
+   "csi_train": 0.15722966919572687,
+   "csi_val": 0.08094348733266737,
+   "giay": 526.1
+  },
+  {
+   "epoch": 1,
+   "lr": 0.001,
+   "loss_train": 0.8895036075115204,
+   "csi_train": 0.2061497536470722,
+   "csi_val": 0.1530781713174017,
+   "giay": 524.0
+  },
+  {
+   "epoch": 2,
+   "lr": 0.001,
+   "loss_train": 0.8703909635901451,
+   "csi_train": 0.22160926715754684,
+   "csi_val": 0.12781189849512475,
+   "giay": 524.2
+  },
+  {
+   "epoch": 3,
+   "lr": 0.001,
+   "loss_train": 0.8528129602193832,
+   "csi_train": 0.2286232572456223,
+   "csi_val": 0.13222956474167377,
+   "giay": 523.6
+  },
+  {
+   "epoch": 4,
+   "lr": 0.001,
+   "loss_train": 0.8194265540838241,
+   "csi_train": 0.2708407423234454,
+   "csi_val": 0.16727273861578526,
+   "giay": 523.8
+  },
+  {
+   "epoch": 5,
+   "lr": 0.001,
+   "loss_train": 0.816615915453434,
+   "csi_train": 0.27057885871781684,
+   "csi_val": 0.15033505746698045,
+   "giay": 523.6
+  },
+  {
+   "epoch": 6,
+   "lr": 0.001,
+   "loss_train": 0.8068657167911529,
+   "csi_train": 0.27727479503484626,
+   "csi_val": 0.15544884377919396,
+   "giay": 523.7
+  },
+  {
+   "epoch": 7,
+   "lr": 0.001,
+   "loss_train": 0.7982135989308358,
+   "csi_train": 0.2811985630337617,
+   "csi_val": 0.1233582262907486,
+   "giay": 523.8
+  },
+  {
+   "epoch": 8,
+   "lr": 0.001,
+   "loss_train": 0.7852512588739395,
+   "csi_train": 0.28626113985134494,
+   "csi_val": 0.1180197371559046,
+   "giay": 523.8
+  },
+  {
+   "epoch": 9,
+   "lr": 0.001,
+   "loss_train": 0.7706917943000794,
+   "csi_train": 0.30398219207032035,
+   "csi_val": 0.09439379686417981,
+   "giay": 523.8
+  }
+ ],
+ "epoch_tot": 4,
+ "csi_val_tot": 0.16727273861578526,
+ "nhiet_do": 1.2429254430560166,
+ "so_pixel_hieu_chinh": 1978961,
+ "thoi_gian_giay": 5322.3,
+ "thiet_bi": "cuda",
+ "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+ "so_gpu": 1,
+ "gpu_dinh_gb": 6.38,
+ "git": "5c033ed"
+}

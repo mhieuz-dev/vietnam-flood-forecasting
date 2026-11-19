@@ -1,0 +1,94 @@
+{
+ "ten": "unet_b3_gfs_lobo_hong_thai_binh_s0",
+ "cfg": {
+  "so_epoch": 30,
+  "so_mau_epoch": 20000,
+  "lr": 0.001,
+  "lr_lung": 0.0001,
+  "batch": 16,
+  "kien_nhan": 5,
+  "luu_vuc_bo_ra": "hong_thai_binh",
+  "bo": [],
+  "nguon_du_bao_train": "gfs",
+  "chay_o": "laptop",
+  "ten": "unet_b3_gfs_lobo_hong_thai_binh_s0",
+  "mo_hinh": "unet_b3",
+  "seed": 0
+ },
+ "duong_cong": [
+  {
+   "epoch": 0,
+   "lr": 0.001,
+   "loss_train": 0.8802886606931687,
+   "csi_train": 0.2678391309077277,
+   "csi_val": 0.09019811482092127,
+   "giay": 244.8
+  },
+  {
+   "epoch": 1,
+   "lr": 0.001,
+   "loss_train": 0.8115263913750649,
+   "csi_train": 0.31775199767981677,
+   "csi_val": 0.18421661636384076,
+   "giay": 243.7
+  },
+  {
+   "epoch": 2,
+   "lr": 0.001,
+   "loss_train": 0.7761725437164306,
+   "csi_train": 0.3328978666925998,
+   "csi_val": 0.20368550408015335,
+   "giay": 243.4
+  },
+  {
+   "epoch": 3,
+   "lr": 0.001,
+   "loss_train": 0.750281217777729,
+   "csi_train": 0.3604072706220652,
+   "csi_val": 0.18419863926406677,
+   "giay": 243.4
+  },
+  {
+   "epoch": 4,
+   "lr": 0.001,
+   "loss_train": 0.7326867654442787,
+   "csi_train": 0.3737613229302551,
+   "csi_val": 0.06136462639554268,
+   "giay": 244.1
+  },
+  {
+   "epoch": 5,
+   "lr": 0.001,
+   "loss_train": 0.7172680533051491,
+   "csi_train": 0.39059058486470594,
+   "csi_val": 0.1787150741524263,
+   "giay": 244.1
+  },
+  {
+   "epoch": 6,
+   "lr": 0.001,
+   "loss_train": 0.6923885873198509,
+   "csi_train": 0.4105909498051679,
+   "csi_val": 0.08329200313472371,
+   "giay": 244.8
+  },
+  {
+   "epoch": 7,
+   "lr": 0.001,
+   "loss_train": 0.6818259557366371,
+   "csi_train": 0.4224486799936572,
+   "csi_val": 0.12096998705941533,
+   "giay": 243.9
+  }
+ ],
+ "epoch_tot": 2,
+ "csi_val_tot": 0.20368550408015335,
+ "nhiet_do": 1.1878166531512233,
+ "so_pixel_hieu_chinh": 1978961,
+ "thoi_gian_giay": 2013.0,
+ "thiet_bi": "cuda",
+ "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+ "so_gpu": 1,
+ "gpu_dinh_gb": 2.42,
+ "git": "304f0b1"
+}

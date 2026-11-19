@@ -1,0 +1,128 @@
+{
+ "ten": "hop_nhat_imerg_s0",
+ "cfg": {
+  "so_epoch": 30,
+  "so_mau_epoch": 20000,
+  "lr": 0.001,
+  "lr_lung": 0.0001,
+  "batch": 16,
+  "kien_nhan": 5,
+  "luu_vuc_bo_ra": null,
+  "bo": [],
+  "nguon_du_bao_train": "imerg_final",
+  "chay_o": "kaggle",
+  "ten": "hop_nhat_imerg_s0",
+  "mo_hinh": "hop_nhat",
+  "seed": 0,
+  "git_luc_day": "b288dbf",
+  "so_luong": 4
+ },
+ "duong_cong": [
+  {
+   "epoch": 0,
+   "lr": 0.001,
+   "loss_train": 0.8323483254909515,
+   "csi_train": 0.24403100487567095,
+   "csi_val": 0.1436892158979141,
+   "giay": 3660.7
+  },
+  {
+   "epoch": 1,
+   "lr": 0.001,
+   "loss_train": 0.7702045119524003,
+   "csi_train": 0.28941853866241407,
+   "csi_val": 0.1498444098543756,
+   "giay": 1448.1
+  },
+  {
+   "epoch": 2,
+   "lr": 0.001,
+   "loss_train": 0.7407897205233573,
+   "csi_train": 0.3167929387301111,
+   "csi_val": 0.15664924513051465,
+   "giay": 1203.3
+  },
+  {
+   "epoch": 3,
+   "lr": 0.001,
+   "loss_train": 0.7362228045701981,
+   "csi_train": 0.30581225673095896,
+   "csi_val": 0.1977015600839946,
+   "giay": 1064.3
+  },
+  {
+   "epoch": 4,
+   "lr": 0.001,
+   "loss_train": 0.709864483487606,
+   "csi_train": 0.3327564304110581,
+   "csi_val": 0.21827955062985438,
+   "giay": 961.0
+  },
+  {
+   "epoch": 5,
+   "lr": 0.001,
+   "loss_train": 0.7098251342892646,
+   "csi_train": 0.3377843856672518,
+   "csi_val": 0.13338216138415218,
+   "giay": 859.4
+  },
+  {
+   "epoch": 6,
+   "lr": 0.001,
+   "loss_train": 0.6900699459791183,
+   "csi_train": 0.3554192253368308,
+   "csi_val": 0.24011724726664735,
+   "giay": 824.8
+  },
+  {
+   "epoch": 7,
+   "lr": 0.001,
+   "loss_train": 0.6767509881019592,
+   "csi_train": 0.360965521545134,
+   "csi_val": 0.1663758780066663,
+   "giay": 771.4
+  },
+  {
+   "epoch": 8,
+   "lr": 0.001,
+   "loss_train": 0.6782193915128708,
+   "csi_train": 0.3622386780890398,
+   "csi_val": 0.15596325159941885,
+   "giay": 767.1
+  },
+  {
+   "epoch": 9,
+   "lr": 0.001,
+   "loss_train": 0.6687628453731537,
+   "csi_train": 0.37018894093845467,
+   "csi_val": 0.22314503221732448,
+   "giay": 749.4
+  },
+  {
+   "epoch": 10,
+   "lr": 0.001,
+   "loss_train": 0.6624956770896911,
+   "csi_train": 0.3735521341434258,
+   "csi_val": 0.20701879523692474,
+   "giay": 741.5
+  },
+  {
+   "epoch": 11,
+   "lr": 0.001,
+   "loss_train": 0.6522653456926346,
+   "csi_train": 0.38120332427101894,
+   "csi_val": 0.16726985177995843,
+   "giay": 738.2
+  }
+ ],
+ "epoch_tot": 6,
+ "csi_val_tot": 0.24011724726664735,
+ "nhiet_do": 1.4356413363136389,
+ "so_pixel_hieu_chinh": 1978961,
+ "thoi_gian_giay": 14088.3,
+ "thiet_bi": "cuda",
+ "gpu": "Tesla T4",
+ "so_gpu": 2,
+ "gpu_dinh_gb": 4.06,
+ "git": "khong_co_git"
+}

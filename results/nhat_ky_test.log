@@ -1,0 +1,124 @@
+2026-10-28T23:41:41.911059+00:00	fca5439	test_a	kiem_tra_khoa_ngay_sau_khi_ghi
+2026-11-05T18:01:57.495172+00:00	15c3be7	test_a	danh_gia hop_nhat_gfs_s0 gfs
+2026-11-05T18:02:01.184928+00:00	15c3be7	test_a	danh_gia b0 gfs
+2026-11-05T18:06:08.165878+00:00	15c3be7	test_a	danh_gia b1 gfs
+2026-11-05T18:08:01.241055+00:00	15c3be7	test_b	danh_gia hop_nhat_gfs_s0 gfs
+2026-11-05T18:10:14.109189+00:00	15c3be7	test_a	danh_gia b2 gfs
+2026-11-05T18:25:13.721266+00:00	5f638b0	test_a	danh_gia hop_nhat_gfs_s1 gfs
+2026-11-05T18:27:31.868477+00:00	5f638b0	test_a	danh_gia b6 gfs
+2026-11-05T18:34:18.968191+00:00	5f638b0	test_b	danh_gia b0 gfs
+2026-11-05T18:34:31.739793+00:00	5f638b0	test_b	danh_gia hop_nhat_gfs_s1 gfs
+2026-11-05T18:42:41.384013+00:00	5f638b0	test_b	danh_gia b1 gfs
+2026-11-05T18:47:20.112625+00:00	5f638b0	test_b	danh_gia b2 gfs
+2026-11-05T18:52:43.019819+00:00	5f638b0	test_a	danh_gia hop_nhat_gfs_s2 gfs
+2026-11-05T19:01:25.034770+00:00	5f638b0	test_b	danh_gia hop_nhat_gfs_s2 gfs
+2026-11-05T19:05:10.532162+00:00	5f638b0	test_b	danh_gia b6 gfs
+2026-11-05T19:20:54.302045+00:00	5f638b0	test_a	danh_gia hop_nhat_imerg_s0 imerg_final
+2026-11-05T19:28:22.204809+00:00	5f638b0	test_b	danh_gia hop_nhat_imerg_s0 imerg_final
+2026-11-05T19:49:16.838323+00:00	5f638b0	test_a	danh_gia hop_nhat_imerg_s1 imerg_final
+2026-11-05T19:59:46.874896+00:00	5f638b0	test_b	danh_gia hop_nhat_imerg_s1 imerg_final
+2026-11-05T20:27:16.820244+00:00	5f638b0	test_a	danh_gia hop_nhat_imerg_s2 imerg_final
+2026-11-05T20:40:40.086683+00:00	5f638b0	test_b	danh_gia hop_nhat_imerg_s2 imerg_final
+2026-11-05T21:00:17.797074+00:00	5f638b0	test_a	danh_gia unet_b3_gfs_s0 gfs
+2026-11-05T21:12:51.030578+00:00	5f638b0	test_b	danh_gia unet_b3_gfs_s0 gfs
+2026-11-05T21:35:51.229818+00:00	5f638b0	test_a	danh_gia unet_b3_gfs_s1 gfs
+2026-11-05T21:47:07.380045+00:00	5f638b0	test_b	danh_gia unet_b3_gfs_s1 gfs
+2026-11-05T22:09:55.909128+00:00	5f638b0	test_a	danh_gia unet_b3_gfs_s2 gfs
+2026-11-05T22:21:13.066609+00:00	5f638b0	test_b	danh_gia unet_b3_gfs_s2 gfs
+2026-11-05T22:42:19.145313+00:00	8ee185d	test_a	danh_gia prithvi_b4_gfs_s0 gfs
+2026-11-05T22:50:05.774068+00:00	8ee185d	test_b	danh_gia prithvi_b4_gfs_s0 gfs
+2026-11-05T23:09:56.764010+00:00	8ee185d	test_a	danh_gia prithvi_b4_gfs_s1 gfs
+2026-11-05T23:20:20.897402+00:00	8ee185d	test_b	danh_gia prithvi_b4_gfs_s1 gfs
+2026-11-09T13:44:37.550429+00:00	8c57334	test_a	danh_gia prithvi_b4_gfs_s2 gfs	kaggle
+2026-11-09T13:45:49.954782+00:00	8c57334	test_a	danh_gia utae_b5_gfs_s0 gfs	kaggle
+2026-11-09T13:57:52.593510+00:00	8c57334	test_b	danh_gia prithvi_b4_gfs_s2 gfs	kaggle
+2026-11-09T14:00:51.044775+00:00	8c57334	test_b	danh_gia utae_b5_gfs_s0 gfs	kaggle
+2026-11-09T14:11:23.347224+00:00	8c57334	test_a	danh_gia hop_nhat_gfs_s0 gfs_gsmap_nrt	kaggle
+2026-11-09T14:16:12.931914+00:00	8c57334	test_a	danh_gia hop_nhat_gfs_s1 gfs_gsmap_nrt	kaggle
+2026-11-09T14:22:16.708346+00:00	8c57334	test_b	danh_gia hop_nhat_gfs_s0 gfs_gsmap_nrt	kaggle
+2026-11-09T14:27:06.562743+00:00	8c57334	test_b	danh_gia hop_nhat_gfs_s1 gfs_gsmap_nrt	kaggle
+2026-11-09T14:33:20.809125+00:00	8c57334	test_a	danh_gia hop_nhat_gfs_s2 gfs_gsmap_nrt	kaggle
+2026-11-09T14:38:05.723918+00:00	8c57334	test_a	danh_gia hop_nhat_gfs_s0__nhieu gfs	kaggle
+2026-11-09T14:44:19.022713+00:00	8c57334	test_b	danh_gia hop_nhat_gfs_s2 gfs_gsmap_nrt	kaggle
+2026-11-09T14:49:45.274422+00:00	8c57334	test_b	danh_gia hop_nhat_gfs_s0__nhieu gfs	kaggle
+2026-11-09T14:55:24.955748+00:00	8c57334	test_a	danh_gia hop_nhat_gfs_s1__nhieu gfs	kaggle
+2026-11-09T15:01:39.656505+00:00	8c57334	test_a	danh_gia hop_nhat_gfs_s2__nhieu gfs	kaggle
+2026-11-09T15:07:14.344011+00:00	8c57334	test_b	danh_gia hop_nhat_gfs_s1__nhieu gfs	kaggle
+2026-11-09T15:13:49.296185+00:00	8c57334	test_b	danh_gia hop_nhat_gfs_s2__nhieu gfs	kaggle
+2026-11-09T15:19:29.494116+00:00	8c57334	test_a	danh_gia hop_nhat_gfs_s0__hoan_vi gfs	kaggle
+2026-11-09T15:25:52.311459+00:00	8c57334	test_a	danh_gia hop_nhat_gfs_s1__hoan_vi gfs	kaggle
+2026-11-09T15:32:13.288421+00:00	8c57334	test_b	danh_gia hop_nhat_gfs_s0__hoan_vi gfs	kaggle
+2026-11-09T15:38:36.767967+00:00	8c57334	test_b	danh_gia hop_nhat_gfs_s1__hoan_vi gfs	kaggle
+2026-11-09T15:45:13.110405+00:00	8c57334	test_a	danh_gia hop_nhat_gfs_s2__hoan_vi gfs	kaggle
+2026-11-09T15:57:58.678082+00:00	8c57334	test_b	danh_gia hop_nhat_gfs_s2__hoan_vi gfs	kaggle
+2026-11-09T16:02:07.525954+00:00	8c57334	test_a	danh_gia hop_nhat_gfs_bo_dat_s0 gfs	kaggle
+2026-11-09T16:13:27.684000+00:00	8c57334	test_b	danh_gia hop_nhat_gfs_bo_dat_s0 gfs	kaggle
+2026-11-09T16:20:26.441119+00:00	8c57334	test_a	danh_gia hop_nhat_gfs_bo_khi_tuong_s0 gfs	kaggle
+2026-11-09T16:31:25.149260+00:00	8c57334	test_b	danh_gia hop_nhat_gfs_bo_khi_tuong_s0 gfs	kaggle
+2026-11-09T16:34:47.468668+00:00	8c57334	test_a	danh_gia hop_nhat_gfs_bo_s1_s0 gfs	kaggle
+2026-11-09T16:45:47.344475+00:00	8c57334	test_b	danh_gia hop_nhat_gfs_bo_s1_s0 gfs	kaggle
+2026-11-09T16:52:44.167878+00:00	8c57334	test_a	danh_gia hop_nhat_gfs_bo_dia_hinh_s0 gfs	kaggle
+2026-11-09T17:03:58.239082+00:00	8c57334	test_b	danh_gia hop_nhat_gfs_bo_dia_hinh_s0 gfs	kaggle
+2026-11-09T17:07:00.905191+00:00	8c57334	test_a	danh_gia hop_nhat_gfs_bo_cn_s0 gfs	kaggle
+2026-11-09T17:18:42.545364+00:00	8c57334	test_b	danh_gia hop_nhat_gfs_bo_cn_s0 gfs	kaggle
+2026-11-09T17:25:43.873960+00:00	8c57334	test_a	danh_gia hop_nhat_gfs_bo_dat_tho_s0 gfs	kaggle
+2026-11-09T17:36:40.897311+00:00	8c57334	test_b	danh_gia hop_nhat_gfs_bo_dat_tho_s0 gfs	kaggle
+2026-11-09T17:39:58.303093+00:00	8c57334	test_a	danh_gia hop_nhat_gfs_bo_dat_tho_s1 gfs	kaggle
+2026-11-09T17:50:53.241965+00:00	8c57334	test_b	danh_gia hop_nhat_gfs_bo_dat_tho_s1 gfs	kaggle
+2026-11-09T17:57:31.167806+00:00	8c57334	test_a	danh_gia hop_nhat_gfs_bo_dat_tho_s2 gfs	kaggle
+2026-11-09T18:08:40.383832+00:00	8c57334	test_b	danh_gia hop_nhat_gfs_bo_dat_tho_s2 gfs	kaggle
+2026-11-09T18:12:14.125055+00:00	8c57334	test_a	danh_gia hop_nhat_gfs_bo_dat_s1 gfs	kaggle
+2026-11-09T18:23:36.847613+00:00	8c57334	test_b	danh_gia hop_nhat_gfs_bo_dat_s1 gfs	kaggle
+2026-11-09T18:30:03.455064+00:00	8c57334	test_a	danh_gia hop_nhat_gfs_bo_dat_s2 gfs	kaggle
+2026-11-09T18:41:23.782627+00:00	8c57334	test_b	danh_gia hop_nhat_gfs_bo_dat_s2 gfs	kaggle
+2026-11-09T18:45:10.850571+00:00	8c57334	test_a	danh_gia hop_nhat_gfs_bo_cn_s1 gfs	kaggle
+2026-11-09T18:56:36.835143+00:00	8c57334	test_b	danh_gia hop_nhat_gfs_bo_cn_s1 gfs	kaggle
+2026-11-09T19:03:15.106606+00:00	8c57334	test_a	danh_gia hop_nhat_gfs_bo_cn_s2 gfs	kaggle
+2026-11-09T19:14:39.441052+00:00	8c57334	test_b	danh_gia hop_nhat_gfs_bo_cn_s2 gfs	kaggle
+2026-11-09T19:17:54.324775+00:00	8c57334	test_a	danh_gia hop_nhat_gfs_bo_khi_tuong_s1 gfs	kaggle
+2026-11-09T19:29:10.236533+00:00	8c57334	test_b	danh_gia hop_nhat_gfs_bo_khi_tuong_s1 gfs	kaggle
+2026-11-09T19:36:29.303265+00:00	8c57334	test_a	danh_gia hop_nhat_gfs_bo_khi_tuong_s2 gfs	kaggle
+2026-11-09T19:47:54.467540+00:00	8c57334	test_b	danh_gia hop_nhat_gfs_bo_khi_tuong_s2 gfs	kaggle
+2026-11-09T19:50:51.085722+00:00	8c57334	test_a	danh_gia hop_nhat_gfs_bo_s1_s1 gfs	kaggle
+2026-11-09T20:02:18.305270+00:00	8c57334	test_b	danh_gia hop_nhat_gfs_bo_s1_s1 gfs	kaggle
+2026-11-09T20:09:44.131917+00:00	8c57334	test_a	danh_gia hop_nhat_gfs_bo_s1_s2 gfs	kaggle
+2026-11-09T20:21:12.695391+00:00	8c57334	test_b	danh_gia hop_nhat_gfs_bo_s1_s2 gfs	kaggle
+2026-11-09T20:24:19.365689+00:00	8c57334	test_a	danh_gia hop_nhat_gfs_bo_dia_hinh_s1 gfs	kaggle
+2026-11-09T20:35:58.120894+00:00	8c57334	test_b	danh_gia hop_nhat_gfs_bo_dia_hinh_s1 gfs	kaggle
+2026-11-09T20:43:15.536337+00:00	8c57334	test_a	danh_gia hop_nhat_gfs_bo_dia_hinh_s2 gfs	kaggle
+2026-11-09T20:54:52.253285+00:00	8c57334	test_b	danh_gia hop_nhat_gfs_bo_dia_hinh_s2 gfs	kaggle
+2026-11-17T06:08:03.587482+00:00	3de4034	test_a	danh_gia utae_b5_gfs_s1 gfs
+2026-11-17T06:14:31.838175+00:00	3de4034	test_b	danh_gia utae_b5_gfs_s1 gfs
+2026-11-17T06:26:37.561060+00:00	3de4034	test_a	danh_gia utae_b5_gfs_s2 gfs
+2026-11-17T06:32:58.185921+00:00	3de4034	test_b	danh_gia utae_b5_gfs_s2 gfs
+2026-11-17T06:39:16.928868+00:00	3de4034	test_a	danh_gia hop_nhat_gfs_s0 ecmwf
+2026-11-17T06:48:30.279188+00:00	3de4034	test_b	danh_gia hop_nhat_gfs_s0 ecmwf
+2026-11-17T06:53:55.655698+00:00	3de4034	test_a	danh_gia hop_nhat_gfs_s1 ecmwf
+2026-11-17T07:03:12.049014+00:00	3de4034	test_b	danh_gia hop_nhat_gfs_s1 ecmwf
+2026-11-17T07:08:41.188130+00:00	3de4034	test_a	danh_gia hop_nhat_gfs_s2 ecmwf
+2026-11-17T07:17:59.871401+00:00	3de4034	test_b	danh_gia hop_nhat_gfs_s2 ecmwf
+2026-11-17T07:49:02.093968+00:00	493aa14	test_b	danh_gia kiem_nhan_ems gfs
+2026-11-17T07:52:59.127479+00:00	493aa14	test_b	danh_gia kiem_nhan_doc_lap gfs
+2026-11-17T07:55:17.994668+00:00	493aa14	test_a	danh_gia kiem_nhan_doc_lap gfs
+2026-11-17T12:32:20.511708+00:00	493aa14	test_b	danh_gia kiem_nhan_doc_lap gfs
+2026-11-17T12:34:30.097402+00:00	493aa14	test_a	danh_gia kiem_nhan_doc_lap gfs
+2026-11-17T13:03:16.131229+00:00	493aa14	test_b	danh_gia kiem_nhan_doc_lap gfs
+2026-11-17T13:05:01.053515+00:00	493aa14	test_a	danh_gia kiem_nhan_doc_lap gfs
+2026-11-17T13:08:46.479259+00:00	493aa14	test_b	danh_gia kiem_nhan_doc_lap gfs
+2026-11-17T13:10:33.855995+00:00	493aa14	test_a	danh_gia kiem_nhan_doc_lap gfs
+2026-11-17T13:13:52.589251+00:00	493aa14	test_b	danh_gia kiem_nhan_doc_lap gfs
+2026-11-17T13:15:35.423242+00:00	493aa14	test_a	danh_gia kiem_nhan_doc_lap gfs
+2026-11-17T13:16:27.197562+00:00	493aa14	test_b	danh_gia kiem_nhan_doc_lap gfs
+2026-11-17T13:17:50.140893+00:00	493aa14	test_a	danh_gia kiem_nhan_doc_lap gfs
+2026-11-17T23:31:32.094247+00:00	913a8dc	test_a	danh_gia hinh_yagi gfs
+2026-11-17T23:32:27.957597+00:00	913a8dc	test_a	danh_gia hinh_do_tin_cay gfs
+2026-11-17T23:33:18.243703+00:00	913a8dc	test_b	danh_gia hinh_do_tin_cay gfs
+2026-11-17T23:33:25.413530+00:00	913a8dc	test_a	danh_gia hinh_yagi gfs
+2026-11-17T23:34:51.075879+00:00	913a8dc	test_a	danh_gia hinh_yagi gfs
+2026-11-18T03:32:05.540624+00:00	913a8dc	test_a	danh_gia hinh_do_tin_cay gfs
+2026-11-18T03:32:47.849393+00:00	913a8dc	test_b	danh_gia hinh_do_tin_cay gfs
+2026-11-19T07:14:14.374111+00:00	31a6e9f	test_a	danh_gia kiem_nhan_doc_lap gfs
+2026-11-19T07:51:13.459136+00:00	5f4a78f	test_a	danh_gia kiem_nhan_doc_lap gfs
+2026-11-19T07:52:05.831128+00:00	5f4a78f	test_a	danh_gia kiem_nhan_doc_lap gfs
+2026-11-19T07:53:40.036634+00:00	5f4a78f	test_a	danh_gia kiem_nhan_doc_lap gfs
+2026-11-19T08:12:39.390078+00:00	cc2b3af	test_a	danh_gia hinh_yagi gfs

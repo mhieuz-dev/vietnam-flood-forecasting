@@ -1,0 +1,102 @@
+{
+ "ten": "utae_b5_gfs_s1",
+ "cfg": {
+  "so_epoch": 30,
+  "so_mau_epoch": 20000,
+  "lr": 0.001,
+  "lr_lung": 0.0001,
+  "batch": 16,
+  "kien_nhan": 5,
+  "luu_vuc_bo_ra": null,
+  "bo": [],
+  "nguon_du_bao_train": "gfs",
+  "chay_o": "laptop",
+  "ten": "utae_b5_gfs_s1",
+  "mo_hinh": "utae_b5",
+  "seed": 1
+ },
+ "duong_cong": [
+  {
+   "epoch": 0,
+   "lr": 0.001,
+   "loss_train": 0.8527312079429626,
+   "csi_train": 0.21227287991114097,
+   "csi_val": 0.0855088450195771,
+   "giay": 631.5
+  },
+  {
+   "epoch": 1,
+   "lr": 0.001,
+   "loss_train": 0.7819282258033753,
+   "csi_train": 0.2616799285139885,
+   "csi_val": 0.12767455460155339,
+   "giay": 630.0
+  },
+  {
+   "epoch": 2,
+   "lr": 0.001,
+   "loss_train": 0.7461502746343612,
+   "csi_train": 0.28239481998218086,
+   "csi_val": 0.12365072551754958,
+   "giay": 631.0
+  },
+  {
+   "epoch": 3,
+   "lr": 0.001,
+   "loss_train": 0.7250795572519302,
+   "csi_train": 0.30296217688100713,
+   "csi_val": 0.15171948394227294,
+   "giay": 635.2
+  },
+  {
+   "epoch": 4,
+   "lr": 0.001,
+   "loss_train": 0.7086213350534439,
+   "csi_train": 0.32914232052090037,
+   "csi_val": 0.11540098185650273,
+   "giay": 631.1
+  },
+  {
+   "epoch": 5,
+   "lr": 0.001,
+   "loss_train": 0.6982604280233383,
+   "csi_train": 0.3327851347913158,
+   "csi_val": 0.0891198504798472,
+   "giay": 629.2
+  },
+  {
+   "epoch": 6,
+   "lr": 0.001,
+   "loss_train": 0.6883321289658546,
+   "csi_train": 0.34263207243025096,
+   "csi_val": 0.14241128840042663,
+   "giay": 629.0
+  },
+  {
+   "epoch": 7,
+   "lr": 0.001,
+   "loss_train": 0.6811891883015633,
+   "csi_train": 0.3449428829699314,
+   "csi_val": 0.14509794790599484,
+   "giay": 629.1
+  },
+  {
+   "epoch": 8,
+   "lr": 0.001,
+   "loss_train": 0.6690548359632492,
+   "csi_train": 0.3523446879059372,
+   "csi_val": 0.10852142383722412,
+   "giay": 629.1
+  }
+ ],
+ "epoch_tot": 3,
+ "csi_val_tot": 0.15171948394227294,
+ "nhiet_do": 1.5772831094869388,
+ "so_pixel_hieu_chinh": 1978961,
+ "thoi_gian_giay": 5789.0,
+ "thiet_bi": "cuda",
+ "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+ "so_gpu": 1,
+ "gpu_dinh_gb": 5.63,
+ "git": "3de4034"
+}

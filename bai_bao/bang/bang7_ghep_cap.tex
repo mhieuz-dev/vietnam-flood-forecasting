@@ -1,0 +1,122 @@
+% Sinh tự động bởi scripts/tong_hop.py, không sửa tay.
+\begin{tabular}{lccc}
+\toprule
+Compared with & $\Delta$CSI (TerraMind $-$ model) & 95\% CI & $p$ (Holm) \\
+\midrule
+\multicolumn{4}{l}{\textit{Test A}} \\
+B0 Flood frequency
+& +0.158% nguon: ghep_cap/test_a/b0/hieu
+& [+0.132% nguon: ghep_cap/test_a/b0/thap
+, +0.182% nguon: ghep_cap/test_a/b0/cao
+]
+& $<$0.001% nguon: ghep_cap/test_a/b0/p_holm
+\\
+B1 HAND + rainfall
+& +0.210% nguon: ghep_cap/test_a/b1/hieu
+& [+0.183% nguon: ghep_cap/test_a/b1/thap
+, +0.234% nguon: ghep_cap/test_a/b1/cao
+]
+& $<$0.001% nguon: ghep_cap/test_a/b1/p_holm
+\\
+B2 XGBoost
+& +0.045% nguon: ghep_cap/test_a/b2/hieu
+& [+0.037% nguon: ghep_cap/test_a/b2/thap
+, +0.055% nguon: ghep_cap/test_a/b2/cao
+]
+& $<$0.001% nguon: ghep_cap/test_a/b2/p_holm
+\\
+B6 Persistence
+& +0.065% nguon: ghep_cap/test_a/b6/hieu
+& [+0.050% nguon: ghep_cap/test_a/b6/thap
+, +0.081% nguon: ghep_cap/test_a/b6/cao
+]
+& $<$0.001% nguon: ghep_cap/test_a/b6/p_holm
+\\
+B3 U-Net
+& +0.034% nguon: ghep_cap/test_a/unet_b3_gfs_s0/hieu
+& [+0.024% nguon: ghep_cap/test_a/unet_b3_gfs_s0/thap
+, +0.044% nguon: ghep_cap/test_a/unet_b3_gfs_s0/cao
+]
+& $<$0.001% nguon: ghep_cap/test_a/unet_b3_gfs_s0/p_holm
+\\
+B4 Prithvi-EO-2.0
+& +0.139% nguon: ghep_cap/test_a/prithvi_b4_gfs_s0/hieu
+& [+0.117% nguon: ghep_cap/test_a/prithvi_b4_gfs_s0/thap
+, +0.160% nguon: ghep_cap/test_a/prithvi_b4_gfs_s0/cao
+]
+& $<$0.001% nguon: ghep_cap/test_a/prithvi_b4_gfs_s0/p_holm
+\\
+B5 U-TAE
+& -0.030% nguon: ghep_cap/test_a/utae_b5_gfs_s0/hieu
+& [-0.038% nguon: ghep_cap/test_a/utae_b5_gfs_s0/thap
+, -0.023% nguon: ghep_cap/test_a/utae_b5_gfs_s0/cao
+]
+& $<$0.001% nguon: ghep_cap/test_a/utae_b5_gfs_s0/p_holm
+\\
+TerraMind, IMERG oracle
+& +0.037% nguon: ghep_cap/test_a/hop_nhat_imerg_s0/hieu
+& [+0.027% nguon: ghep_cap/test_a/hop_nhat_imerg_s0/thap
+, +0.047% nguon: ghep_cap/test_a/hop_nhat_imerg_s0/cao
+]
+& $<$0.001% nguon: ghep_cap/test_a/hop_nhat_imerg_s0/p_holm
+\\
+\addlinespace
+\multicolumn{4}{l}{\textit{Test B}} \\
+B0 Flood frequency
+& +0.056% nguon: ghep_cap/test_b/b0/hieu
+& [+0.032% nguon: ghep_cap/test_b/b0/thap
+, +0.087% nguon: ghep_cap/test_b/b0/cao
+]
+& $<$0.001% nguon: ghep_cap/test_b/b0/p_holm
+\\
+B1 HAND + rainfall
+& +0.025% nguon: ghep_cap/test_b/b1/hieu
+& [-0.003% nguon: ghep_cap/test_b/b1/thap
+, +0.053% nguon: ghep_cap/test_b/b1/cao
+]
+& 0.108% nguon: ghep_cap/test_b/b1/p_holm
+\\
+B2 XGBoost
+& -0.027% nguon: ghep_cap/test_b/b2/hieu
+& [-0.041% nguon: ghep_cap/test_b/b2/thap
+, -0.014% nguon: ghep_cap/test_b/b2/cao
+]
+& $<$0.001% nguon: ghep_cap/test_b/b2/p_holm
+\\
+B6 Persistence
+& +0.134% nguon: ghep_cap/test_b/b6/hieu
+& [+0.114% nguon: ghep_cap/test_b/b6/thap
+, +0.152% nguon: ghep_cap/test_b/b6/cao
+]
+& $<$0.001% nguon: ghep_cap/test_b/b6/p_holm
+\\
+B3 U-Net
+& -0.036% nguon: ghep_cap/test_b/unet_b3_gfs_s0/hieu
+& [-0.047% nguon: ghep_cap/test_b/unet_b3_gfs_s0/thap
+, -0.026% nguon: ghep_cap/test_b/unet_b3_gfs_s0/cao
+]
+& $<$0.001% nguon: ghep_cap/test_b/unet_b3_gfs_s0/p_holm
+\\
+B4 Prithvi-EO-2.0
+& -0.024% nguon: ghep_cap/test_b/prithvi_b4_gfs_s0/hieu
+& [-0.045% nguon: ghep_cap/test_b/prithvi_b4_gfs_s0/thap
+, -0.004% nguon: ghep_cap/test_b/prithvi_b4_gfs_s0/cao
+]
+& 0.056% nguon: ghep_cap/test_b/prithvi_b4_gfs_s0/p_holm
+\\
+B5 U-TAE
+& -0.007% nguon: ghep_cap/test_b/utae_b5_gfs_s0/hieu
+& [-0.014% nguon: ghep_cap/test_b/utae_b5_gfs_s0/thap
+, +0.000% nguon: ghep_cap/test_b/utae_b5_gfs_s0/cao
+]
+& 0.108% nguon: ghep_cap/test_b/utae_b5_gfs_s0/p_holm
+\\
+TerraMind, IMERG oracle
+& -0.010% nguon: ghep_cap/test_b/hop_nhat_imerg_s0/hieu
+& [-0.020% nguon: ghep_cap/test_b/hop_nhat_imerg_s0/thap
+, -0.001% nguon: ghep_cap/test_b/hop_nhat_imerg_s0/cao
+]
+& 0.075% nguon: ghep_cap/test_b/hop_nhat_imerg_s0/p_holm
+\\
+\bottomrule
+\end{tabular}

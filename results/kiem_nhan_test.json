@@ -1,0 +1,1829 @@
+{
+ "test_b_ems": {
+  "gfm_so_tham_chieu": {
+   "tong": {
+    "tp": 109468,
+    "fp": 8278,
+    "fn": 35723,
+    "tn": 1070847,
+    "iou": 0.7132906319843095,
+    "bo_sot": 0.24604142130021833,
+    "bao_nham": 0.07030387444159462,
+    "so_ban_do": 3
+   },
+   "theo_ban_do": {
+    "EMSR848_AOI01_mon3": {
+     "ngay": "2025-11-04",
+     "so_o": 11,
+     "tp": 1022,
+     "fp": 461,
+     "fn": 2553,
+     "tn": 159714,
+     "iou": 0.25322101090188304,
+     "bo_sot": 0.7141258741258741,
+     "bao_nham": 0.31085637221847606
+    },
+    "EMSR848_AOI02_mon2": {
+     "ngay": "2025-11-04",
+     "so_o": 32,
+     "tp": 132,
+     "fp": 970,
+     "fn": 293,
+     "tn": 120284,
+     "iou": 0.09462365591397849,
+     "bo_sot": 0.6894117647058824,
+     "bao_nham": 0.8802177858439202
+    },
+    "EMSR848_AOI03_mon2": {
+     "ngay": "2025-11-04",
+     "so_o": 81,
+     "tp": 108314,
+     "fp": 6847,
+     "fn": 32877,
+     "tn": 790849,
+     "iou": 0.7316634918061579,
+     "bo_sot": 0.2328547853616732,
+     "bao_nham": 0.0594558921857226
+    }
+   }
+  },
+  "mo_hinh": {
+   "hop_nhat_gfs_s0": {
+    "nguong_val": 0.6,
+    "theo_tham_chieu": {
+     "tp": 213699,
+     "fp": 507415,
+     "fn": 221874,
+     "tn": 2729960,
+     "iou": 0.22661900257479417,
+     "bo_sot": 0.5093841904801262,
+     "bao_nham": 0.7036543459147929
+    },
+    "theo_gfm": {
+     "tp": 183772,
+     "fp": 537342,
+     "fn": 169466,
+     "tn": 2782368,
+     "iou": 0.20635091737968514,
+     "bo_sot": 0.4797501967511989,
+     "bao_nham": 0.7451554123203821
+    }
+   },
+   "hop_nhat_gfs_s1": {
+    "nguong_val": 0.6,
+    "theo_tham_chieu": {
+     "tp": 153041,
+     "fp": 346840,
+     "fn": 282532,
+     "tn": 2890535,
+     "iou": 0.19560130008064794,
+     "bo_sot": 0.6486444292919901,
+     "bao_nham": 0.6938451351421638
+    },
+    "theo_gfm": {
+     "tp": 128649,
+     "fp": 371232,
+     "fn": 224589,
+     "tn": 2948478,
+     "iou": 0.17757671125098348,
+     "bo_sot": 0.6358007915343197,
+     "bao_nham": 0.7426407484981425
+    }
+   },
+   "hop_nhat_gfs_s2": {
+    "nguong_val": 0.4,
+    "theo_tham_chieu": {
+     "tp": 185767,
+     "fp": 506284,
+     "fn": 249806,
+     "tn": 2731091,
+     "iou": 0.19723482439478604,
+     "bo_sot": 0.5735112139641346,
+     "bao_nham": 0.7315703611439042
+    },
+    "theo_gfm": {
+     "tp": 155397,
+     "fp": 536654,
+     "fn": 197841,
+     "tn": 2783056,
+     "iou": 0.1746245611827053,
+     "bo_sot": 0.5600784740033632,
+     "bao_nham": 0.775454410151853
+    }
+   },
+   "unet_b3_gfs_s0": {
+    "nguong_val": 0.3,
+    "theo_tham_chieu": {
+     "tp": 228523,
+     "fp": 621924,
+     "fn": 207050,
+     "tn": 2615451,
+     "iou": 0.21609801257119404,
+     "bo_sot": 0.4753508596722019,
+     "bao_nham": 0.7312907212324813
+    },
+    "theo_gfm": {
+     "tp": 186441,
+     "fp": 664006,
+     "fn": 166797,
+     "tn": 2655704,
+     "iou": 0.18328051087054825,
+     "bo_sot": 0.4721943845226165,
+     "bao_nham": 0.7807729347037499
+    }
+   },
+   "unet_b3_gfs_s1": {
+    "nguong_val": 0.35,
+    "theo_tham_chieu": {
+     "tp": 207030,
+     "fp": 580193,
+     "fn": 228543,
+     "tn": 2657182,
+     "iou": 0.20381662705780662,
+     "bo_sot": 0.5246950568561413,
+     "bao_nham": 0.7370122570097672
+    },
+    "theo_gfm": {
+     "tp": 170566,
+     "fp": 616657,
+     "fn": 182672,
+     "tn": 2703053,
+     "iou": 0.17586027353476408,
+     "bo_sot": 0.5171357554962943,
+     "bao_nham": 0.7833320418737766
+    }
+   },
+   "unet_b3_gfs_s2": {
+    "nguong_val": 0.35,
+    "theo_tham_chieu": {
+     "tp": 294155,
+     "fp": 882544,
+     "fn": 141418,
+     "tn": 2354831,
+     "iou": 0.22316304243098298,
+     "bo_sot": 0.3246711802614028,
+     "bao_nham": 0.7500167842413396
+    },
+    "theo_gfm": {
+     "tp": 245158,
+     "fp": 931541,
+     "fn": 108080,
+     "tn": 2388169,
+     "iou": 0.19081725339533104,
+     "bo_sot": 0.3059693464463053,
+     "bao_nham": 0.7916561499584855
+    }
+   },
+   "prithvi_b4_gfs_s0": {
+    "nguong_val": 0.55,
+    "theo_tham_chieu": {
+     "tp": 140142,
+     "fp": 368611,
+     "fn": 295431,
+     "tn": 2868764,
+     "iou": 0.17426608835788823,
+     "bo_sot": 0.6782582942468885,
+     "bao_nham": 0.7245382336811773
+    },
+    "theo_gfm": {
+     "tp": 121242,
+     "fp": 387511,
+     "fn": 231996,
+     "tn": 2932199,
+     "iou": 0.16367487502514347,
+     "bo_sot": 0.6567696567186996,
+     "bao_nham": 0.7616878917667316
+    }
+   },
+   "prithvi_b4_gfs_s1": {
+    "nguong_val": 0.35,
+    "theo_tham_chieu": {
+     "tp": 168682,
+     "fp": 529009,
+     "fn": 266891,
+     "tn": 2708366,
+     "iou": 0.17487574928829275,
+     "bo_sot": 0.6127354083012492,
+     "bao_nham": 0.758228212776143
+    },
+    "theo_gfm": {
+     "tp": 143565,
+     "fp": 554126,
+     "fn": 209673,
+     "tn": 2765584,
+     "iou": 0.15822205862255942,
+     "bo_sot": 0.5935743040103273,
+     "bao_nham": 0.7942283905052523
+    }
+   },
+   "prithvi_b4_gfs_s2": {
+    "nguong_val": 0.7,
+    "theo_tham_chieu": {
+     "tp": 54478,
+     "fp": 146668,
+     "fn": 381095,
+     "tn": 3090707,
+     "iou": 0.09356606628526676,
+     "bo_sot": 0.8749279684461617,
+     "bao_nham": 0.729161902299822
+    },
+    "theo_gfm": {
+     "tp": 43176,
+     "fp": 157970,
+     "fn": 310062,
+     "tn": 3161740,
+     "iou": 0.08445877216318994,
+     "bo_sot": 0.8777707947616055,
+     "bao_nham": 0.7853499448162031
+    }
+   },
+   "utae_b5_gfs_s0": {
+    "nguong_val": 0.45,
+    "theo_tham_chieu": {
+     "tp": 339555,
+     "fp": 860245,
+     "fn": 96018,
+     "tn": 2377130,
+     "iou": 0.2620391135174847,
+     "bo_sot": 0.22044066092250897,
+     "bao_nham": 0.7169903317219537
+    },
+    "theo_gfm": {
+     "tp": 285660,
+     "fp": 914140,
+     "fn": 67578,
+     "tn": 2405570,
+     "iou": 0.22539447583909458,
+     "bo_sot": 0.19131010819900462,
+     "bao_nham": 0.7619103183863978
+    }
+   },
+   "utae_b5_gfs_s1": {
+    "nguong_val": 0.35,
+    "theo_tham_chieu": {
+     "tp": 261101,
+     "fp": 638177,
+     "fn": 174472,
+     "tn": 2599198,
+     "iou": 0.2431674039580908,
+     "bo_sot": 0.40055742665408556,
+     "bao_nham": 0.7096548564515088
+    },
+    "theo_gfm": {
+     "tp": 217070,
+     "fp": 682208,
+     "fn": 136168,
+     "tn": 2637502,
+     "iou": 0.20963913135016216,
+     "bo_sot": 0.38548514033031556,
+     "bao_nham": 0.7586174686804303
+    }
+   },
+   "utae_b5_gfs_s2": {
+    "nguong_val": 0.15,
+    "theo_tham_chieu": {
+     "tp": 277789,
+     "fp": 750873,
+     "fn": 157784,
+     "tn": 2486502,
+     "iou": 0.23413539259266752,
+     "bo_sot": 0.362244675404582,
+     "bao_nham": 0.7299511404134692
+    },
+    "theo_gfm": {
+     "tp": 229212,
+     "fp": 799450,
+     "fn": 124026,
+     "tn": 2520260,
+     "iou": 0.1988499923656705,
+     "bo_sot": 0.35111171504764493,
+     "bao_nham": 0.7771746210125386
+    }
+   }
+  },
+  "mo_hinh_tb_3_seed": {
+   "hop_nhat_gfs": {
+    "theo_tham_chieu": {
+     "tb": 0.20648504235007606,
+     "dlc": 0.01745563995300999
+    },
+    "theo_gfm": {
+     "tb": 0.18618406327112463,
+     "dlc": 0.01752727306181373
+    }
+   },
+   "unet_b3_gfs": {
+    "theo_tham_chieu": {
+     "tb": 0.21435922735332788,
+     "dlc": 0.009789712839162905
+    },
+    "theo_gfm": {
+     "tb": 0.1833193459335478,
+     "dlc": 0.007478565554900221
+    }
+   },
+   "prithvi_b4_gfs": {
+    "theo_tham_chieu": {
+     "tb": 0.14756930131048257,
+     "dlc": 0.04676916683568393
+    },
+    "theo_gfm": {
+     "tb": 0.13545190193696427,
+     "dlc": 0.044245426484257284
+    }
+   },
+   "utae_b5_gfs": {
+    "theo_tham_chieu": {
+     "tb": 0.246447303356081,
+     "dlc": 0.014238072742061073
+    },
+    "theo_gfm": {
+     "tb": 0.21129453318497574,
+     "dlc": 0.013349444450753345
+    }
+   }
+  },
+  "so_mau_mo_hinh": 372,
+  "ban_do": [
+   {
+    "ban_do": "EMSR848_AOI01_mon0",
+    "ngay": "2025-10-27",
+    "anh": [
+     [
+      "Sentinel-1",
+      "2025-10-27T22:36:00"
+     ]
+    ],
+    "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR848/AOI01/DEL_PRODUCT/EMSR848_AOI01_DEL_PRODUCT_v1.zip"
+   },
+   {
+    "ban_do": "EMSR848_AOI01_mon3",
+    "ngay": "2025-11-04",
+    "anh": [
+     [
+      "Sentinel-1",
+      "2025-11-04T10:56:00"
+     ]
+    ],
+    "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR848/AOI01/DEL_MONIT03/EMSR848_AOI01_DEL_MONIT03_v1.zip"
+   },
+   {
+    "ban_do": "EMSR848_AOI02_mon2",
+    "ngay": "2025-11-04",
+    "anh": [
+     [
+      "Sentinel-1",
+      "2025-11-04T10:56:00"
+     ]
+    ],
+    "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR848/AOI02/DEL_MONIT02/EMSR848_AOI02_DEL_MONIT02_v1.zip"
+   },
+   {
+    "ban_do": "EMSR848_AOI02_mon0",
+    "ngay": "2025-10-27",
+    "anh": [
+     [
+      "Sentinel-1",
+      "2025-10-27T22:36:00"
+     ]
+    ],
+    "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR848/AOI02/DEL_PRODUCT/EMSR848_AOI02_DEL_PRODUCT_v1.zip"
+   },
+   {
+    "ban_do": "EMSR848_AOI03_mon0",
+    "ngay": "2025-10-27",
+    "anh": [
+     [
+      "Sentinel-1",
+      "2025-10-27T22:36:00"
+     ]
+    ],
+    "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR848/AOI03/DEL_PRODUCT/EMSR848_AOI03_DEL_PRODUCT_v1.zip"
+   },
+   {
+    "ban_do": "EMSR848_AOI03_mon2",
+    "ngay": "2025-11-04",
+    "anh": [
+     [
+      "Sentinel-1",
+      "2025-11-04T10:56:00"
+     ]
+    ],
+    "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR848/AOI03/DEL_MONIT02/EMSR848_AOI03_DEL_MONIT02_v1.zip"
+   },
+   {
+    "ban_do": "EMSR848_AOI04_mon2",
+    "ngay": "2025-11-04",
+    "anh": [
+     [
+      "Sentinel-1",
+      "2025-11-04T10:57:00"
+     ]
+    ],
+    "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR848/AOI04/DEL_MONIT02/EMSR848_AOI04_DEL_MONIT02_v1.zip"
+   },
+   {
+    "ban_do": "EMSR848_AOI04_mon1",
+    "ngay": "2025-11-01",
+    "anh": [
+     [
+      "Sentinel-1",
+      "2025-11-01T22:43:00"
+     ]
+    ],
+    "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR848/AOI04/DEL_MONIT01/EMSR848_AOI04_DEL_MONIT01_v1.zip"
+   },
+   {
+    "ban_do": "EMSR848_AOI07_mon0",
+    "ngay": "2025-10-26",
+    "anh": [
+     [
+      "Sentinel-1",
+      "2025-10-26T23:43:00"
+     ]
+    ],
+    "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR848/AOI07/DEL_PRODUCT/EMSR848_AOI07_DEL_PRODUCT_v1.zip"
+   },
+   {
+    "ban_do": "EMSR848_AOI16_mon0",
+    "ngay": "2025-11-20",
+    "anh": [
+     [
+      "Sentinel-1",
+      "2025-11-20T22:36:00"
+     ]
+    ],
+    "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR848/AOI16/DEL_PRODUCT/EMSR848_AOI16_DEL_PRODUCT_v1.zip"
+   },
+   {
+    "ban_do": "EMSR848_AOI17_mon0",
+    "ngay": "2025-11-20",
+    "anh": [
+     [
+      "Sentinel-1",
+      "2025-11-20T22:36:00"
+     ]
+    ],
+    "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR848/AOI17/DEL_PRODUCT/EMSR848_AOI17_DEL_PRODUCT_v1.zip"
+   },
+   {
+    "ban_do": "EMSR848_AOI19_mon0",
+    "ngay": "2025-11-21",
+    "anh": [
+     [
+      "Sentinel-1",
+      "2025-11-21T11:04:00"
+     ]
+    ],
+    "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR848/AOI19/DEL_PRODUCT/EMSR848_AOI19_DEL_PRODUCT_v1.zip"
+   }
+  ]
+ },
+ "test_a_unosat": {
+  "gfm_so_tham_chieu": {
+   "tong": {
+    "tp": 1244632,
+    "fp": 83425,
+    "fn": 1177736,
+    "tn": 50365657,
+    "iou": 0.4967018424905808,
+    "bo_sot": 0.48619202367270375,
+    "bao_nham": 0.06281733389455423,
+    "so_ban_do": 2
+   },
+   "theo_ban_do": {
+    "UNOSAT_ST1_20240912_RedRiverDelta": {
+     "ngay": "2024-09-12",
+     "so_o": 1032,
+     "tp": 940767,
+     "fp": 59248,
+     "fn": 773553,
+     "tn": 24660850,
+     "iou": 0.5304375135320438,
+     "bo_sot": 0.45123022539549207,
+     "bao_nham": 0.0592471112933306
+    },
+    "UNOSAT_ST1_20240925_RedRiverDelta": {
+     "ngay": "2024-09-24",
+     "so_o": 1031,
+     "tp": 303865,
+     "fp": 24177,
+     "fn": 404183,
+     "tn": 25704807,
+     "iou": 0.41498856225886854,
+     "bo_sot": 0.5708412424016451,
+     "bao_nham": 0.07370092853963822
+    }
+   }
+  },
+  "mo_hinh": {
+   "hop_nhat_gfs_s0": {
+    "nguong_val": 0.6,
+    "theo_tham_chieu": {
+     "tp": 2597933,
+     "fp": 2122828,
+     "fn": 4669171,
+     "tn": 149224418,
+     "iou": 0.27667218463349896,
+     "bo_sot": 0.6425077995305971,
+     "bao_nham": 0.44967919367237613
+    },
+    "theo_gfm": {
+     "tp": 1858543,
+     "fp": 2862218,
+     "fn": 2125628,
+     "tn": 151767961,
+     "iou": 0.27146324872863636,
+     "bo_sot": 0.5335182651547837,
+     "bao_nham": 0.6063043649106574
+    }
+   },
+   "hop_nhat_gfs_s1": {
+    "nguong_val": 0.6,
+    "theo_tham_chieu": {
+     "tp": 1827841,
+     "fp": 1539706,
+     "fn": 5439263,
+     "tn": 149807540,
+     "iou": 0.2075485902386903,
+     "bo_sot": 0.7484773852142477,
+     "bao_nham": 0.4572188599000994
+    },
+    "theo_gfm": {
+     "tp": 1424920,
+     "fp": 1942627,
+     "fn": 2559251,
+     "tn": 152687552,
+     "iou": 0.24041986921099723,
+     "bo_sot": 0.6423547081689014,
+     "bao_nham": 0.5768670786183534
+    }
+   },
+   "hop_nhat_gfs_s2": {
+    "nguong_val": 0.4,
+    "theo_tham_chieu": {
+     "tp": 2156915,
+     "fp": 1791146,
+     "fn": 5110189,
+     "tn": 149556100,
+     "iou": 0.23811608202467363,
+     "bo_sot": 0.7031946976402154,
+     "bao_nham": 0.45367738745677944
+    },
+    "theo_gfm": {
+     "tp": 1554059,
+     "fp": 2394002,
+     "fn": 2430112,
+     "tn": 152236177,
+     "iou": 0.24365268863042755,
+     "bo_sot": 0.6099416917597161,
+     "bao_nham": 0.6063741163067136
+    }
+   },
+   "unet_b3_gfs_s0": {
+    "nguong_val": 0.3,
+    "theo_tham_chieu": {
+     "tp": 3254440,
+     "fp": 3744797,
+     "fn": 4012664,
+     "tn": 147602449,
+     "iou": 0.29553843609745495,
+     "bo_sot": 0.5521682364804467,
+     "bao_nham": 0.5350293181956833
+    },
+    "theo_gfm": {
+     "tp": 2110569,
+     "fp": 4888668,
+     "fn": 1873602,
+     "tn": 149741511,
+     "iou": 0.237868510856559,
+     "bo_sot": 0.47026144209171744,
+     "bao_nham": 0.6984572747000851
+    }
+   },
+   "unet_b3_gfs_s1": {
+    "nguong_val": 0.35,
+    "theo_tham_chieu": {
+     "tp": 4397712,
+     "fp": 9659691,
+     "fn": 2869392,
+     "tn": 141687555,
+     "iou": 0.2598077190631776,
+     "bo_sot": 0.3948466954649335,
+     "bao_nham": 0.6871604235860636
+    },
+    "theo_gfm": {
+     "tp": 2764586,
+     "fp": 11292817,
+     "fn": 1219585,
+     "tn": 143337362,
+     "iou": 0.18096407485559327,
+     "bo_sot": 0.30610759427745443,
+     "bao_nham": 0.8033359362323182
+    }
+   },
+   "unet_b3_gfs_s2": {
+    "nguong_val": 0.35,
+    "theo_tham_chieu": {
+     "tp": 2843972,
+     "fp": 1923462,
+     "fn": 4423132,
+     "tn": 149423784,
+     "iou": 0.30944470666986124,
+     "bo_sot": 0.6086512591535775,
+     "bao_nham": 0.4034585481414111
+    },
+    "theo_gfm": {
+     "tp": 1911270,
+     "fp": 2856164,
+     "fn": 2072901,
+     "tn": 151774015,
+     "iou": 0.2794117539564948,
+     "bo_sot": 0.5202841444305478,
+     "bao_nham": 0.599098802416562
+    }
+   },
+   "prithvi_b4_gfs_s0": {
+    "nguong_val": 0.55,
+    "theo_tham_chieu": {
+     "tp": 1467687,
+     "fp": 2733877,
+     "fn": 5799417,
+     "tn": 148613369,
+     "iou": 0.14675430340283618,
+     "bo_sot": 0.7980368796153186,
+     "bao_nham": 0.6506807941042907
+    },
+    "theo_gfm": {
+     "tp": 1018547,
+     "fp": 3183017,
+     "fn": 2965624,
+     "tn": 151447162,
+     "iou": 0.14211249935120998,
+     "bo_sot": 0.7443515853109719,
+     "bao_nham": 0.7575790824559616
+    }
+   },
+   "prithvi_b4_gfs_s1": {
+    "nguong_val": 0.35,
+    "theo_tham_chieu": {
+     "tp": 1468929,
+     "fp": 4025984,
+     "fn": 5798175,
+     "tn": 147321262,
+     "iou": 0.13007328022238027,
+     "bo_sot": 0.7978659724699138,
+     "bao_nham": 0.7326747484446069
+    },
+    "theo_gfm": {
+     "tp": 917405,
+     "fp": 4577508,
+     "fn": 3066766,
+     "tn": 150052671,
+     "iou": 0.10715246390340026,
+     "bo_sot": 0.7697375438955808,
+     "bao_nham": 0.8330446724088262
+    }
+   },
+   "prithvi_b4_gfs_s2": {
+    "nguong_val": 0.7,
+    "theo_tham_chieu": {
+     "tp": 577653,
+     "fp": 504386,
+     "fn": 6689451,
+     "tn": 150842860,
+     "iou": 0.07432976173166278,
+     "bo_sot": 0.9205112517998917,
+     "bao_nham": 0.4661440114450588
+    },
+    "theo_gfm": {
+     "tp": 399068,
+     "fp": 682971,
+     "fn": 3585103,
+     "tn": 153947208,
+     "iou": 0.0855058620457659,
+     "bo_sot": 0.8998366284981242,
+     "bao_nham": 0.6311888943004828
+    }
+   },
+   "utae_b5_gfs_s0": {
+    "nguong_val": 0.45,
+    "theo_tham_chieu": {
+     "tp": 2155126,
+     "fp": 760297,
+     "fn": 5111978,
+     "tn": 150586949,
+     "iou": 0.26847120257228957,
+     "bo_sot": 0.703440875484925,
+     "bao_nham": 0.2607844556347398
+    },
+    "theo_gfm": {
+     "tp": 1543943,
+     "fp": 1371480,
+     "fn": 2440228,
+     "tn": 153258699,
+     "iou": 0.28828297437603756,
+     "bo_sot": 0.6124807394060144,
+     "bao_nham": 0.47042230235543864
+    }
+   },
+   "utae_b5_gfs_s1": {
+    "nguong_val": 0.35,
+    "theo_tham_chieu": {
+     "tp": 2045584,
+     "fp": 682454,
+     "fn": 5221520,
+     "tn": 150664792,
+     "iou": 0.2573204698927915,
+     "bo_sot": 0.7185145554542772,
+     "bao_nham": 0.2501629376130391
+    },
+    "theo_gfm": {
+     "tp": 1495226,
+     "fp": 1232812,
+     "fn": 2488945,
+     "tn": 153397367,
+     "iou": 0.28660741275177626,
+     "bo_sot": 0.6247083772257767,
+     "bao_nham": 0.45190426233065667
+    }
+   },
+   "utae_b5_gfs_s2": {
+    "nguong_val": 0.15,
+    "theo_tham_chieu": {
+     "tp": 2939362,
+     "fp": 1833542,
+     "fn": 4327742,
+     "tn": 149513704,
+     "iou": 0.32298388488026014,
+     "bo_sot": 0.5955249849183388,
+     "bao_nham": 0.38415647999624547
+    },
+    "theo_gfm": {
+     "tp": 1880168,
+     "fp": 2892736,
+     "fn": 2104003,
+     "tn": 151737443,
+     "iou": 0.27340314475679256,
+     "bo_sot": 0.528090536274673,
+     "bao_nham": 0.6060746245891391
+    }
+   }
+  },
+  "mo_hinh_tb_3_seed": {
+   "hop_nhat_gfs": {
+    "theo_tham_chieu": {
+     "tb": 0.2407789522989543,
+     "dlc": 0.03463864870470183
+    },
+    "theo_gfm": {
+     "tb": 0.25184526885668707,
+     "dlc": 0.017066388928001667
+    }
+   },
+   "unet_b3_gfs": {
+    "theo_tham_chieu": {
+     "tb": 0.2882636206101646,
+     "dlc": 0.02560566031070289
+    },
+    "theo_gfm": {
+     "tb": 0.23274811322288236,
+     "dlc": 0.04942317507034269
+    }
+   },
+   "prithvi_b4_gfs": {
+    "theo_tham_chieu": {
+     "tb": 0.11705244845229308,
+     "dlc": 0.03792736616295109
+    },
+    "theo_gfm": {
+     "tb": 0.11159027510012538,
+     "dlc": 0.028563061336643474
+    }
+   },
+   "utae_b5_gfs": {
+    "theo_tham_chieu": {
+     "tb": 0.2829251857817804,
+     "dlc": 0.035137006701187745
+    },
+    "theo_gfm": {
+     "tb": 0.2827645106282021,
+     "dlc": 0.00815035305511167
+    }
+   }
+  },
+  "so_mau_mo_hinh": 6189,
+  "ban_do": [
+   {
+    "ban_do": "UNOSAT_ST1_20240910_BacGiang",
+    "ngay": "2024-09-10"
+   },
+   {
+    "ban_do": "UNOSAT_ST1_20240912_RedRiverDelta",
+    "ngay": "2024-09-12"
+   },
+   {
+    "ban_do": "UNOSAT_ST1_20240925_RedRiverDelta",
+    "ngay": "2024-09-24"
+   }
+  ]
+ },
+ "bo": [
+  {
+   "ban_do": "EMSR754_AOI01_mon0",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "GeoEye-1",
+     "2024-09-14T03:32:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR754_AOI02_mon0",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "WorldView-3",
+     "2024-09-13T03:57:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR754_AOI03_mon0",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "WorldView-3",
+     "2024-09-14T03:44:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR754_AOI04_mon0",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "Pleiades",
+     "2024-09-13T03:16:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR754_AOI05_mon0",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "WorldView-2",
+     "2024-09-14T03:42:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR754_AOI06_mon0",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "WorldView-2",
+     "2024-09-20T03:27:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR754_AOI07_mon0",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "WorldView-2",
+     "2024-09-14T03:45:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR754_AOI08_mon0",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "WorldView-2",
+     "2024-09-14T03:45:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR754_AOI09_mon0",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "WorldView-2",
+     "2024-09-14T03:44:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR754_AOI10_mon0",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "WorldView-2",
+     "2024-09-14T03:56:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR754_AOI11_mon0",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "WorldView-2",
+     "2024-09-14T03:43:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR844_AOI01_mon1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "ICEYE",
+     "2025-10-11T18:19:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR844_AOI01_mon0",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "Sentinel-2",
+     "2025-10-09T03:26:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR844_AOI01_mon3",
+   "ly_do": "khong_co_goi_tai",
+   "anh": [
+    [
+     "Sentinel-1",
+     "2025-10-13T22:51:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR844_AOI01_mon2",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "COSMO-SkyMed",
+     "2025-10-12T22:53:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR848_AOI01_mon2",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "ICEYE",
+     "2025-11-02T13:39:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR848_AOI01_mon1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "ICEYE",
+     "2025-10-30T21:36:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR848_AOI02_mon3",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "COSMO-SkyMed Second Generation",
+     "2025-11-06T22:40:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR848_AOI02_mon1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "COSMO-SkyMed Second Generation",
+     "2025-11-01T10:10:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR848_AOI03_mon4",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "ICEYE",
+     "2025-11-08T15:38:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR848_AOI03_mon3",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "COSMO-SkyMed Second Generation",
+     "2025-11-06T22:40:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR848_AOI03_mon1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "COSMO-SkyMed Second Generation",
+     "2025-11-01T10:11:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR848_AOI04_mon0",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "ICEYE",
+     "2025-10-31T03:49:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR848_AOI04_mon3",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "COSMO-SkyMed Second Generation",
+     "2025-11-06T22:40:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR848_AOI05_mon0",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "Legion",
+     "2025-11-08T03:47:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR848_AOI06_mon0",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "GeoEye-1",
+     "2025-11-09T03:31:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR848_AOI16_mon1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "ICEYE",
+     "2025-11-24T17:50:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR848_AOI17_mon2",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "TerraSAR-X",
+     "2025-11-26T10:49:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR848_AOI17_mon1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "ICEYE",
+     "2025-11-22T02:07:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR848_AOI18_mon0",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "TerraSAR-X",
+     "2025-11-21T22:24:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR848_AOI18_mon1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "ICEYE",
+     "2025-11-23T07:18:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR848_AOI19_mon1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh": [
+    [
+     "PAZ",
+     "2025-11-24T22:42:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR848_AOI01_mon0",
+   "ly_do": "khong_co_mau_test_cung_ngay",
+   "ngay": "2025-10-27"
+  },
+  {
+   "ban_do": "EMSR848_AOI02_mon0",
+   "ly_do": "khong_co_mau_test_cung_ngay",
+   "ngay": "2025-10-27"
+  },
+  {
+   "ban_do": "EMSR848_AOI03_mon0",
+   "ly_do": "khong_co_mau_test_cung_ngay",
+   "ngay": "2025-10-27"
+  },
+  {
+   "ban_do": "EMSR848_AOI04_mon2",
+   "ly_do": "khong_co_o_test_trong_vung",
+   "ngay": "2025-11-04"
+  },
+  {
+   "ban_do": "EMSR848_AOI04_mon1",
+   "ly_do": "khong_co_o_test_trong_vung",
+   "ngay": "2025-11-01"
+  },
+  {
+   "ban_do": "EMSR848_AOI07_mon0",
+   "ly_do": "khong_co_mau_test_cung_ngay",
+   "ngay": "2025-10-26"
+  },
+  {
+   "ban_do": "EMSR848_AOI16_mon0",
+   "ly_do": "khong_co_mau_test_cung_ngay",
+   "ngay": "2025-11-20"
+  },
+  {
+   "ban_do": "EMSR848_AOI17_mon0",
+   "ly_do": "khong_co_mau_test_cung_ngay",
+   "ngay": "2025-11-20"
+  },
+  {
+   "ban_do": "EMSR848_AOI19_mon0",
+   "ly_do": "khong_co_o_test_trong_vung",
+   "ngay": "2025-11-21"
+  },
+  {
+   "ban_do": "UNOSAT_ST1_20240910_BacGiang",
+   "ly_do": "khong_co_o_test_trong_vung",
+   "ngay": "2024-09-10"
+  }
+ ],
+ "test_a_quang_hoc": {
+  "gfm_so_tham_chieu": {
+   "tong": {
+    "tp": 95867,
+    "fp": 43368,
+    "fn": 84534,
+    "tn": 2400864,
+    "iou": 0.4284194861665378,
+    "bo_sot": 0.46858942023602973,
+    "bao_nham": 0.31147340826659964,
+    "so_ban_do": 8
+   },
+   "theo_ban_do": {
+    "EMSR754_AOI01_GeoEye-1_1409": {
+     "ngay": "2024-09-12",
+     "so_o": 9,
+     "tp": 284,
+     "fp": 1391,
+     "fn": 428,
+     "tn": 71144,
+     "iou": 0.1350451735615787,
+     "bo_sot": 0.601123595505618,
+     "bao_nham": 0.8304477611940299
+    },
+    "EMSR754_AOI02_WorldView-3_1309": {
+     "ngay": "2024-09-12",
+     "so_o": 28,
+     "tp": 23422,
+     "fp": 13027,
+     "fn": 15487,
+     "tn": 307338,
+     "iou": 0.4509781269254467,
+     "bo_sot": 0.3980313038114575,
+     "bao_nham": 0.3574034952947955
+    },
+    "EMSR754_AOI03_WorldView-3_1409": {
+     "ngay": "2024-09-12",
+     "so_o": 30,
+     "tp": 3675,
+     "fp": 1541,
+     "fn": 14708,
+     "tn": 291002,
+     "iou": 0.18445091347119053,
+     "bo_sot": 0.8000870369362998,
+     "bao_nham": 0.2954371165644172
+    },
+    "EMSR754_AOI05_WorldView-2_1409": {
+     "ngay": "2024-09-12",
+     "so_o": 6,
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "tn": 42042,
+     "iou": 0.0,
+     "bo_sot": 0.0,
+     "bao_nham": 0.0
+    },
+    "EMSR754_AOI07_WorldView-2_1409": {
+     "ngay": "2024-09-12",
+     "so_o": 14,
+     "tp": 2674,
+     "fp": 8808,
+     "fn": 8519,
+     "tn": 171491,
+     "iou": 0.1336933153342333,
+     "bo_sot": 0.7611006879299562,
+     "bao_nham": 0.7671137432503048
+    },
+    "EMSR754_AOI09_WorldView-2_1409": {
+     "ngay": "2024-09-12",
+     "so_o": 30,
+     "tp": 6173,
+     "fp": 11016,
+     "fn": 11582,
+     "tn": 626927,
+     "iou": 0.21455632407632685,
+     "bo_sot": 0.6523232892143058,
+     "bao_nham": 0.6408749781837222
+    },
+    "EMSR754_AOI10_WorldView-2_1409": {
+     "ngay": "2024-09-12",
+     "so_o": 19,
+     "tp": 15446,
+     "fp": 1576,
+     "fn": 11031,
+     "tn": 318646,
+     "iou": 0.5506006487719673,
+     "bo_sot": 0.41662575065150886,
+     "bao_nham": 0.09258606509223358
+    },
+    "EMSR754_AOI11_WorldView-2_1409": {
+     "ngay": "2024-09-12",
+     "so_o": 28,
+     "tp": 44193,
+     "fp": 6009,
+     "fn": 22779,
+     "tn": 572274,
+     "iou": 0.6055411682492704,
+     "bo_sot": 0.3401272173445619,
+     "bao_nham": 0.11969642643719373
+    }
+   }
+  },
+  "phu_so_tham_chieu": {
+   "tong": {
+    "tp": 112533,
+    "fp": 106757,
+    "fn": 67868,
+    "tn": 2337475,
+    "iou": 0.39188530356110574,
+    "bo_sot": 0.3762063403196213,
+    "bao_nham": 0.4868302248164531
+   },
+   "theo_ban_do": {
+    "EMSR754_AOI01_GeoEye-1_1409": {
+     "tp": 491,
+     "fp": 4246,
+     "fn": 221,
+     "tn": 68289,
+     "iou": 0.0990318676885841,
+     "bo_sot": 0.3103932584269663,
+     "bao_nham": 0.8963478995144606
+    },
+    "EMSR754_AOI02_WorldView-3_1309": {
+     "tp": 25945,
+     "fp": 29200,
+     "fn": 12964,
+     "tn": 291165,
+     "iou": 0.3809335036485633,
+     "bo_sot": 0.3331876943637719,
+     "bao_nham": 0.529513101822468
+    },
+    "EMSR754_AOI03_WorldView-3_1409": {
+     "tp": 7476,
+     "fp": 6746,
+     "fn": 10907,
+     "tn": 285797,
+     "iou": 0.2975048748457957,
+     "bo_sot": 0.5933199151389871,
+     "bao_nham": 0.4743355364927577
+    },
+    "EMSR754_AOI05_WorldView-2_1409": {
+     "tp": 0,
+     "fp": 226,
+     "fn": 0,
+     "tn": 41816,
+     "iou": 0.0,
+     "bo_sot": 0.0,
+     "bao_nham": 1.0
+    },
+    "EMSR754_AOI07_WorldView-2_1409": {
+     "tp": 4168,
+     "fp": 13188,
+     "fn": 7025,
+     "tn": 167111,
+     "iou": 0.17095279110782988,
+     "bo_sot": 0.627624408112213,
+     "bao_nham": 0.7598525005761696
+    },
+    "EMSR754_AOI09_WorldView-2_1409": {
+     "tp": 7839,
+     "fp": 31554,
+     "fn": 9916,
+     "tn": 606389,
+     "iou": 0.15897706301080938,
+     "bo_sot": 0.5584905660377358,
+     "bao_nham": 0.80100525474069
+    },
+    "EMSR754_AOI10_WorldView-2_1409": {
+     "tp": 17386,
+     "fp": 6850,
+     "fn": 9091,
+     "tn": 313372,
+     "iou": 0.5216791190326162,
+     "bo_sot": 0.3433546096612154,
+     "bao_nham": 0.2826373989107113
+    },
+    "EMSR754_AOI11_WorldView-2_1409": {
+     "tp": 49228,
+     "fp": 14747,
+     "fn": 17744,
+     "tn": 563536,
+     "iou": 0.6024058052594867,
+     "bo_sot": 0.26494654482470287,
+     "bao_nham": 0.2305119187182493
+    }
+   }
+  },
+  "mo_hinh": {
+   "hop_nhat_gfs_s0": {
+    "nguong_val": 0.6,
+    "theo_tham_chieu": {
+     "tp": 149701,
+     "fp": 175650,
+     "fn": 391502,
+     "tn": 7157046,
+     "iou": 0.20883082026580066,
+     "bo_sot": 0.723392146754545,
+     "bao_nham": 0.539878469714247
+    },
+    "theo_gfm": {
+     "tp": 165871,
+     "fp": 159480,
+     "fn": 251834,
+     "tn": 7296714,
+     "iou": 0.2873792631478642,
+     "bo_sot": 0.6028991752552639,
+     "bao_nham": 0.4901782997439688
+    }
+   },
+   "hop_nhat_gfs_s1": {
+    "nguong_val": 0.6,
+    "theo_tham_chieu": {
+     "tp": 128600,
+     "fp": 156398,
+     "fn": 412603,
+     "tn": 7176298,
+     "iou": 0.18434606601768058,
+     "bo_sot": 0.7623812137035456,
+     "bao_nham": 0.5487687632895669
+    },
+    "theo_gfm": {
+     "tp": 146105,
+     "fp": 138893,
+     "fn": 271600,
+     "tn": 7317301,
+     "iou": 0.2624964516581087,
+     "bo_sot": 0.6502196526256568,
+     "bao_nham": 0.4873472796300325
+    }
+   },
+   "hop_nhat_gfs_s2": {
+    "nguong_val": 0.4,
+    "theo_tham_chieu": {
+     "tp": 112844,
+     "fp": 105496,
+     "fn": 428359,
+     "tn": 7227200,
+     "iou": 0.1744923063125194,
+     "bo_sot": 0.7914941343636307,
+     "bao_nham": 0.4831730328844921
+    },
+    "theo_gfm": {
+     "tp": 127529,
+     "fp": 90811,
+     "fn": 290176,
+     "tn": 7365383,
+     "iou": 0.2507866025847761,
+     "bo_sot": 0.6946912294561952,
+     "bao_nham": 0.41591554456352475
+    }
+   },
+   "unet_b3_gfs_s0": {
+    "nguong_val": 0.3,
+    "theo_tham_chieu": {
+     "tp": 186560,
+     "fp": 333561,
+     "fn": 354643,
+     "tn": 6999135,
+     "iou": 0.21326895025401138,
+     "bo_sot": 0.6552864636744438,
+     "bao_nham": 0.6413142326497103
+    },
+    "theo_gfm": {
+     "tp": 199071,
+     "fp": 321050,
+     "fn": 218634,
+     "tn": 7135144,
+     "iou": 0.2694682269493946,
+     "bo_sot": 0.5234172442273853,
+     "bao_nham": 0.6172602144500992
+    }
+   },
+   "unet_b3_gfs_s1": {
+    "nguong_val": 0.35,
+    "theo_tham_chieu": {
+     "tp": 250763,
+     "fp": 782661,
+     "fn": 290440,
+     "tn": 6550035,
+     "iou": 0.1894174930355384,
+     "bo_sot": 0.5366563008704682,
+     "bao_nham": 0.7573474198392915
+    },
+    "theo_gfm": {
+     "tp": 250296,
+     "fp": 783128,
+     "fn": 167409,
+     "tn": 6673066,
+     "iou": 0.20843531115484001,
+     "bo_sot": 0.4007828491399433,
+     "bao_nham": 0.7577993156729474
+    }
+   },
+   "unet_b3_gfs_s2": {
+    "nguong_val": 0.35,
+    "theo_tham_chieu": {
+     "tp": 163451,
+     "fp": 144977,
+     "fn": 377752,
+     "tn": 7187719,
+     "iou": 0.2382042612725524,
+     "bo_sot": 0.6979857835230033,
+     "bao_nham": 0.470051357204923
+    },
+    "theo_gfm": {
+     "tp": 175049,
+     "fp": 133379,
+     "fn": 242656,
+     "tn": 7322815,
+     "iou": 0.3176448599487555,
+     "bo_sot": 0.5809267305873762,
+     "bao_nham": 0.43244776738817486
+    }
+   },
+   "utae_b5_gfs_s0": {
+    "nguong_val": 0.45,
+    "theo_tham_chieu": {
+     "tp": 122858,
+     "fp": 60827,
+     "fn": 418345,
+     "tn": 7271869,
+     "iou": 0.20407288673321927,
+     "bo_sot": 0.7729909109890374,
+     "bao_nham": 0.33114843345945505
+    },
+    "theo_gfm": {
+     "tp": 135695,
+     "fp": 47990,
+     "fn": 282010,
+     "tn": 7408204,
+     "iou": 0.291381698321863,
+     "bo_sot": 0.6751415472642176,
+     "bao_nham": 0.26126248741051256
+    }
+   },
+   "utae_b5_gfs_s1": {
+    "nguong_val": 0.35,
+    "theo_tham_chieu": {
+     "tp": 126415,
+     "fp": 51692,
+     "fn": 414788,
+     "tn": 7281004,
+     "iou": 0.2132165054520615,
+     "bo_sot": 0.766418515787976,
+     "bao_nham": 0.2902300302627073
+    },
+    "theo_gfm": {
+     "tp": 135937,
+     "fp": 42170,
+     "fn": 281768,
+     "tn": 7414024,
+     "iou": 0.29559554226692036,
+     "bo_sot": 0.6745621910199782,
+     "bao_nham": 0.23676778565693657
+    }
+   },
+   "utae_b5_gfs_s2": {
+    "nguong_val": 0.15,
+    "theo_tham_chieu": {
+     "tp": 183216,
+     "fp": 140357,
+     "fn": 357987,
+     "tn": 7192339,
+     "iou": 0.2688185926404132,
+     "bo_sot": 0.6614652912123546,
+     "bao_nham": 0.4337722863156073
+    },
+    "theo_gfm": {
+     "tp": 186949,
+     "fp": 136624,
+     "fn": 230756,
+     "tn": 7319570,
+     "iou": 0.33725278670248177,
+     "bo_sot": 0.5524377251888294,
+     "bao_nham": 0.42223547700209846
+    }
+   },
+   "prithvi_b4_gfs_s0": {
+    "nguong_val": 0.55,
+    "theo_tham_chieu": {
+     "tp": 116657,
+     "fp": 312697,
+     "fn": 424546,
+     "tn": 7019999,
+     "iou": 0.13661669984775734,
+     "bo_sot": 0.7844487188725857,
+     "bao_nham": 0.7282964639900874
+    },
+    "theo_gfm": {
+     "tp": 122657,
+     "fp": 306697,
+     "fn": 295048,
+     "tn": 7149497,
+     "iou": 0.1693217301995301,
+     "bo_sot": 0.7063549634311296,
+     "bao_nham": 0.7143219813953056
+    }
+   },
+   "prithvi_b4_gfs_s1": {
+    "nguong_val": 0.35,
+    "theo_tham_chieu": {
+     "tp": 80147,
+     "fp": 335924,
+     "fn": 461056,
+     "tn": 6996772,
+     "iou": 0.09137445318636868,
+     "bo_sot": 0.8519095422604827,
+     "bao_nham": 0.807371818752088
+    },
+    "theo_gfm": {
+     "tp": 88519,
+     "fp": 327552,
+     "fn": 329186,
+     "tn": 7128642,
+     "iou": 0.11877647576607801,
+     "bo_sot": 0.7880824984139524,
+     "bao_nham": 0.787250252961634
+    }
+   },
+   "prithvi_b4_gfs_s2": {
+    "nguong_val": 0.7,
+    "theo_tham_chieu": {
+     "tp": 40190,
+     "fp": 61444,
+     "fn": 501013,
+     "tn": 7271252,
+     "iou": 0.06668912315169577,
+     "bo_sot": 0.9257395099435887,
+     "bao_nham": 0.6045614656512585
+    },
+    "theo_gfm": {
+     "tp": 46140,
+     "fp": 55494,
+     "fn": 371565,
+     "tn": 7400700,
+     "iou": 0.09750654587182137,
+     "bo_sot": 0.8895392681437857,
+     "bao_nham": 0.5460180648208277
+    }
+   }
+  },
+  "mo_hinh_tb_3_seed": {
+   "hop_nhat_gfs": {
+    "theo_tham_chieu": {
+     "tb": 0.18922306419866688,
+     "dlc": 0.017681126055003694
+    },
+    "theo_gfm": {
+     "tb": 0.26688743913024965,
+     "dlc": 0.01868732939739439
+    }
+   },
+   "unet_b3_gfs": {
+    "theo_tham_chieu": {
+     "tb": 0.21363023485403407,
+     "dlc": 0.02439539062353152
+    },
+    "theo_gfm": {
+     "tb": 0.2651827993509967,
+     "dlc": 0.054730750535859504
+    }
+   },
+   "utae_b5_gfs": {
+    "theo_tham_chieu": {
+     "tb": 0.22870266160856464,
+     "dlc": 0.0350409386679768
+    },
+    "theo_gfm": {
+     "tb": 0.308076675763755,
+     "dlc": 0.025354944435553216
+    }
+   },
+   "prithvi_b4_gfs": {
+    "theo_tham_chieu": {
+     "tb": 0.09822675872860727,
+     "dlc": 0.03546381344524357
+    },
+    "theo_gfm": {
+     "tb": 0.12853491727914315,
+     "dlc": 0.03688869149995199
+    }
+   }
+  },
+  "so_mau_mo_hinh": 492,
+  "ban_do": [
+   {
+    "ban_do": "EMSR754_AOI01_GeoEye-1_1409",
+    "ngay": "2024-09-12",
+    "anh": [
+     [
+      "GeoEye-1",
+      "2024-09-14T03:32:00"
+     ]
+    ],
+    "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR754/AOI01/DEL_PRODUCT/EMSR754_AOI01_DEL_PRODUCT_v2.zip"
+   },
+   {
+    "ban_do": "EMSR754_AOI02_WorldView-3_1309",
+    "ngay": "2024-09-12",
+    "anh": [
+     [
+      "WorldView-3",
+      "2024-09-13T03:57:00"
+     ]
+    ],
+    "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR754/AOI02/DEL_PRODUCT/EMSR754_AOI02_DEL_PRODUCT_v2.zip"
+   },
+   {
+    "ban_do": "EMSR754_AOI03_WorldView-3_1409",
+    "ngay": "2024-09-12",
+    "anh": [
+     [
+      "WorldView-3",
+      "2024-09-14T03:44:00"
+     ]
+    ],
+    "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR754/AOI03/DEL_PRODUCT/EMSR754_AOI03_DEL_PRODUCT_v1.zip"
+   },
+   {
+    "ban_do": "EMSR754_AOI04_Pleiades_1309",
+    "ngay": "2024-09-12",
+    "anh": [
+     [
+      "Pleiades",
+      "2024-09-13T03:16:00"
+     ]
+    ],
+    "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR754/AOI04/DEL_PRODUCT/EMSR754_AOI04_DEL_PRODUCT_v1.zip"
+   },
+   {
+    "ban_do": "EMSR754_AOI05_WorldView-2_1409",
+    "ngay": "2024-09-12",
+    "anh": [
+     [
+      "WorldView-2",
+      "2024-09-14T03:42:00"
+     ]
+    ],
+    "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR754/AOI05/DEL_PRODUCT/EMSR754_AOI05_DEL_PRODUCT_v1.zip"
+   },
+   {
+    "ban_do": "EMSR754_AOI06_WorldView-2_2009",
+    "ngay": "2024-09-22",
+    "anh": [
+     [
+      "WorldView-2",
+      "2024-09-20T03:27:00"
+     ]
+    ],
+    "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR754/AOI06/DEL_PRODUCT/EMSR754_AOI06_DEL_PRODUCT_v1.zip"
+   },
+   {
+    "ban_do": "EMSR754_AOI07_WorldView-2_1409",
+    "ngay": "2024-09-12",
+    "anh": [
+     [
+      "WorldView-2",
+      "2024-09-14T03:45:00"
+     ]
+    ],
+    "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR754/AOI07/DEL_PRODUCT/EMSR754_AOI07_DEL_PRODUCT_v1.zip"
+   },
+   {
+    "ban_do": "EMSR754_AOI08_WorldView-2_1409",
+    "ngay": "2024-09-12",
+    "anh": [
+     [
+      "WorldView-2",
+      "2024-09-14T03:45:00"
+     ]
+    ],
+    "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR754/AOI08/DEL_PRODUCT/EMSR754_AOI08_DEL_PRODUCT_v1.zip"
+   },
+   {
+    "ban_do": "EMSR754_AOI09_WorldView-2_1409",
+    "ngay": "2024-09-12",
+    "anh": [
+     [
+      "WorldView-2",
+      "2024-09-14T03:44:00"
+     ]
+    ],
+    "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR754/AOI09/DEL_PRODUCT/EMSR754_AOI09_DEL_PRODUCT_v2.zip"
+   },
+   {
+    "ban_do": "EMSR754_AOI10_WorldView-2_1409",
+    "ngay": "2024-09-12",
+    "anh": [
+     [
+      "WorldView-2",
+      "2024-09-14T03:56:00"
+     ]
+    ],
+    "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR754/AOI10/DEL_PRODUCT/EMSR754_AOI10_DEL_PRODUCT_v1.zip"
+   },
+   {
+    "ban_do": "EMSR754_AOI11_WorldView-2_1409",
+    "ngay": "2024-09-12",
+    "anh": [
+     [
+      "WorldView-2",
+      "2024-09-14T03:43:00"
+     ]
+    ],
+    "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR754/AOI11/DEL_PRODUCT/EMSR754_AOI11_DEL_PRODUCT_v1.zip"
+   }
+  ],
+  "bo": [
+   {
+    "ban_do": "EMSR754_AOI04_Pleiades_1309",
+    "ly_do": "khong_co_o_test_trong_vung",
+    "ngay": "2024-09-12"
+   },
+   {
+    "ban_do": "EMSR754_AOI06_WorldView-2_2009",
+    "ly_do": "khong_co_o_test_trong_vung",
+    "ngay": "2024-09-22"
+   },
+   {
+    "ban_do": "EMSR754_AOI08_WorldView-2_1409",
+    "ly_do": "khong_co_o_test_trong_vung",
+    "ngay": "2024-09-12"
+   }
+  ]
+ }
+}

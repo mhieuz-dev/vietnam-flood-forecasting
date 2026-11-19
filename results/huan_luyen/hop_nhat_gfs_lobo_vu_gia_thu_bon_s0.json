@@ -1,0 +1,94 @@
+{
+ "ten": "hop_nhat_gfs_lobo_vu_gia_thu_bon_s0",
+ "cfg": {
+  "so_epoch": 30,
+  "so_mau_epoch": 20000,
+  "lr": 0.001,
+  "lr_lung": 0.0001,
+  "batch": 16,
+  "kien_nhan": 5,
+  "luu_vuc_bo_ra": "vu_gia_thu_bon",
+  "bo": [],
+  "nguon_du_bao_train": "gfs",
+  "chay_o": "kaggle",
+  "ten": "hop_nhat_gfs_lobo_vu_gia_thu_bon_s0",
+  "mo_hinh": "hop_nhat",
+  "seed": 0
+ },
+ "duong_cong": [
+  {
+   "epoch": 0,
+   "lr": 0.001,
+   "loss_train": 0.8290093744516372,
+   "csi_train": 0.2366829617361255,
+   "csi_val": 0.10356445707289465,
+   "giay": 528.0
+  },
+  {
+   "epoch": 1,
+   "lr": 0.001,
+   "loss_train": 0.7599053584575653,
+   "csi_train": 0.2979502201688352,
+   "csi_val": 0.1504274228388275,
+   "giay": 527.6
+  },
+  {
+   "epoch": 2,
+   "lr": 0.001,
+   "loss_train": 0.7414200032830238,
+   "csi_train": 0.30829983194669225,
+   "csi_val": 0.16453377336623687,
+   "giay": 528.5
+  },
+  {
+   "epoch": 3,
+   "lr": 0.001,
+   "loss_train": 0.7347771926164627,
+   "csi_train": 0.316318939359241,
+   "csi_val": 0.13221633192819443,
+   "giay": 527.9
+  },
+  {
+   "epoch": 4,
+   "lr": 0.001,
+   "loss_train": 0.7143689326405526,
+   "csi_train": 0.3298286550781541,
+   "csi_val": 0.13418355748028146,
+   "giay": 527.3
+  },
+  {
+   "epoch": 5,
+   "lr": 0.001,
+   "loss_train": 0.6985572342395783,
+   "csi_train": 0.3446979511005895,
+   "csi_val": 0.14436266348537552,
+   "giay": 527.6
+  },
+  {
+   "epoch": 6,
+   "lr": 0.001,
+   "loss_train": 0.6843474537849427,
+   "csi_train": 0.3592397220938768,
+   "csi_val": 0.10415014152899633,
+   "giay": 527.1
+  },
+  {
+   "epoch": 7,
+   "lr": 0.001,
+   "loss_train": 0.6764164348721504,
+   "csi_train": 0.360648092143634,
+   "csi_val": 0.10081994695410391,
+   "giay": 526.6
+  }
+ ],
+ "epoch_tot": 2,
+ "csi_val_tot": 0.16453377336623687,
+ "nhiet_do": 1.3554606443099082,
+ "so_pixel_hieu_chinh": 1978961,
+ "thoi_gian_giay": 4303.6,
+ "thiet_bi": "cuda",
+ "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+ "so_gpu": 1,
+ "gpu_dinh_gb": 6.38,
+ "git": "304f0b1"
+}

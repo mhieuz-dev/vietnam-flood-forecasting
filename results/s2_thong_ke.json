@@ -1,0 +1,332 @@
+{
+ "vu_gia_thu_bon": {
+  "2016": {
+   "so_o": 125,
+   "ty_le_nan_tb": 0.1035,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0
+  },
+  "2017": {
+   "so_o": 125,
+   "ty_le_nan_tb": 0.0013,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0581
+  },
+  "2018": {
+   "so_o": 125,
+   "ty_le_nan_tb": 0.0037,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.8192
+  },
+  "2019": {
+   "so_o": 48,
+   "ty_le_nan_tb": 0.001,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0009
+  },
+  "2020": {
+   "so_o": 125,
+   "ty_le_nan_tb": 0.0016,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0233
+  },
+  "2021": {
+   "so_o": 125,
+   "ty_le_nan_tb": 0.0014,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0047
+  },
+  "2022": {
+   "so_o": 125,
+   "ty_le_nan_tb": 0.0006,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0191
+  },
+  "2025": {
+   "so_o": 125,
+   "ty_le_nan_tb": 0.0008,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0017
+  }
+ },
+ "huong": {
+  "2016": {
+   "so_o": 65,
+   "ty_le_nan_tb": 0.02,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0
+  },
+  "2017": {
+   "so_o": 65,
+   "ty_le_nan_tb": 0.0073,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.4097
+  },
+  "2018": {
+   "so_o": 65,
+   "ty_le_nan_tb": 0.0102,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0613
+  },
+  "2019": {
+   "so_o": 65,
+   "ty_le_nan_tb": 0.0041,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0013
+  },
+  "2020": {
+   "so_o": 65,
+   "ty_le_nan_tb": 0.0022,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0133
+  },
+  "2021": {
+   "so_o": 65,
+   "ty_le_nan_tb": 0.0026,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0173
+  },
+  "2022": {
+   "so_o": 65,
+   "ty_le_nan_tb": 0.002,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0098
+  },
+  "2023": {
+   "so_o": 65,
+   "ty_le_nan_tb": 0.0012,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0177
+  },
+  "2025": {
+   "so_o": 65,
+   "ty_le_nan_tb": 0.0025,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0095
+  }
+ },
+ "tra_khuc": {
+  "2016": {
+   "so_o": 31,
+   "ty_le_nan_tb": 0.1918,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0
+  },
+  "2017": {
+   "so_o": 31,
+   "ty_le_nan_tb": 0.0131,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0233
+  },
+  "2018": {
+   "so_o": 31,
+   "ty_le_nan_tb": 0.0304,
+   "so_o_qua_nua_nan": 1,
+   "ty_le_bu_tb": 0.9135
+  },
+  "2019": {
+   "so_o": 31,
+   "ty_le_nan_tb": 0.0008,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0
+  },
+  "2020": {
+   "so_o": 31,
+   "ty_le_nan_tb": 0.0002,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.002
+  },
+  "2021": {
+   "so_o": 31,
+   "ty_le_nan_tb": 0.0002,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0035
+  },
+  "2022": {
+   "so_o": 31,
+   "ty_le_nan_tb": 0.0001,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0008
+  },
+  "2023": {
+   "so_o": 31,
+   "ty_le_nan_tb": 0.0001,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0009
+  },
+  "2025": {
+   "so_o": 31,
+   "ty_le_nan_tb": 0.0002,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0008
+  }
+ },
+ "gianh": {
+  "2016": {
+   "so_o": 86,
+   "ty_le_nan_tb": 0.0108,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0
+  },
+  "2017": {
+   "so_o": 86,
+   "ty_le_nan_tb": 0.0037,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0039
+  },
+  "2018": {
+   "so_o": 85,
+   "ty_le_nan_tb": 0.0076,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.9458
+  },
+  "2019": {
+   "so_o": 86,
+   "ty_le_nan_tb": 0.0049,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0001
+  },
+  "2020": {
+   "so_o": 86,
+   "ty_le_nan_tb": 0.0035,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.1078
+  },
+  "2021": {
+   "so_o": 86,
+   "ty_le_nan_tb": 0.0049,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.2807
+  },
+  "2022": {
+   "so_o": 86,
+   "ty_le_nan_tb": 0.0032,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.2594
+  },
+  "2023": {
+   "so_o": 86,
+   "ty_le_nan_tb": 0.0015,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0144
+  },
+  "2025": {
+   "so_o": 86,
+   "ty_le_nan_tb": 0.0015,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0143
+  }
+ },
+ "ca": {
+  "2016": {
+   "so_o": 263,
+   "ty_le_nan_tb": 0.0784,
+   "so_o_qua_nua_nan": 15,
+   "ty_le_bu_tb": 0.0
+  },
+  "2017": {
+   "so_o": 306,
+   "ty_le_nan_tb": 0.0689,
+   "so_o_qua_nua_nan": 14,
+   "ty_le_bu_tb": 0.8661
+  },
+  "2018": {
+   "so_o": 306,
+   "ty_le_nan_tb": 0.5651,
+   "so_o_qua_nua_nan": 177,
+   "ty_le_bu_tb": 0.1006
+  },
+  "2019": {
+   "so_o": 306,
+   "ty_le_nan_tb": 0.0012,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0002
+  },
+  "2020": {
+   "so_o": 306,
+   "ty_le_nan_tb": 0.0008,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.1555
+  },
+  "2021": {
+   "so_o": 306,
+   "ty_le_nan_tb": 0.0049,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.3759
+  },
+  "2022": {
+   "so_o": 306,
+   "ty_le_nan_tb": 0.002,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.1186
+  },
+  "2023": {
+   "so_o": 306,
+   "ty_le_nan_tb": 0.0005,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0016
+  },
+  "2025": {
+   "so_o": 306,
+   "ty_le_nan_tb": 0.0,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.0112
+  }
+ },
+ "hong_thai_binh": {
+  "2016": {
+   "so_o": 586,
+   "ty_le_nan_tb": 1.0,
+   "so_o_qua_nua_nan": 586,
+   "ty_le_bu_tb": 0.0
+  },
+  "2017": {
+   "so_o": 1195,
+   "ty_le_nan_tb": 0.8682,
+   "so_o_qua_nua_nan": 1033,
+   "ty_le_bu_tb": 0.0
+  },
+  "2018": {
+   "so_o": 1259,
+   "ty_le_nan_tb": 0.168,
+   "so_o_qua_nua_nan": 203,
+   "ty_le_bu_tb": 0.0738
+  },
+  "2019": {
+   "so_o": 735,
+   "ty_le_nan_tb": 0.0048,
+   "so_o_qua_nua_nan": 1,
+   "ty_le_bu_tb": 0.2909
+  },
+  "2020": {
+   "so_o": 1263,
+   "ty_le_nan_tb": 0.0138,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.1752
+  },
+  "2021": {
+   "so_o": 854,
+   "ty_le_nan_tb": 0.008,
+   "so_o_qua_nua_nan": 1,
+   "ty_le_bu_tb": 0.1048
+  },
+  "2022": {
+   "so_o": 1038,
+   "ty_le_nan_tb": 0.0018,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.1668
+  },
+  "2023": {
+   "so_o": 1297,
+   "ty_le_nan_tb": 0.0005,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.1666
+  },
+  "2024": {
+   "so_o": 1310,
+   "ty_le_nan_tb": 0.0008,
+   "so_o_qua_nua_nan": 0,
+   "ty_le_bu_tb": 0.2938
+  }
+ }
+}

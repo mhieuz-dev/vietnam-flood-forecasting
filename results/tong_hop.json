@@ -1,0 +1,6334 @@
+{
+ "du_lieu/vu_gia_thu_bon/o": {
+  "gia_tri": 125.0,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "so_o_so_ngay/vu_gia_thu_bon/o",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "du_lieu/vu_gia_thu_bon/ngay": {
+  "gia_tri": 23.0,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "so_o_so_ngay/vu_gia_thu_bon/ngay",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "du_lieu/vu_gia_thu_bon/train": {
+  "gia_tri": 4902.0,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "theo_vai_tro_luu_vuc/train/vu_gia_thu_bon",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "du_lieu/vu_gia_thu_bon/test_b": {
+  "gia_tri": 1875.0,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "theo_vai_tro_luu_vuc/test_b/vu_gia_thu_bon",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "du_lieu/huong/o": {
+  "gia_tri": 65.0,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "so_o_so_ngay/huong/o",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "du_lieu/huong/ngay": {
+  "gia_tri": 89.0,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "so_o_so_ngay/huong/ngay",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "du_lieu/huong/train": {
+  "gia_tri": 9081.0,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "theo_vai_tro_luu_vuc/train/huong",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "du_lieu/huong/test_b": {
+  "gia_tri": 825.0,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "theo_vai_tro_luu_vuc/test_b/huong",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "du_lieu/tra_khuc/o": {
+  "gia_tri": 31.0,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "so_o_so_ngay/tra_khuc/o",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "du_lieu/tra_khuc/ngay": {
+  "gia_tri": 64.0,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "so_o_so_ngay/tra_khuc/ngay",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "du_lieu/tra_khuc/train": {
+  "gia_tri": 2845.0,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "theo_vai_tro_luu_vuc/train/tra_khuc",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "du_lieu/tra_khuc/test_b": {
+  "gia_tri": 420.0,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "theo_vai_tro_luu_vuc/test_b/tra_khuc",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "du_lieu/gianh/o": {
+  "gia_tri": 86.0,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "so_o_so_ngay/gianh/o",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "du_lieu/gianh/ngay": {
+  "gia_tri": 101.0,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "so_o_so_ngay/gianh/ngay",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "du_lieu/gianh/val": {
+  "gia_tri": 9807.0,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "theo_vai_tro_luu_vuc/val/gianh",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "du_lieu/gianh/test_b": {
+  "gia_tri": 2436.0,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "theo_vai_tro_luu_vuc/test_b/gianh",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "du_lieu/ca/o": {
+  "gia_tri": 306.0,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "so_o_so_ngay/ca/o",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "du_lieu/ca/ngay": {
+  "gia_tri": 61.0,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "so_o_so_ngay/ca/ngay",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "du_lieu/ca/train": {
+  "gia_tri": 25968.0,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "theo_vai_tro_luu_vuc/train/ca",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "du_lieu/ca/test_b": {
+  "gia_tri": 4563.0,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "theo_vai_tro_luu_vuc/test_b/ca",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "du_lieu/hong_thai_binh/o": {
+  "gia_tri": 1310.0,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "so_o_so_ngay/hong_thai_binh/o",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "du_lieu/hong_thai_binh/ngay": {
+  "gia_tri": 39.0,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "so_o_so_ngay/hong_thai_binh/ngay",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "du_lieu/hong_thai_binh/train": {
+  "gia_tri": 59089.0,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "theo_vai_tro_luu_vuc/train/hong_thai_binh",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "du_lieu/hong_thai_binh/test_a": {
+  "gia_tri": 9459.0,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "theo_vai_tro_luu_vuc/test_a/hong_thai_binh",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "du_lieu/ty_le_co_ngap/train": {
+  "gia_tri": 0.1547,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "ty_le_mau_co_ngap/train",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "du_lieu/ty_le_co_ngap/val": {
+  "gia_tri": 0.1061,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "ty_le_mau_co_ngap/val",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "du_lieu/ty_le_co_ngap/test_a": {
+  "gia_tri": 0.3457,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "ty_le_mau_co_ngap/test_a",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "du_lieu/ty_le_co_ngap/test_b": {
+  "gia_tri": 0.4041,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "ty_le_mau_co_ngap/test_b",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/b0/csi": {
+  "gia_tri": 0.08509117996198408,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b0_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/b0/csi_moi": {
+  "gia_tri": 0.05372490914555621,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b0_test_a_gfs.json"
+  ],
+  "khoa_json": "ngap_moi/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/b0/pr_auc": {
+  "gia_tri": 0.09692284373921144,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b0_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/b0/brier": {
+  "gia_tri": 0.018412002943878843,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b0_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/brier",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/b0/ece": {
+  "gia_tri": 0.011940424693668234,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b0_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/ece_15",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/b1/csi": {
+  "gia_tri": 0.03292561792617488,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b1_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/b1/csi_moi": {
+  "gia_tri": 0.028625949710307366,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b1_test_a_gfs.json"
+  ],
+  "khoa_json": "ngap_moi/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/b1/pr_auc": {
+  "gia_tri": 0.024734545573723087,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b1_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/b1/brier": {
+  "gia_tri": 0.1936259372470689,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b1_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/brier",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/b1/ece": {
+  "gia_tri": 0.1936259372470689,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b1_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/ece_15",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/b2/csi": {
+  "gia_tri": 0.19729848207266043,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/b2/csi_moi": {
+  "gia_tri": 0.10184404788849023,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b2_test_a_gfs.json"
+  ],
+  "khoa_json": "ngap_moi/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/b2/pr_auc": {
+  "gia_tri": 0.25571098866769726,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/b2/brier": {
+  "gia_tri": 0.016268715737064343,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/brier",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/b2/ece": {
+  "gia_tri": 0.002135709417421969,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/ece_15",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/b6/csi": {
+  "gia_tri": 0.1774841475262838,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b6_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/b6/csi_moi": {
+  "gia_tri": 0.0,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b6_test_a_gfs.json"
+  ],
+  "khoa_json": "ngap_moi/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/b6/pr_auc": {
+  "gia_tri": 0.10704038513961847,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b6_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/b6/brier": {
+  "gia_tri": 0.02362546272131039,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b6_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/brier",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/b6/ece": {
+  "gia_tri": 0.02362546272131039,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b6_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/ece_15",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/unet_b3_gfs_s0/csi/tb": {
+  "gia_tri": 0.22164061901491858,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/unet_b3_gfs_s0/csi/dlc": {
+  "gia_tri": 0.045796210611897765,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/unet_b3_gfs_s0/csi_moi/tb": {
+  "gia_tri": 0.14844869199308136,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "ngap_moi/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/unet_b3_gfs_s0/csi_moi/dlc": {
+  "gia_tri": 0.02120069012827266,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "ngap_moi/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/unet_b3_gfs_s0/pr_auc/tb": {
+  "gia_tri": 0.40154287693523855,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/unet_b3_gfs_s0/pr_auc/dlc": {
+  "gia_tri": 0.00566559745896764,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/unet_b3_gfs_s0/brier/tb": {
+  "gia_tri": 0.023208462470444474,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/brier",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/unet_b3_gfs_s0/brier/dlc": {
+  "gia_tri": 0.008282717336097542,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/brier",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/unet_b3_gfs_s0/ece/tb": {
+  "gia_tri": 0.03225722991057695,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/ece_15",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/unet_b3_gfs_s0/ece/dlc": {
+  "gia_tri": 0.02214607781952542,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/ece_15",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/prithvi_b4_gfs_s0/csi/tb": {
+  "gia_tri": 0.1021557284072827,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/prithvi_b4_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/prithvi_b4_gfs_s0/csi/dlc": {
+  "gia_tri": 0.026733645344948247,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/prithvi_b4_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/prithvi_b4_gfs_s0/csi_moi/tb": {
+  "gia_tri": 0.09357416457523983,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/prithvi_b4_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "ngap_moi/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/prithvi_b4_gfs_s0/csi_moi/dlc": {
+  "gia_tri": 0.028054184940529536,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/prithvi_b4_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "ngap_moi/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/prithvi_b4_gfs_s0/pr_auc/tb": {
+  "gia_tri": 0.1383584667296921,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/prithvi_b4_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/prithvi_b4_gfs_s0/pr_auc/dlc": {
+  "gia_tri": 0.03546278549365918,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/prithvi_b4_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/prithvi_b4_gfs_s0/brier/tb": {
+  "gia_tri": 0.02419768460649973,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/prithvi_b4_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/brier",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/prithvi_b4_gfs_s0/brier/dlc": {
+  "gia_tri": 0.0033554832480276234,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/prithvi_b4_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/brier",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/prithvi_b4_gfs_s0/ece/tb": {
+  "gia_tri": 0.017939497921908354,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/prithvi_b4_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/ece_15",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/prithvi_b4_gfs_s0/ece/dlc": {
+  "gia_tri": 0.006070408283327357,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/prithvi_b4_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/ece_15",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/utae_b5_gfs_s0/csi/tb": {
+  "gia_tri": 0.27359016601552305,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/utae_b5_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/utae_b5_gfs_s0/csi/dlc": {
+  "gia_tri": 0.008336767245446462,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/utae_b5_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/utae_b5_gfs_s0/csi_moi/tb": {
+  "gia_tri": 0.15339581593548676,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/utae_b5_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "ngap_moi/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/utae_b5_gfs_s0/csi_moi/dlc": {
+  "gia_tri": 0.010597096397967902,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/utae_b5_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "ngap_moi/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/utae_b5_gfs_s0/pr_auc/tb": {
+  "gia_tri": 0.367485308845432,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/utae_b5_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/utae_b5_gfs_s0/pr_auc/dlc": {
+  "gia_tri": 0.005917818765120378,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/utae_b5_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/utae_b5_gfs_s0/brier/tb": {
+  "gia_tri": 0.016056605228590325,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/utae_b5_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/brier",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/utae_b5_gfs_s0/brier/dlc": {
+  "gia_tri": 0.00017164327255230673,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/utae_b5_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/brier",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/utae_b5_gfs_s0/ece/tb": {
+  "gia_tri": 0.007901834729149529,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/utae_b5_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/ece_15",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/utae_b5_gfs_s0/ece/dlc": {
+  "gia_tri": 0.0010703844790957298,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/utae_b5_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/ece_15",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/hop_nhat_gfs_s0/csi/tb": {
+  "gia_tri": 0.2421005630366727,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/hop_nhat_gfs_s0/csi/dlc": {
+  "gia_tri": 0.01562842773642517,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/hop_nhat_gfs_s0/csi_moi/tb": {
+  "gia_tri": 0.14303927051007168,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "ngap_moi/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/hop_nhat_gfs_s0/csi_moi/dlc": {
+  "gia_tri": 0.019767750768121876,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "ngap_moi/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/hop_nhat_gfs_s0/pr_auc/tb": {
+  "gia_tri": 0.3412467274141578,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/hop_nhat_gfs_s0/pr_auc/dlc": {
+  "gia_tri": 0.02914074670449248,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/hop_nhat_gfs_s0/brier/tb": {
+  "gia_tri": 0.01942878125450812,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/brier",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/hop_nhat_gfs_s0/brier/dlc": {
+  "gia_tri": 0.001819100761063636,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/brier",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/hop_nhat_gfs_s0/ece/tb": {
+  "gia_tri": 0.018493547751386258,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/ece_15",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_a/hop_nhat_gfs_s0/ece/dlc": {
+  "gia_tri": 0.0068498537201451114,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/ece_15",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/b0/csi": {
+  "gia_tri": 0.11826199536493949,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b0_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/b0/csi_moi": {
+  "gia_tri": 0.086664647476236,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b0_test_b_gfs.json"
+  ],
+  "khoa_json": "ngap_moi/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/b0/pr_auc": {
+  "gia_tri": 0.16160279546617282,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b0_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/b0/brier": {
+  "gia_tri": 0.04452203892235466,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b0_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/brier",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/b0/ece": {
+  "gia_tri": 0.04052598183916393,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b0_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/ece_15",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/b1/csi": {
+  "gia_tri": 0.1493045751205674,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b1_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/b1/csi_moi": {
+  "gia_tri": 0.16419318063089844,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b1_test_b_gfs.json"
+  ],
+  "khoa_json": "ngap_moi/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/b1/pr_auc": {
+  "gia_tri": 0.11743745000177777,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b1_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/b1/brier": {
+  "gia_tri": 0.15729009133877572,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b1_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/brier",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/b1/ece": {
+  "gia_tri": 0.15729009133877572,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b1_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/ece_15",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/b2/csi": {
+  "gia_tri": 0.20114930982720286,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/b2/csi_moi": {
+  "gia_tri": 0.2074295695041355,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b2_test_b_gfs.json"
+  ],
+  "khoa_json": "ngap_moi/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/b2/pr_auc": {
+  "gia_tri": 0.24393908697941744,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/b2/brier": {
+  "gia_tri": 0.042643570114698756,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/brier",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/b2/ece": {
+  "gia_tri": 0.02496461869303695,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/ece_15",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/b6/csi": {
+  "gia_tri": 0.04057474932120077,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b6_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/b6/csi_moi": {
+  "gia_tri": 0.0,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b6_test_b_gfs.json"
+  ],
+  "khoa_json": "ngap_moi/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/b6/pr_auc": {
+  "gia_tri": 0.04976591444563509,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b6_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/b6/brier": {
+  "gia_tri": 0.07711835236130453,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b6_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/brier",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/b6/ece": {
+  "gia_tri": 0.07711835236130453,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b6_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/ece_15",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/unet_b3_gfs_s0/csi/tb": {
+  "gia_tri": 0.21068237699907996,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/unet_b3_gfs_s0/csi/dlc": {
+  "gia_tri": 0.0182597756614042,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/unet_b3_gfs_s0/csi_moi/tb": {
+  "gia_tri": 0.20570361240779883,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "ngap_moi/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/unet_b3_gfs_s0/csi_moi/dlc": {
+  "gia_tri": 0.01589599388713386,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "ngap_moi/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/unet_b3_gfs_s0/pr_auc/tb": {
+  "gia_tri": 0.2862543660818154,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/unet_b3_gfs_s0/pr_auc/dlc": {
+  "gia_tri": 0.016042786602670046,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/unet_b3_gfs_s0/brier/tb": {
+  "gia_tri": 0.0540920433249,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/brier",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/unet_b3_gfs_s0/brier/dlc": {
+  "gia_tri": 0.002071584348196853,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/brier",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/unet_b3_gfs_s0/ece/tb": {
+  "gia_tri": 0.04350307502201919,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/ece_15",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/unet_b3_gfs_s0/ece/dlc": {
+  "gia_tri": 0.002295422469558434,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/ece_15",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/prithvi_b4_gfs_s0/csi/tb": {
+  "gia_tri": 0.19321219354426988,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/prithvi_b4_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/prithvi_b4_gfs_s0/csi/dlc": {
+  "gia_tri": 0.029235372687725077,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/prithvi_b4_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/prithvi_b4_gfs_s0/csi_moi/tb": {
+  "gia_tri": 0.1934581362824907,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/prithvi_b4_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "ngap_moi/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/prithvi_b4_gfs_s0/csi_moi/dlc": {
+  "gia_tri": 0.03747578190169055,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/prithvi_b4_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "ngap_moi/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/prithvi_b4_gfs_s0/pr_auc/tb": {
+  "gia_tri": 0.24648824327910246,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/prithvi_b4_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/prithvi_b4_gfs_s0/pr_auc/dlc": {
+  "gia_tri": 0.009048332834843105,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/prithvi_b4_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/prithvi_b4_gfs_s0/brier/tb": {
+  "gia_tri": 0.05877206618754765,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/prithvi_b4_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/brier",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/prithvi_b4_gfs_s0/brier/dlc": {
+  "gia_tri": 0.006162736098664824,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/prithvi_b4_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/brier",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/prithvi_b4_gfs_s0/ece/tb": {
+  "gia_tri": 0.049399732872170046,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/prithvi_b4_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/ece_15",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/prithvi_b4_gfs_s0/ece/dlc": {
+  "gia_tri": 0.00923874706290421,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/prithvi_b4_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/ece_15",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/utae_b5_gfs_s0/csi/tb": {
+  "gia_tri": 0.18062565783630555,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/utae_b5_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/utae_b5_gfs_s0/csi/dlc": {
+  "gia_tri": 0.013729787283783502,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/utae_b5_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/utae_b5_gfs_s0/csi_moi/tb": {
+  "gia_tri": 0.17468574595749997,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/utae_b5_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "ngap_moi/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/utae_b5_gfs_s0/csi_moi/dlc": {
+  "gia_tri": 0.016192431434357724,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/utae_b5_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "ngap_moi/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/utae_b5_gfs_s0/pr_auc/tb": {
+  "gia_tri": 0.22754516857376358,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/utae_b5_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/utae_b5_gfs_s0/pr_auc/dlc": {
+  "gia_tri": 0.030665056018718186,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/utae_b5_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/utae_b5_gfs_s0/brier/tb": {
+  "gia_tri": 0.0539055921180067,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/utae_b5_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/brier",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/utae_b5_gfs_s0/brier/dlc": {
+  "gia_tri": 0.005377597193804245,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/utae_b5_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/brier",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/utae_b5_gfs_s0/ece/tb": {
+  "gia_tri": 0.04319047969234038,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/utae_b5_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/ece_15",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/utae_b5_gfs_s0/ece/dlc": {
+  "gia_tri": 0.005263773685132821,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/utae_b5_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/ece_15",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/hop_nhat_gfs_s0/csi/tb": {
+  "gia_tri": 0.17432781101275266,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/hop_nhat_gfs_s0/csi/dlc": {
+  "gia_tri": 0.01215300859910829,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/hop_nhat_gfs_s0/csi_moi/tb": {
+  "gia_tri": 0.16594757863868909,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "ngap_moi/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/hop_nhat_gfs_s0/csi_moi/dlc": {
+  "gia_tri": 0.01448991654543563,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "ngap_moi/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/hop_nhat_gfs_s0/pr_auc/tb": {
+  "gia_tri": 0.25757863281771604,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/hop_nhat_gfs_s0/pr_auc/dlc": {
+  "gia_tri": 0.006445884699965067,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/hop_nhat_gfs_s0/brier/tb": {
+  "gia_tri": 0.051855273257161945,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/brier",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/hop_nhat_gfs_s0/brier/dlc": {
+  "gia_tri": 0.0008888759678020704,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/brier",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/hop_nhat_gfs_s0/ece/tb": {
+  "gia_tri": 0.0394826366311836,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/ece_15",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ket_qua/test_b/hop_nhat_gfs_s0/ece/dlc": {
+  "gia_tri": 0.002412103723358287,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/ece_15",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/day_du/val/tb": {
+  "gia_tri": 0.20425059781324473,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_val_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/day_du/val/dlc": {
+  "gia_tri": 0.01795926667150052,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_val_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/day_du/test_a/tb": {
+  "gia_tri": 0.2421005630366727,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/day_du/test_a/dlc": {
+  "gia_tri": 0.01562842773642517,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/day_du/test_b/tb": {
+  "gia_tri": 0.17432781101275266,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/day_du/test_b/dlc": {
+  "gia_tri": 0.01215300859910829,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_dat/val/tb": {
+  "gia_tri": 0.20487732598804997,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_dat_s0_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dat_s1_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dat_s2_val_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_dat/val/dlc": {
+  "gia_tri": 0.014265207912747173,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_dat_s0_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dat_s1_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dat_s2_val_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_dat/test_a/tb": {
+  "gia_tri": 0.19477102005353525,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_dat_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dat_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dat_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_dat/test_a/dlc": {
+  "gia_tri": 0.03879190063887255,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_dat_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dat_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dat_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_dat/test_b/tb": {
+  "gia_tri": 0.19319002131726432,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_dat_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dat_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dat_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_dat/test_b/dlc": {
+  "gia_tri": 0.0074744913308260556,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_dat_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dat_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dat_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_cn/val/tb": {
+  "gia_tri": 0.18730799439607027,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_cn_s0_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_cn_s1_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_cn_s2_val_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_cn/val/dlc": {
+  "gia_tri": 0.018767294165566512,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_cn_s0_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_cn_s1_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_cn_s2_val_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_cn/test_a/tb": {
+  "gia_tri": 0.23262264921301243,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_cn_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_cn_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_cn_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_cn/test_a/dlc": {
+  "gia_tri": 0.010071262223782717,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_cn_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_cn_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_cn_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_cn/test_b/tb": {
+  "gia_tri": 0.19104766217484134,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_cn_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_cn_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_cn_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_cn/test_b/dlc": {
+  "gia_tri": 0.014617228063525351,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_cn_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_cn_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_cn_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_dat_tho/val/tb": {
+  "gia_tri": 0.19580188909381357,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_dat_tho_s0_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dat_tho_s1_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dat_tho_s2_val_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_dat_tho/val/dlc": {
+  "gia_tri": 0.02155626233894195,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_dat_tho_s0_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dat_tho_s1_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dat_tho_s2_val_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_dat_tho/test_a/tb": {
+  "gia_tri": 0.20784799515775174,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_dat_tho_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dat_tho_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dat_tho_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_dat_tho/test_a/dlc": {
+  "gia_tri": 0.056232399441352124,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_dat_tho_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dat_tho_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dat_tho_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_dat_tho/test_b/tb": {
+  "gia_tri": 0.2068655766087418,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_dat_tho_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dat_tho_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dat_tho_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_dat_tho/test_b/dlc": {
+  "gia_tri": 0.03555164944209889,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_dat_tho_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dat_tho_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dat_tho_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_khi_tuong/val/tb": {
+  "gia_tri": 0.11423149479239844,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_khi_tuong_s0_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_khi_tuong_s1_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_khi_tuong_s2_val_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_khi_tuong/val/dlc": {
+  "gia_tri": 0.010543726589165909,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_khi_tuong_s0_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_khi_tuong_s1_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_khi_tuong_s2_val_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_khi_tuong/test_a/tb": {
+  "gia_tri": 0.24518563822433442,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_khi_tuong_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_khi_tuong_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_khi_tuong_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_khi_tuong/test_a/dlc": {
+  "gia_tri": 0.0021994128468922113,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_khi_tuong_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_khi_tuong_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_khi_tuong_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_khi_tuong/test_b/tb": {
+  "gia_tri": 0.1519043278044877,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_khi_tuong_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_khi_tuong_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_khi_tuong_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_khi_tuong/test_b/dlc": {
+  "gia_tri": 0.004693985830610971,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_khi_tuong_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_khi_tuong_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_khi_tuong_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_s1/val/tb": {
+  "gia_tri": 0.16166037846804834,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_s1_s0_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_s1_s1_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_s1_s2_val_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_s1/val/dlc": {
+  "gia_tri": 0.008416781808051619,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_s1_s0_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_s1_s1_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_s1_s2_val_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_s1/test_a/tb": {
+  "gia_tri": 0.13186103428482224,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_s1_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_s1_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_s1_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_s1/test_a/dlc": {
+  "gia_tri": 0.026987276209936524,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_s1_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_s1_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_s1_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_s1/test_b/tb": {
+  "gia_tri": 0.2102403754539017,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_s1_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_s1_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_s1_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_s1/test_b/dlc": {
+  "gia_tri": 0.035143896878747576,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_s1_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_s1_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_s1_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_dia_hinh/val/tb": {
+  "gia_tri": 0.1801280520618482,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_dia_hinh_s0_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dia_hinh_s1_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dia_hinh_s2_val_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_dia_hinh/val/dlc": {
+  "gia_tri": 0.013811399762498865,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_dia_hinh_s0_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dia_hinh_s1_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dia_hinh_s2_val_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_dia_hinh/test_a/tb": {
+  "gia_tri": 0.19625382532805857,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_dia_hinh_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dia_hinh_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dia_hinh_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_dia_hinh/test_a/dlc": {
+  "gia_tri": 0.051474836774162834,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_dia_hinh_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dia_hinh_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dia_hinh_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_dia_hinh/test_b/tb": {
+  "gia_tri": 0.19528024719327208,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_dia_hinh_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dia_hinh_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dia_hinh_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/_bo_dia_hinh/test_b/dlc": {
+  "gia_tri": 0.03545136920052212,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_bo_dia_hinh_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dia_hinh_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_bo_dia_hinh_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/nhieu/test_a/tb": {
+  "gia_tri": 0.20342583925537341,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0__nhieu_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1__nhieu_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2__nhieu_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/nhieu/test_a/dlc": {
+  "gia_tri": 0.015183813026522247,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0__nhieu_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1__nhieu_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2__nhieu_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/nhieu/test_b/tb": {
+  "gia_tri": 0.15492466263668556,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0__nhieu_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1__nhieu_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2__nhieu_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/nhieu/test_b/dlc": {
+  "gia_tri": 0.00802389490385027,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0__nhieu_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1__nhieu_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2__nhieu_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/hoan_vi/test_a/tb": {
+  "gia_tri": 0.1777811516887109,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0__hoan_vi_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1__hoan_vi_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2__hoan_vi_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/hoan_vi/test_a/dlc": {
+  "gia_tri": 0.028219865113615347,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0__hoan_vi_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1__hoan_vi_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2__hoan_vi_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/hoan_vi/test_b/tb": {
+  "gia_tri": 0.16116233796355678,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0__hoan_vi_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1__hoan_vi_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2__hoan_vi_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "bo/hoan_vi/test_b/dlc": {
+  "gia_tri": 0.004370930902644114,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0__hoan_vi_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1__hoan_vi_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2__hoan_vi_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/gfs/test_a/csi_nguong_toi_uu/tb": {
+  "gia_tri": 0.2421005630366727,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/gfs/test_a/csi_nguong_toi_uu/dlc": {
+  "gia_tri": 0.01562842773642517,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/gfs/test_a/pr_auc/tb": {
+  "gia_tri": 0.3412467274141578,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/gfs/test_a/pr_auc/dlc": {
+  "gia_tri": 0.02914074670449248,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/gfs/test_b/csi_nguong_toi_uu/tb": {
+  "gia_tri": 0.17432781101275266,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/gfs/test_b/csi_nguong_toi_uu/dlc": {
+  "gia_tri": 0.01215300859910829,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/gfs/test_b/pr_auc/tb": {
+  "gia_tri": 0.25757863281771604,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/gfs/test_b/pr_auc/dlc": {
+  "gia_tri": 0.006445884699965067,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/ecmwf/test_a/csi_nguong_toi_uu/tb": {
+  "gia_tri": 0.23071150623430092,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_a_ecmwf.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_a_ecmwf.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_a_ecmwf.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/ecmwf/test_a/csi_nguong_toi_uu/dlc": {
+  "gia_tri": 0.021305427656509286,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_a_ecmwf.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_a_ecmwf.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_a_ecmwf.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/ecmwf/test_a/pr_auc/tb": {
+  "gia_tri": 0.32527567600490404,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_a_ecmwf.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_a_ecmwf.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_a_ecmwf.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/ecmwf/test_a/pr_auc/dlc": {
+  "gia_tri": 0.03744273440344394,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_a_ecmwf.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_a_ecmwf.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_a_ecmwf.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/ecmwf/test_b/csi_nguong_toi_uu/tb": {
+  "gia_tri": 0.16951751386188002,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_b_ecmwf.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_b_ecmwf.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_b_ecmwf.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/ecmwf/test_b/csi_nguong_toi_uu/dlc": {
+  "gia_tri": 0.01241222656978519,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_b_ecmwf.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_b_ecmwf.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_b_ecmwf.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/ecmwf/test_b/pr_auc/tb": {
+  "gia_tri": 0.26049291200342367,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_b_ecmwf.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_b_ecmwf.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_b_ecmwf.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/ecmwf/test_b/pr_auc/dlc": {
+  "gia_tri": 0.005211718260011437,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_b_ecmwf.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_b_ecmwf.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_b_ecmwf.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/gfs_gsmap_nrt/test_a/csi_nguong_toi_uu/tb": {
+  "gia_tri": 0.2193340774942763,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_a_gfs_gsmap_nrt.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_a_gfs_gsmap_nrt.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_a_gfs_gsmap_nrt.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/gfs_gsmap_nrt/test_a/csi_nguong_toi_uu/dlc": {
+  "gia_tri": 0.020939696173675162,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_a_gfs_gsmap_nrt.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_a_gfs_gsmap_nrt.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_a_gfs_gsmap_nrt.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/gfs_gsmap_nrt/test_a/pr_auc/tb": {
+  "gia_tri": 0.30222880479623937,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_a_gfs_gsmap_nrt.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_a_gfs_gsmap_nrt.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_a_gfs_gsmap_nrt.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/gfs_gsmap_nrt/test_a/pr_auc/dlc": {
+  "gia_tri": 0.030397605497300813,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_a_gfs_gsmap_nrt.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_a_gfs_gsmap_nrt.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_a_gfs_gsmap_nrt.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/gfs_gsmap_nrt/test_b/csi_nguong_toi_uu/tb": {
+  "gia_tri": 0.16954991377773315,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_b_gfs_gsmap_nrt.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_b_gfs_gsmap_nrt.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_b_gfs_gsmap_nrt.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/gfs_gsmap_nrt/test_b/csi_nguong_toi_uu/dlc": {
+  "gia_tri": 0.014263705453496613,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_b_gfs_gsmap_nrt.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_b_gfs_gsmap_nrt.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_b_gfs_gsmap_nrt.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/gfs_gsmap_nrt/test_b/pr_auc/tb": {
+  "gia_tri": 0.26600536357067367,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_b_gfs_gsmap_nrt.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_b_gfs_gsmap_nrt.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_b_gfs_gsmap_nrt.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/gfs_gsmap_nrt/test_b/pr_auc/dlc": {
+  "gia_tri": 0.009976136084557923,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_b_gfs_gsmap_nrt.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_b_gfs_gsmap_nrt.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_b_gfs_gsmap_nrt.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/imerg_final/test_a/csi_nguong_toi_uu/tb": {
+  "gia_tri": 0.20861568836401834,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_imerg_s0_test_a_imerg_final.json",
+   "results/danh_gia/hop_nhat_imerg_s1_test_a_imerg_final.json",
+   "results/danh_gia/hop_nhat_imerg_s2_test_a_imerg_final.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/imerg_final/test_a/csi_nguong_toi_uu/dlc": {
+  "gia_tri": 0.038254070226827995,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_imerg_s0_test_a_imerg_final.json",
+   "results/danh_gia/hop_nhat_imerg_s1_test_a_imerg_final.json",
+   "results/danh_gia/hop_nhat_imerg_s2_test_a_imerg_final.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/imerg_final/test_a/pr_auc/tb": {
+  "gia_tri": 0.3127147257390818,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_imerg_s0_test_a_imerg_final.json",
+   "results/danh_gia/hop_nhat_imerg_s1_test_a_imerg_final.json",
+   "results/danh_gia/hop_nhat_imerg_s2_test_a_imerg_final.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/imerg_final/test_a/pr_auc/dlc": {
+  "gia_tri": 0.05530867719594165,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_imerg_s0_test_a_imerg_final.json",
+   "results/danh_gia/hop_nhat_imerg_s1_test_a_imerg_final.json",
+   "results/danh_gia/hop_nhat_imerg_s2_test_a_imerg_final.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/imerg_final/test_b/csi_nguong_toi_uu/tb": {
+  "gia_tri": 0.18445028909184058,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_imerg_s0_test_b_imerg_final.json",
+   "results/danh_gia/hop_nhat_imerg_s1_test_b_imerg_final.json",
+   "results/danh_gia/hop_nhat_imerg_s2_test_b_imerg_final.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/imerg_final/test_b/csi_nguong_toi_uu/dlc": {
+  "gia_tri": 0.005845891150889844,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_imerg_s0_test_b_imerg_final.json",
+   "results/danh_gia/hop_nhat_imerg_s1_test_b_imerg_final.json",
+   "results/danh_gia/hop_nhat_imerg_s2_test_b_imerg_final.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/imerg_final/test_b/pr_auc/tb": {
+  "gia_tri": 0.2485065578942569,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_imerg_s0_test_b_imerg_final.json",
+   "results/danh_gia/hop_nhat_imerg_s1_test_b_imerg_final.json",
+   "results/danh_gia/hop_nhat_imerg_s2_test_b_imerg_final.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "mua/imerg_final/test_b/pr_auc/dlc": {
+  "gia_tri": 0.005107594507118793,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_imerg_s0_test_b_imerg_final.json",
+   "results/danh_gia/hop_nhat_imerg_s1_test_b_imerg_final.json",
+   "results/danh_gia/hop_nhat_imerg_s2_test_b_imerg_final.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/TerraMind/vu_gia_thu_bon/csi_nguong_toi_uu": {
+  "gia_tri": 0.17228151242576736,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_lobo_vu_gia_thu_bon_s0_lobo_vu_gia_thu_bon_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/TerraMind/vu_gia_thu_bon/pr_auc": {
+  "gia_tri": 0.24836874058443548,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_lobo_vu_gia_thu_bon_s0_lobo_vu_gia_thu_bon_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/U-Net/vu_gia_thu_bon/csi_nguong_toi_uu": {
+  "gia_tri": 0.1656776641542146,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_lobo_vu_gia_thu_bon_s0_lobo_vu_gia_thu_bon_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/U-Net/vu_gia_thu_bon/pr_auc": {
+  "gia_tri": 0.23470747194583583,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_lobo_vu_gia_thu_bon_s0_lobo_vu_gia_thu_bon_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/XGBoost/vu_gia_thu_bon/csi_nguong_toi_uu": {
+  "gia_tri": 0.1789555273512007,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b2_lobo_vu_gia_thu_bon_lobo_vu_gia_thu_bon_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/XGBoost/vu_gia_thu_bon/pr_auc": {
+  "gia_tri": 0.2119078618957362,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b2_lobo_vu_gia_thu_bon_lobo_vu_gia_thu_bon_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/TerraMind/huong/csi_nguong_toi_uu": {
+  "gia_tri": 0.25485820042458224,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_lobo_huong_s0_lobo_huong_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/TerraMind/huong/pr_auc": {
+  "gia_tri": 0.3825081218665213,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_lobo_huong_s0_lobo_huong_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/U-Net/huong/csi_nguong_toi_uu": {
+  "gia_tri": 0.29018058826148524,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_lobo_huong_s0_lobo_huong_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/U-Net/huong/pr_auc": {
+  "gia_tri": 0.39233867493847396,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_lobo_huong_s0_lobo_huong_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/XGBoost/huong/csi_nguong_toi_uu": {
+  "gia_tri": 0.21216903808969903,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b2_lobo_huong_lobo_huong_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/XGBoost/huong/pr_auc": {
+  "gia_tri": 0.26332378103463305,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b2_lobo_huong_lobo_huong_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/TerraMind/tra_khuc/csi_nguong_toi_uu": {
+  "gia_tri": 0.057202033549735125,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_lobo_tra_khuc_s0_lobo_tra_khuc_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/TerraMind/tra_khuc/pr_auc": {
+  "gia_tri": 0.058421897707674066,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_lobo_tra_khuc_s0_lobo_tra_khuc_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/U-Net/tra_khuc/csi_nguong_toi_uu": {
+  "gia_tri": 0.07410457556097823,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_lobo_tra_khuc_s0_lobo_tra_khuc_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/U-Net/tra_khuc/pr_auc": {
+  "gia_tri": 0.07314938117474808,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_lobo_tra_khuc_s0_lobo_tra_khuc_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/XGBoost/tra_khuc/csi_nguong_toi_uu": {
+  "gia_tri": 0.07637227027554182,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b2_lobo_tra_khuc_lobo_tra_khuc_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/XGBoost/tra_khuc/pr_auc": {
+  "gia_tri": 0.07246975839417676,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b2_lobo_tra_khuc_lobo_tra_khuc_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/TerraMind/ca/csi_nguong_toi_uu": {
+  "gia_tri": 0.12052828149282595,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_lobo_ca_s0_lobo_ca_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/TerraMind/ca/pr_auc": {
+  "gia_tri": 0.1478646736435974,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_lobo_ca_s0_lobo_ca_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/U-Net/ca/csi_nguong_toi_uu": {
+  "gia_tri": 0.11637955919898356,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_lobo_ca_s0_lobo_ca_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/U-Net/ca/pr_auc": {
+  "gia_tri": 0.13965714327172238,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_lobo_ca_s0_lobo_ca_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/XGBoost/ca/csi_nguong_toi_uu": {
+  "gia_tri": 0.08400243876858322,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b2_lobo_ca_lobo_ca_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/XGBoost/ca/pr_auc": {
+  "gia_tri": 0.11824285301043624,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b2_lobo_ca_lobo_ca_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/TerraMind/hong_thai_binh/csi_nguong_toi_uu": {
+  "gia_tri": 0.15380590448740705,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_lobo_hong_thai_binh_s0_lobo_hong_thai_binh_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/TerraMind/hong_thai_binh/pr_auc": {
+  "gia_tri": 0.1681846381731721,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_lobo_hong_thai_binh_s0_lobo_hong_thai_binh_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/U-Net/hong_thai_binh/csi_nguong_toi_uu": {
+  "gia_tri": 0.13289448034725804,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_lobo_hong_thai_binh_s0_lobo_hong_thai_binh_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/U-Net/hong_thai_binh/pr_auc": {
+  "gia_tri": 0.13575636928746057,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_lobo_hong_thai_binh_s0_lobo_hong_thai_binh_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/XGBoost/hong_thai_binh/csi_nguong_toi_uu": {
+  "gia_tri": 0.053740616877019934,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b2_lobo_hong_thai_binh_lobo_hong_thai_binh_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/XGBoost/hong_thai_binh/pr_auc": {
+  "gia_tri": 0.04725237097222512,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b2_lobo_hong_thai_binh_lobo_hong_thai_binh_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/TerraMind/tb/csi_nguong_toi_uu": {
+  "gia_tri": 0.15173518647606354,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_lobo_vu_gia_thu_bon_s0_lobo_vu_gia_thu_bon_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_lobo_huong_s0_lobo_huong_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_lobo_tra_khuc_s0_lobo_tra_khuc_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_lobo_ca_s0_lobo_ca_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_lobo_hong_thai_binh_s0_lobo_hong_thai_binh_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/TerraMind/tb/pr_auc": {
+  "gia_tri": 0.20106961439508006,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_lobo_vu_gia_thu_bon_s0_lobo_vu_gia_thu_bon_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_lobo_huong_s0_lobo_huong_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_lobo_tra_khuc_s0_lobo_tra_khuc_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_lobo_ca_s0_lobo_ca_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_lobo_hong_thai_binh_s0_lobo_hong_thai_binh_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/U-Net/tb/csi_nguong_toi_uu": {
+  "gia_tri": 0.15584737350458394,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_lobo_vu_gia_thu_bon_s0_lobo_vu_gia_thu_bon_gfs.json",
+   "results/danh_gia/unet_b3_gfs_lobo_huong_s0_lobo_huong_gfs.json",
+   "results/danh_gia/unet_b3_gfs_lobo_tra_khuc_s0_lobo_tra_khuc_gfs.json",
+   "results/danh_gia/unet_b3_gfs_lobo_ca_s0_lobo_ca_gfs.json",
+   "results/danh_gia/unet_b3_gfs_lobo_hong_thai_binh_s0_lobo_hong_thai_binh_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/U-Net/tb/pr_auc": {
+  "gia_tri": 0.19512180812364815,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_lobo_vu_gia_thu_bon_s0_lobo_vu_gia_thu_bon_gfs.json",
+   "results/danh_gia/unet_b3_gfs_lobo_huong_s0_lobo_huong_gfs.json",
+   "results/danh_gia/unet_b3_gfs_lobo_tra_khuc_s0_lobo_tra_khuc_gfs.json",
+   "results/danh_gia/unet_b3_gfs_lobo_ca_s0_lobo_ca_gfs.json",
+   "results/danh_gia/unet_b3_gfs_lobo_hong_thai_binh_s0_lobo_hong_thai_binh_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/XGBoost/tb/csi_nguong_toi_uu": {
+  "gia_tri": 0.12104797827240894,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/b2_lobo_vu_gia_thu_bon_lobo_vu_gia_thu_bon_gfs.json",
+   "results/danh_gia/b2_lobo_huong_lobo_huong_gfs.json",
+   "results/danh_gia/b2_lobo_tra_khuc_lobo_tra_khuc_gfs.json",
+   "results/danh_gia/b2_lobo_ca_lobo_ca_gfs.json",
+   "results/danh_gia/b2_lobo_hong_thai_binh_lobo_hong_thai_binh_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "lobo/XGBoost/tb/pr_auc": {
+  "gia_tri": 0.14263932506144147,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/b2_lobo_vu_gia_thu_bon_lobo_vu_gia_thu_bon_gfs.json",
+   "results/danh_gia/b2_lobo_huong_lobo_huong_gfs.json",
+   "results/danh_gia/b2_lobo_tra_khuc_lobo_tra_khuc_gfs.json",
+   "results/danh_gia/b2_lobo_ca_lobo_ca_gfs.json",
+   "results/danh_gia/b2_lobo_hong_thai_binh_lobo_hong_thai_binh_gfs.json"
+  ],
+  "khoa_json": "tong/pr_auc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/UNOSAT_ST1_20240912_RedRiverDelta/so_o": {
+  "gia_tri": 1032.0,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_unosat/gfm_so_tham_chieu/theo_ban_do/UNOSAT_ST1_20240912_RedRiverDelta/so_o",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "kiem/UNOSAT_ST1_20240912_RedRiverDelta/iou": {
+  "gia_tri": 0.5304375135320438,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_unosat/gfm_so_tham_chieu/theo_ban_do/UNOSAT_ST1_20240912_RedRiverDelta/iou",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/UNOSAT_ST1_20240912_RedRiverDelta/bo_sot": {
+  "gia_tri": 0.45123022539549207,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_unosat/gfm_so_tham_chieu/theo_ban_do/UNOSAT_ST1_20240912_RedRiverDelta/bo_sot",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/UNOSAT_ST1_20240912_RedRiverDelta/bao_nham": {
+  "gia_tri": 0.0592471112933306,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_unosat/gfm_so_tham_chieu/theo_ban_do/UNOSAT_ST1_20240912_RedRiverDelta/bao_nham",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/UNOSAT_ST1_20240925_RedRiverDelta/so_o": {
+  "gia_tri": 1031.0,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_unosat/gfm_so_tham_chieu/theo_ban_do/UNOSAT_ST1_20240925_RedRiverDelta/so_o",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "kiem/UNOSAT_ST1_20240925_RedRiverDelta/iou": {
+  "gia_tri": 0.41498856225886854,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_unosat/gfm_so_tham_chieu/theo_ban_do/UNOSAT_ST1_20240925_RedRiverDelta/iou",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/UNOSAT_ST1_20240925_RedRiverDelta/bo_sot": {
+  "gia_tri": 0.5708412424016451,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_unosat/gfm_so_tham_chieu/theo_ban_do/UNOSAT_ST1_20240925_RedRiverDelta/bo_sot",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/UNOSAT_ST1_20240925_RedRiverDelta/bao_nham": {
+  "gia_tri": 0.07370092853963822,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_unosat/gfm_so_tham_chieu/theo_ban_do/UNOSAT_ST1_20240925_RedRiverDelta/bao_nham",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_unosat/so_ban_do": {
+  "gia_tri": 2.0,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_unosat/gfm_so_tham_chieu/tong/so_ban_do",
+  "dinh_dang": "\\num{{{:,.0f}}} maps",
+  "mo_ta": ""
+ },
+ "kiem/test_a_unosat/iou": {
+  "gia_tri": 0.4967018424905808,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_unosat/gfm_so_tham_chieu/tong/iou",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_unosat/bo_sot": {
+  "gia_tri": 0.48619202367270375,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_unosat/gfm_so_tham_chieu/tong/bo_sot",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_unosat/bao_nham": {
+  "gia_tri": 0.06281733389455423,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_unosat/gfm_so_tham_chieu/tong/bao_nham",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/EMSR848_AOI01_mon3/so_o": {
+  "gia_tri": 11.0,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/gfm_so_tham_chieu/theo_ban_do/EMSR848_AOI01_mon3/so_o",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "kiem/EMSR848_AOI01_mon3/iou": {
+  "gia_tri": 0.25322101090188304,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/gfm_so_tham_chieu/theo_ban_do/EMSR848_AOI01_mon3/iou",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/EMSR848_AOI01_mon3/bo_sot": {
+  "gia_tri": 0.7141258741258741,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/gfm_so_tham_chieu/theo_ban_do/EMSR848_AOI01_mon3/bo_sot",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/EMSR848_AOI01_mon3/bao_nham": {
+  "gia_tri": 0.31085637221847606,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/gfm_so_tham_chieu/theo_ban_do/EMSR848_AOI01_mon3/bao_nham",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/EMSR848_AOI02_mon2/so_o": {
+  "gia_tri": 32.0,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/gfm_so_tham_chieu/theo_ban_do/EMSR848_AOI02_mon2/so_o",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "kiem/EMSR848_AOI02_mon2/iou": {
+  "gia_tri": 0.09462365591397849,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/gfm_so_tham_chieu/theo_ban_do/EMSR848_AOI02_mon2/iou",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/EMSR848_AOI02_mon2/bo_sot": {
+  "gia_tri": 0.6894117647058824,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/gfm_so_tham_chieu/theo_ban_do/EMSR848_AOI02_mon2/bo_sot",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/EMSR848_AOI02_mon2/bao_nham": {
+  "gia_tri": 0.8802177858439202,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/gfm_so_tham_chieu/theo_ban_do/EMSR848_AOI02_mon2/bao_nham",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/EMSR848_AOI03_mon2/so_o": {
+  "gia_tri": 81.0,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/gfm_so_tham_chieu/theo_ban_do/EMSR848_AOI03_mon2/so_o",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "kiem/EMSR848_AOI03_mon2/iou": {
+  "gia_tri": 0.7316634918061579,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/gfm_so_tham_chieu/theo_ban_do/EMSR848_AOI03_mon2/iou",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/EMSR848_AOI03_mon2/bo_sot": {
+  "gia_tri": 0.2328547853616732,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/gfm_so_tham_chieu/theo_ban_do/EMSR848_AOI03_mon2/bo_sot",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/EMSR848_AOI03_mon2/bao_nham": {
+  "gia_tri": 0.0594558921857226,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/gfm_so_tham_chieu/theo_ban_do/EMSR848_AOI03_mon2/bao_nham",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_b_ems/so_ban_do": {
+  "gia_tri": 3.0,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/gfm_so_tham_chieu/tong/so_ban_do",
+  "dinh_dang": "\\num{{{:,.0f}}} maps",
+  "mo_ta": ""
+ },
+ "kiem/test_b_ems/iou": {
+  "gia_tri": 0.7132906319843095,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/gfm_so_tham_chieu/tong/iou",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_b_ems/bo_sot": {
+  "gia_tri": 0.24604142130021833,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/gfm_so_tham_chieu/tong/bo_sot",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_b_ems/bao_nham": {
+  "gia_tri": 0.07030387444159462,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/gfm_so_tham_chieu/tong/bao_nham",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/quang_hoc/so_ban_do": {
+  "gia_tri": 8.0,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_quang_hoc/gfm_so_tham_chieu/tong/so_ban_do",
+  "dinh_dang": "\\num{{{:,.0f}}} maps",
+  "mo_ta": ""
+ },
+ "kiem/quang_hoc/gfm_so_tham_chieu/iou": {
+  "gia_tri": 0.4284194861665378,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_quang_hoc/gfm_so_tham_chieu/tong/iou",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/quang_hoc/gfm_so_tham_chieu/bo_sot": {
+  "gia_tri": 0.46858942023602973,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_quang_hoc/gfm_so_tham_chieu/tong/bo_sot",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/quang_hoc/gfm_so_tham_chieu/bao_nham": {
+  "gia_tri": 0.31147340826659964,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_quang_hoc/gfm_so_tham_chieu/tong/bao_nham",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/quang_hoc/phu_so_tham_chieu/iou": {
+  "gia_tri": 0.39188530356110574,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_quang_hoc/phu_so_tham_chieu/tong/iou",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/quang_hoc/phu_so_tham_chieu/bo_sot": {
+  "gia_tri": 0.3762063403196213,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_quang_hoc/phu_so_tham_chieu/tong/bo_sot",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/quang_hoc/phu_so_tham_chieu/bao_nham": {
+  "gia_tri": 0.4868302248164531,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_quang_hoc/phu_so_tham_chieu/tong/bao_nham",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_unosat/unet_b3_gfs/theo_tham_chieu/tb": {
+  "gia_tri": 0.2882636206101646,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_unosat/mo_hinh_tb_3_seed/unet_b3_gfs/theo_tham_chieu/tb",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_unosat/unet_b3_gfs/theo_tham_chieu/dlc": {
+  "gia_tri": 0.02560566031070289,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_unosat/mo_hinh_tb_3_seed/unet_b3_gfs/theo_tham_chieu/dlc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_unosat/unet_b3_gfs/theo_gfm/tb": {
+  "gia_tri": 0.23274811322288236,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_unosat/mo_hinh_tb_3_seed/unet_b3_gfs/theo_gfm/tb",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_unosat/unet_b3_gfs/theo_gfm/dlc": {
+  "gia_tri": 0.04942317507034269,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_unosat/mo_hinh_tb_3_seed/unet_b3_gfs/theo_gfm/dlc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_quang_hoc/unet_b3_gfs/theo_tham_chieu/tb": {
+  "gia_tri": 0.21363023485403407,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_quang_hoc/mo_hinh_tb_3_seed/unet_b3_gfs/theo_tham_chieu/tb",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_quang_hoc/unet_b3_gfs/theo_tham_chieu/dlc": {
+  "gia_tri": 0.02439539062353152,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_quang_hoc/mo_hinh_tb_3_seed/unet_b3_gfs/theo_tham_chieu/dlc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_quang_hoc/unet_b3_gfs/theo_gfm/tb": {
+  "gia_tri": 0.2651827993509967,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_quang_hoc/mo_hinh_tb_3_seed/unet_b3_gfs/theo_gfm/tb",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_quang_hoc/unet_b3_gfs/theo_gfm/dlc": {
+  "gia_tri": 0.054730750535859504,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_quang_hoc/mo_hinh_tb_3_seed/unet_b3_gfs/theo_gfm/dlc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_b_ems/unet_b3_gfs/theo_tham_chieu/tb": {
+  "gia_tri": 0.21435922735332788,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/mo_hinh_tb_3_seed/unet_b3_gfs/theo_tham_chieu/tb",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_b_ems/unet_b3_gfs/theo_tham_chieu/dlc": {
+  "gia_tri": 0.009789712839162905,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/mo_hinh_tb_3_seed/unet_b3_gfs/theo_tham_chieu/dlc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_b_ems/unet_b3_gfs/theo_gfm/tb": {
+  "gia_tri": 0.1833193459335478,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/mo_hinh_tb_3_seed/unet_b3_gfs/theo_gfm/tb",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_b_ems/unet_b3_gfs/theo_gfm/dlc": {
+  "gia_tri": 0.007478565554900221,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/mo_hinh_tb_3_seed/unet_b3_gfs/theo_gfm/dlc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_unosat/prithvi_b4_gfs/theo_tham_chieu/tb": {
+  "gia_tri": 0.11705244845229308,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_unosat/mo_hinh_tb_3_seed/prithvi_b4_gfs/theo_tham_chieu/tb",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_unosat/prithvi_b4_gfs/theo_tham_chieu/dlc": {
+  "gia_tri": 0.03792736616295109,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_unosat/mo_hinh_tb_3_seed/prithvi_b4_gfs/theo_tham_chieu/dlc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_unosat/prithvi_b4_gfs/theo_gfm/tb": {
+  "gia_tri": 0.11159027510012538,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_unosat/mo_hinh_tb_3_seed/prithvi_b4_gfs/theo_gfm/tb",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_unosat/prithvi_b4_gfs/theo_gfm/dlc": {
+  "gia_tri": 0.028563061336643474,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_unosat/mo_hinh_tb_3_seed/prithvi_b4_gfs/theo_gfm/dlc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_quang_hoc/prithvi_b4_gfs/theo_tham_chieu/tb": {
+  "gia_tri": 0.09822675872860727,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_quang_hoc/mo_hinh_tb_3_seed/prithvi_b4_gfs/theo_tham_chieu/tb",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_quang_hoc/prithvi_b4_gfs/theo_tham_chieu/dlc": {
+  "gia_tri": 0.03546381344524357,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_quang_hoc/mo_hinh_tb_3_seed/prithvi_b4_gfs/theo_tham_chieu/dlc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_quang_hoc/prithvi_b4_gfs/theo_gfm/tb": {
+  "gia_tri": 0.12853491727914315,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_quang_hoc/mo_hinh_tb_3_seed/prithvi_b4_gfs/theo_gfm/tb",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_quang_hoc/prithvi_b4_gfs/theo_gfm/dlc": {
+  "gia_tri": 0.03688869149995199,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_quang_hoc/mo_hinh_tb_3_seed/prithvi_b4_gfs/theo_gfm/dlc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_b_ems/prithvi_b4_gfs/theo_tham_chieu/tb": {
+  "gia_tri": 0.14756930131048257,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/mo_hinh_tb_3_seed/prithvi_b4_gfs/theo_tham_chieu/tb",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_b_ems/prithvi_b4_gfs/theo_tham_chieu/dlc": {
+  "gia_tri": 0.04676916683568393,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/mo_hinh_tb_3_seed/prithvi_b4_gfs/theo_tham_chieu/dlc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_b_ems/prithvi_b4_gfs/theo_gfm/tb": {
+  "gia_tri": 0.13545190193696427,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/mo_hinh_tb_3_seed/prithvi_b4_gfs/theo_gfm/tb",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_b_ems/prithvi_b4_gfs/theo_gfm/dlc": {
+  "gia_tri": 0.044245426484257284,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/mo_hinh_tb_3_seed/prithvi_b4_gfs/theo_gfm/dlc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_unosat/utae_b5_gfs/theo_tham_chieu/tb": {
+  "gia_tri": 0.2829251857817804,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_unosat/mo_hinh_tb_3_seed/utae_b5_gfs/theo_tham_chieu/tb",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_unosat/utae_b5_gfs/theo_tham_chieu/dlc": {
+  "gia_tri": 0.035137006701187745,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_unosat/mo_hinh_tb_3_seed/utae_b5_gfs/theo_tham_chieu/dlc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_unosat/utae_b5_gfs/theo_gfm/tb": {
+  "gia_tri": 0.2827645106282021,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_unosat/mo_hinh_tb_3_seed/utae_b5_gfs/theo_gfm/tb",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_unosat/utae_b5_gfs/theo_gfm/dlc": {
+  "gia_tri": 0.00815035305511167,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_unosat/mo_hinh_tb_3_seed/utae_b5_gfs/theo_gfm/dlc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_quang_hoc/utae_b5_gfs/theo_tham_chieu/tb": {
+  "gia_tri": 0.22870266160856464,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_quang_hoc/mo_hinh_tb_3_seed/utae_b5_gfs/theo_tham_chieu/tb",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_quang_hoc/utae_b5_gfs/theo_tham_chieu/dlc": {
+  "gia_tri": 0.0350409386679768,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_quang_hoc/mo_hinh_tb_3_seed/utae_b5_gfs/theo_tham_chieu/dlc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_quang_hoc/utae_b5_gfs/theo_gfm/tb": {
+  "gia_tri": 0.308076675763755,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_quang_hoc/mo_hinh_tb_3_seed/utae_b5_gfs/theo_gfm/tb",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_quang_hoc/utae_b5_gfs/theo_gfm/dlc": {
+  "gia_tri": 0.025354944435553216,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_quang_hoc/mo_hinh_tb_3_seed/utae_b5_gfs/theo_gfm/dlc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_b_ems/utae_b5_gfs/theo_tham_chieu/tb": {
+  "gia_tri": 0.246447303356081,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/mo_hinh_tb_3_seed/utae_b5_gfs/theo_tham_chieu/tb",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_b_ems/utae_b5_gfs/theo_tham_chieu/dlc": {
+  "gia_tri": 0.014238072742061073,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/mo_hinh_tb_3_seed/utae_b5_gfs/theo_tham_chieu/dlc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_b_ems/utae_b5_gfs/theo_gfm/tb": {
+  "gia_tri": 0.21129453318497574,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/mo_hinh_tb_3_seed/utae_b5_gfs/theo_gfm/tb",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_b_ems/utae_b5_gfs/theo_gfm/dlc": {
+  "gia_tri": 0.013349444450753345,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/mo_hinh_tb_3_seed/utae_b5_gfs/theo_gfm/dlc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_unosat/hop_nhat_gfs/theo_tham_chieu/tb": {
+  "gia_tri": 0.2407789522989543,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_unosat/mo_hinh_tb_3_seed/hop_nhat_gfs/theo_tham_chieu/tb",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_unosat/hop_nhat_gfs/theo_tham_chieu/dlc": {
+  "gia_tri": 0.03463864870470183,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_unosat/mo_hinh_tb_3_seed/hop_nhat_gfs/theo_tham_chieu/dlc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_unosat/hop_nhat_gfs/theo_gfm/tb": {
+  "gia_tri": 0.25184526885668707,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_unosat/mo_hinh_tb_3_seed/hop_nhat_gfs/theo_gfm/tb",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_unosat/hop_nhat_gfs/theo_gfm/dlc": {
+  "gia_tri": 0.017066388928001667,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_unosat/mo_hinh_tb_3_seed/hop_nhat_gfs/theo_gfm/dlc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_quang_hoc/hop_nhat_gfs/theo_tham_chieu/tb": {
+  "gia_tri": 0.18922306419866688,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_quang_hoc/mo_hinh_tb_3_seed/hop_nhat_gfs/theo_tham_chieu/tb",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_quang_hoc/hop_nhat_gfs/theo_tham_chieu/dlc": {
+  "gia_tri": 0.017681126055003694,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_quang_hoc/mo_hinh_tb_3_seed/hop_nhat_gfs/theo_tham_chieu/dlc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_quang_hoc/hop_nhat_gfs/theo_gfm/tb": {
+  "gia_tri": 0.26688743913024965,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_quang_hoc/mo_hinh_tb_3_seed/hop_nhat_gfs/theo_gfm/tb",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_a_quang_hoc/hop_nhat_gfs/theo_gfm/dlc": {
+  "gia_tri": 0.01868732939739439,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_quang_hoc/mo_hinh_tb_3_seed/hop_nhat_gfs/theo_gfm/dlc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_b_ems/hop_nhat_gfs/theo_tham_chieu/tb": {
+  "gia_tri": 0.20648504235007606,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/mo_hinh_tb_3_seed/hop_nhat_gfs/theo_tham_chieu/tb",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_b_ems/hop_nhat_gfs/theo_tham_chieu/dlc": {
+  "gia_tri": 0.01745563995300999,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/mo_hinh_tb_3_seed/hop_nhat_gfs/theo_tham_chieu/dlc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_b_ems/hop_nhat_gfs/theo_gfm/tb": {
+  "gia_tri": 0.18618406327112463,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/mo_hinh_tb_3_seed/hop_nhat_gfs/theo_gfm/tb",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/test_b_ems/hop_nhat_gfs/theo_gfm/dlc": {
+  "gia_tri": 0.01752727306181373,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_b_ems/mo_hinh_tb_3_seed/hop_nhat_gfs/theo_gfm/dlc",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "ghep_cap/test_a/b0/hieu": {
+  "gia_tri": 0.157704346590259,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_a/b0/thap": {
+  "gia_tri": 0.13194348225345806,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_a/b0/cao": {
+  "gia_tri": 0.1822932962688454,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_a/b0/p_holm": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap), Holm"
+ },
+ "ghep_cap/test_a/b1/hieu": {
+  "gia_tri": 0.2098699086260682,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_a/b1/thap": {
+  "gia_tri": 0.1833200680853183,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_a/b1/cao": {
+  "gia_tri": 0.23423341340682866,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_a/b1/p_holm": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap), Holm"
+ },
+ "ghep_cap/test_a/b2/hieu": {
+  "gia_tri": 0.04549704447958264,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_a/b2/thap": {
+  "gia_tri": 0.03689408743375025,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_a/b2/cao": {
+  "gia_tri": 0.05451158811684685,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_a/b2/p_holm": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap), Holm"
+ },
+ "ghep_cap/test_a/b6/hieu": {
+  "gia_tri": 0.06531137902595927,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_a/b6/thap": {
+  "gia_tri": 0.04994392883276258,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_a/b6/cao": {
+  "gia_tri": 0.08113701380516415,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_a/b6/p_holm": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap), Holm"
+ },
+ "ghep_cap/test_a/unet_b3_gfs_s0/hieu": {
+  "gia_tri": 0.03426251457343679,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_a/unet_b3_gfs_s0/thap": {
+  "gia_tri": 0.023577455585087448,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_a/unet_b3_gfs_s0/cao": {
+  "gia_tri": 0.04420344342963095,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_a/unet_b3_gfs_s0/p_holm": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap), Holm"
+ },
+ "ghep_cap/test_a/prithvi_b4_gfs_s0/hieu": {
+  "gia_tri": 0.1386103358851718,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_a/prithvi_b4_gfs_s0/thap": {
+  "gia_tri": 0.11655411013911064,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_a/prithvi_b4_gfs_s0/cao": {
+  "gia_tri": 0.16033324911778285,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_a/prithvi_b4_gfs_s0/p_holm": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap), Holm"
+ },
+ "ghep_cap/test_a/utae_b5_gfs_s0/hieu": {
+  "gia_tri": -0.02997902740134556,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_a/utae_b5_gfs_s0/thap": {
+  "gia_tri": -0.0375064096348319,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_a/utae_b5_gfs_s0/cao": {
+  "gia_tri": -0.023180684672178223,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_a/utae_b5_gfs_s0/p_holm": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap), Holm"
+ },
+ "ghep_cap/test_a/hop_nhat_imerg_s0/hieu": {
+  "gia_tri": 0.03696237591435697,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_a/hop_nhat_imerg_s0/thap": {
+  "gia_tri": 0.02665809809658697,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_a/hop_nhat_imerg_s0/cao": {
+  "gia_tri": 0.046743419833954136,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_a/hop_nhat_imerg_s0/p_holm": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_a, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap), Holm"
+ },
+ "ghep_cap/test_b/b0/hieu": {
+  "gia_tri": 0.05628061301905572,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_b/b0/thap": {
+  "gia_tri": 0.03244438829235493,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_b/b0/cao": {
+  "gia_tri": 0.08651974634302319,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_b/b0/p_holm": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap), Holm"
+ },
+ "ghep_cap/test_b/b1/hieu": {
+  "gia_tri": 0.0252380332634278,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_b/b1/thap": {
+  "gia_tri": -0.0032196916289227826,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_b/b1/cao": {
+  "gia_tri": 0.052739565645392845,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_b/b1/p_holm": {
+  "gia_tri": 0.108,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap), Holm"
+ },
+ "ghep_cap/test_b/b2/hieu": {
+  "gia_tri": -0.026606701443207648,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_b/b2/thap": {
+  "gia_tri": -0.04105819959495576,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_b/b2/cao": {
+  "gia_tri": -0.013776529553801016,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_b/b2/p_holm": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap), Holm"
+ },
+ "ghep_cap/test_b/b6/hieu": {
+  "gia_tri": 0.13396785906279446,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_b/b6/thap": {
+  "gia_tri": 0.11434599986391553,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_b/b6/cao": {
+  "gia_tri": 0.1520365034665159,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_b/b6/p_holm": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap), Holm"
+ },
+ "ghep_cap/test_b/unet_b3_gfs_s0/hieu": {
+  "gia_tri": -0.03637401773325316,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_b/unet_b3_gfs_s0/thap": {
+  "gia_tri": -0.047273327489642275,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_b/unet_b3_gfs_s0/cao": {
+  "gia_tri": -0.02640410626776436,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_b/unet_b3_gfs_s0/p_holm": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap), Holm"
+ },
+ "ghep_cap/test_b/prithvi_b4_gfs_s0/hieu": {
+  "gia_tri": -0.023708955360747574,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_b/prithvi_b4_gfs_s0/thap": {
+  "gia_tri": -0.044713430024561324,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_b/prithvi_b4_gfs_s0/cao": {
+  "gia_tri": -0.004253984138363004,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_b/prithvi_b4_gfs_s0/p_holm": {
+  "gia_tri": 0.056,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap), Holm"
+ },
+ "ghep_cap/test_b/utae_b5_gfs_s0/hieu": {
+  "gia_tri": -0.006577858852835156,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_b/utae_b5_gfs_s0/thap": {
+  "gia_tri": -0.013580200845060607,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_b/utae_b5_gfs_s0/cao": {
+  "gia_tri": 4.841016962872141e-05,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_b/utae_b5_gfs_s0/p_holm": {
+  "gia_tri": 0.108,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap), Holm"
+ },
+ "ghep_cap/test_b/hop_nhat_imerg_s0/hieu": {
+  "gia_tri": -0.010239956370856396,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_b/hop_nhat_imerg_s0/thap": {
+  "gia_tri": -0.020285161959359043,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_b/hop_nhat_imerg_s0/cao": {
+  "gia_tri": -0.001169279752333305,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap)"
+ },
+ "ghep_cap/test_b/hop_nhat_imerg_s0/p_holm": {
+  "gia_tri": 0.07500000000000001,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap cụm theo ô B=2000 seed=0, test_b, gộp 3 seed (scripts/tong_hop.py::bang_ghep_cap), Holm"
+ },
+ "ghep_cap2/test_a/b0/hieu": {
+  "gia_tri": 0.157704346590259,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_a/b0/thap": {
+  "gia_tri": 0.12867634923152613,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_a/b0/cao": {
+  "gia_tri": 0.1864553876618395,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_a/b0/p_holm_k1": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_a/b0/p_holm_k2": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_a/b0/p_holm_k5": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_a/b1/hieu": {
+  "gia_tri": 0.2098699086260682,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_a/b1/thap": {
+  "gia_tri": 0.1802964939294668,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_a/b1/cao": {
+  "gia_tri": 0.23843946027338261,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_a/b1/p_holm_k1": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_a/b1/p_holm_k2": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_a/b1/p_holm_k5": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_a/b2/hieu": {
+  "gia_tri": 0.04549704447958264,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_a/b2/thap": {
+  "gia_tri": 0.02865093332769326,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_a/b2/cao": {
+  "gia_tri": 0.06265116509169277,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_a/b2/p_holm_k1": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_a/b2/p_holm_k2": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_a/b2/p_holm_k5": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_a/b6/hieu": {
+  "gia_tri": 0.06531137902595927,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_a/b6/thap": {
+  "gia_tri": 0.04455340694595248,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_a/b6/cao": {
+  "gia_tri": 0.08745024696184496,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_a/b6/p_holm_k1": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_a/b6/p_holm_k2": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_a/b6/p_holm_k5": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_a/unet_b3_gfs_s0/hieu": {
+  "gia_tri": 0.03426251457343679,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_a/unet_b3_gfs_s0/thap": {
+  "gia_tri": -0.02051603155375274,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_a/unet_b3_gfs_s0/cao": {
+  "gia_tri": 0.0710783127606377,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_a/unet_b3_gfs_s0/p_holm_k1": {
+  "gia_tri": 0.314,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_a/unet_b3_gfs_s0/p_holm_k2": {
+  "gia_tri": 0.317,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_a/unet_b3_gfs_s0/p_holm_k5": {
+  "gia_tri": 0.325,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_a/prithvi_b4_gfs_s0/hieu": {
+  "gia_tri": 0.1386103358851718,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_a/prithvi_b4_gfs_s0/thap": {
+  "gia_tri": 0.1012915164176385,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_a/prithvi_b4_gfs_s0/cao": {
+  "gia_tri": 0.17437185381728643,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_a/prithvi_b4_gfs_s0/p_holm_k1": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_a/prithvi_b4_gfs_s0/p_holm_k2": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_a/prithvi_b4_gfs_s0/p_holm_k5": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_a/utae_b5_gfs_s0/hieu": {
+  "gia_tri": -0.02997902740134556,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_a/utae_b5_gfs_s0/thap": {
+  "gia_tri": -0.048776439265894096,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_a/utae_b5_gfs_s0/cao": {
+  "gia_tri": -0.011736643776332423,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_a/utae_b5_gfs_s0/p_holm_k1": {
+  "gia_tri": 0.003,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_a/utae_b5_gfs_s0/p_holm_k2": {
+  "gia_tri": 0.009000000000000001,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_a/utae_b5_gfs_s0/p_holm_k5": {
+  "gia_tri": 0.012,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_a/hop_nhat_imerg_s0/hieu": {
+  "gia_tri": 0.03696237591435697,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_a/hop_nhat_imerg_s0/thap": {
+  "gia_tri": -0.007672946925661193,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_a/hop_nhat_imerg_s0/cao": {
+  "gia_tri": 0.07013141221903897,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_a/hop_nhat_imerg_s0/p_holm_k1": {
+  "gia_tri": 0.148,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_a/hop_nhat_imerg_s0/p_holm_k2": {
+  "gia_tri": 0.142,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_a/hop_nhat_imerg_s0/p_holm_k5": {
+  "gia_tri": 0.218,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_b/b0/hieu": {
+  "gia_tri": 0.05628061301905572,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_b/b0/thap": {
+  "gia_tri": 0.029978606322786937,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_b/b0/cao": {
+  "gia_tri": 0.08824359683555366,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_b/b0/p_holm_k1": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_b/b0/p_holm_k2": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_b/b0/p_holm_k5": {
+  "gia_tri": 0.11399999999999999,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_b/b1/hieu": {
+  "gia_tri": 0.0252380332634278,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_b/b1/thap": {
+  "gia_tri": -0.006264429344827442,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_b/b1/cao": {
+  "gia_tri": 0.05385330724398318,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_b/b1/p_holm_k1": {
+  "gia_tri": 0.476,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_b/b1/p_holm_k2": {
+  "gia_tri": 1.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_b/b1/p_holm_k5": {
+  "gia_tri": 1.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_b/b2/hieu": {
+  "gia_tri": -0.026606701443207648,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_b/b2/thap": {
+  "gia_tri": -0.04588977115711065,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_b/b2/cao": {
+  "gia_tri": -0.01003285498855912,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_b/b2/p_holm_k1": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_b/b2/p_holm_k2": {
+  "gia_tri": 0.07,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_b/b2/p_holm_k5": {
+  "gia_tri": 0.52,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_b/b6/hieu": {
+  "gia_tri": 0.13396785906279446,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_b/b6/thap": {
+  "gia_tri": 0.10991809505583708,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_b/b6/cao": {
+  "gia_tri": 0.15534748489641756,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_b/b6/p_holm_k1": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_b/b6/p_holm_k2": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_b/b6/p_holm_k5": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_b/unet_b3_gfs_s0/hieu": {
+  "gia_tri": -0.03637401773325316,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_b/unet_b3_gfs_s0/thap": {
+  "gia_tri": -0.06233157704991317,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_b/unet_b3_gfs_s0/cao": {
+  "gia_tri": -0.015322037705673796,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_b/unet_b3_gfs_s0/p_holm_k1": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_b/unet_b3_gfs_s0/p_holm_k2": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_b/unet_b3_gfs_s0/p_holm_k5": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_b/prithvi_b4_gfs_s0/hieu": {
+  "gia_tri": -0.023708955360747574,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_b/prithvi_b4_gfs_s0/thap": {
+  "gia_tri": -0.05597179026521584,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_b/prithvi_b4_gfs_s0/cao": {
+  "gia_tri": 0.013664521720126185,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_b/prithvi_b4_gfs_s0/p_holm_k1": {
+  "gia_tri": 0.612,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_b/prithvi_b4_gfs_s0/p_holm_k2": {
+  "gia_tri": 1.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_b/prithvi_b4_gfs_s0/p_holm_k5": {
+  "gia_tri": 1.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_b/utae_b5_gfs_s0/hieu": {
+  "gia_tri": -0.006577858852835156,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_b/utae_b5_gfs_s0/thap": {
+  "gia_tri": -0.02598753499397481,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_b/utae_b5_gfs_s0/cao": {
+  "gia_tri": 0.011453844635155374,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_b/utae_b5_gfs_s0/p_holm_k1": {
+  "gia_tri": 0.612,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_b/utae_b5_gfs_s0/p_holm_k2": {
+  "gia_tri": 1.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_b/utae_b5_gfs_s0/p_holm_k5": {
+  "gia_tri": 1.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_b/hop_nhat_imerg_s0/hieu": {
+  "gia_tri": -0.010239956370856396,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_b/hop_nhat_imerg_s0/thap": {
+  "gia_tri": -0.02898191462372325,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_b/hop_nhat_imerg_s0/cao": {
+  "gia_tri": 0.00454384469897142,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "ghep_cap2/test_b/hop_nhat_imerg_s0/p_holm_k1": {
+  "gia_tri": 0.612,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_b/hop_nhat_imerg_s0/p_holm_k2": {
+  "gia_tri": 1.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "ghep_cap2/test_b/hop_nhat_imerg_s0/p_holm_k5": {
+  "gia_tri": 1.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dat/val/p_holm_k2": {
+  "gia_tri": 1.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_cn/val/p_holm_k2": {
+  "gia_tri": 0.8130000000000001,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dat_tho/val/p_holm_k2": {
+  "gia_tri": 1.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_khi_tuong/val/p_holm_k2": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_s1/val/p_holm_k2": {
+  "gia_tri": 0.52,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dia_hinh/val/p_holm_k2": {
+  "gia_tri": 0.42500000000000004,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dat/test_a/p_holm_k2": {
+  "gia_tri": 0.07,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_cn/test_a/p_holm_k2": {
+  "gia_tri": 0.658,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dat_tho/test_a/p_holm_k2": {
+  "gia_tri": 0.624,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_khi_tuong/test_a/p_holm_k2": {
+  "gia_tri": 0.773,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_s1/test_a/p_holm_k2": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dia_hinh/test_a/p_holm_k2": {
+  "gia_tri": 0.076,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/__nhieu/test_a/p_holm_k2": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/__hoan_vi/test_a/p_holm_k2": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dat/test_b/p_holm_k2": {
+  "gia_tri": 0.15000000000000002,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_cn/test_b/p_holm_k2": {
+  "gia_tri": 0.375,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dat_tho/test_b/p_holm_k2": {
+  "gia_tri": 0.375,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_khi_tuong/test_b/p_holm_k2": {
+  "gia_tri": 0.14700000000000002,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_s1/test_b/p_holm_k2": {
+  "gia_tri": 0.375,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dia_hinh/test_b/p_holm_k2": {
+  "gia_tri": 0.508,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/__nhieu/test_b/p_holm_k2": {
+  "gia_tri": 0.008,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/__hoan_vi/test_b/p_holm_k2": {
+  "gia_tri": 0.508,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dat/val/p_holm_k5": {
+  "gia_tri": 1.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_cn/val/p_holm_k5": {
+  "gia_tri": 0.8999999999999999,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dat_tho/val/p_holm_k5": {
+  "gia_tri": 1.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_khi_tuong/val/p_holm_k5": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_s1/val/p_holm_k5": {
+  "gia_tri": 0.21999999999999997,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dia_hinh/val/p_holm_k5": {
+  "gia_tri": 0.4,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dat/test_a/p_holm_k5": {
+  "gia_tri": 0.155,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_cn/test_a/p_holm_k5": {
+  "gia_tri": 0.794,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dat_tho/test_a/p_holm_k5": {
+  "gia_tri": 0.639,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_khi_tuong/test_a/p_holm_k5": {
+  "gia_tri": 0.824,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_s1/test_a/p_holm_k5": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dia_hinh/test_a/p_holm_k5": {
+  "gia_tri": 0.172,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/__nhieu/test_a/p_holm_k5": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/__hoan_vi/test_a/p_holm_k5": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dat/test_b/p_holm_k5": {
+  "gia_tri": 0.33,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_cn/test_b/p_holm_k5": {
+  "gia_tri": 0.42000000000000004,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dat_tho/test_b/p_holm_k5": {
+  "gia_tri": 0.42000000000000004,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_khi_tuong/test_b/p_holm_k5": {
+  "gia_tri": 0.21,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_s1/test_b/p_holm_k5": {
+  "gia_tri": 0.5940000000000001,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dia_hinh/test_b/p_holm_k5": {
+  "gia_tri": 0.596,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/__nhieu/test_b/p_holm_k5": {
+  "gia_tri": 0.056,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/__hoan_vi/test_b/p_holm_k5": {
+  "gia_tri": 0.596,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dat/val/hieu": {
+  "gia_tri": -0.0006700535560853205,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "bo2/_bo_dat/val/p_holm": {
+  "gia_tri": 1.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dat/test_a/hieu": {
+  "gia_tri": 0.05561056786745916,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "bo2/_bo_dat/test_a/p_holm": {
+  "gia_tri": 0.085,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dat/test_b/hieu": {
+  "gia_tri": -0.019051385672783805,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "bo2/_bo_dat/test_b/p_holm": {
+  "gia_tri": 0.049,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_cn/val/hieu": {
+  "gia_tri": 0.016744084074722138,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "bo2/_bo_cn/val/p_holm": {
+  "gia_tri": 0.669,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_cn/test_a/hieu": {
+  "gia_tri": 0.010958437566650076,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "bo2/_bo_cn/test_a/p_holm": {
+  "gia_tri": 0.628,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_cn/test_b/hieu": {
+  "gia_tri": -0.017112845790088427,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "bo2/_bo_cn/test_b/p_holm": {
+  "gia_tri": 0.26,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dat_tho/val/hieu": {
+  "gia_tri": 0.005701569282809793,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "bo2/_bo_dat_tho/val/p_holm": {
+  "gia_tri": 1.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dat_tho/test_a/hieu": {
+  "gia_tri": 0.05507253057034353,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "bo2/_bo_dat_tho/test_a/p_holm": {
+  "gia_tri": 0.6060000000000001,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dat_tho/test_b/hieu": {
+  "gia_tri": -0.03461523727757085,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "bo2/_bo_dat_tho/test_b/p_holm": {
+  "gia_tri": 0.26,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_khi_tuong/val/hieu": {
+  "gia_tri": 0.0883234100819044,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "bo2/_bo_khi_tuong/val/p_holm": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_khi_tuong/test_a/hieu": {
+  "gia_tri": -0.0024308696946320762,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "bo2/_bo_khi_tuong/test_a/p_holm": {
+  "gia_tri": 0.737,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_khi_tuong/test_b/hieu": {
+  "gia_tri": 0.022482156239822082,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "bo2/_bo_khi_tuong/test_b/p_holm": {
+  "gia_tri": 0.049,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_s1/val/hieu": {
+  "gia_tri": 0.041703599740339936,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "bo2/_bo_s1/val/p_holm": {
+  "gia_tri": 0.41000000000000003,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_s1/test_a/hieu": {
+  "gia_tri": 0.11335946026960086,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "bo2/_bo_s1/test_a/p_holm": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_s1/test_b/hieu": {
+  "gia_tri": -0.0414833052650172,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "bo2/_bo_s1/test_b/p_holm": {
+  "gia_tri": 0.26,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dia_hinh/val/hieu": {
+  "gia_tri": 0.022773429705589404,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "bo2/_bo_dia_hinh/val/p_holm": {
+  "gia_tri": 0.548,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dia_hinh/test_a/hieu": {
+  "gia_tri": 0.06234703157632479,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "bo2/_bo_dia_hinh/test_a/p_holm": {
+  "gia_tri": 0.085,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dia_hinh/test_b/hieu": {
+  "gia_tri": -0.0212194098460384,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "bo2/_bo_dia_hinh/test_b/p_holm": {
+  "gia_tri": 0.297,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/__nhieu/test_a/hieu": {
+  "gia_tri": 0.039834791420813115,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "bo2/__nhieu/test_a/p_holm": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/__nhieu/test_b/hieu": {
+  "gia_tri": 0.019284917836944526,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "bo2/__nhieu/test_b/p_holm": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/__hoan_vi/test_a/hieu": {
+  "gia_tri": 0.06913406197199223,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "bo2/__hoan_vi/test_a/p_holm": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/__hoan_vi/test_b/hieu": {
+  "gia_tri": 0.0137530840983148,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap"
+ },
+ "bo2/__hoan_vi/test_b/p_holm": {
+  "gia_tri": 0.286,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "mua2/ecmwf/test_a/hieu": {
+  "gia_tri": 0.011645198647989408,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, ghép seed, Holm trên 2 phép đổi nguồn"
+ },
+ "mua2/ecmwf/test_a/p_holm": {
+  "gia_tri": 0.005,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, ghép seed, Holm trên 2 phép đổi nguồn"
+ },
+ "mua2/gfs_gsmap_nrt/test_a/hieu": {
+  "gia_tri": 0.02255793757807556,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, ghép seed, Holm trên 2 phép đổi nguồn"
+ },
+ "mua2/gfs_gsmap_nrt/test_a/p_holm": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, ghép seed, Holm trên 2 phép đổi nguồn"
+ },
+ "mua2/ecmwf/test_a/p_holm_k2": {
+  "gia_tri": 0.01,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, ghép seed, Holm trên 2 phép đổi nguồn"
+ },
+ "mua2/gfs_gsmap_nrt/test_a/p_holm_k2": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, ghép seed, Holm trên 2 phép đổi nguồn"
+ },
+ "mua2/ecmwf/test_a/p_holm_k5": {
+  "gia_tri": 0.084,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, ghép seed, Holm trên 2 phép đổi nguồn"
+ },
+ "mua2/gfs_gsmap_nrt/test_a/p_holm_k5": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, ghép seed, Holm trên 2 phép đổi nguồn"
+ },
+ "mua2/ecmwf/test_b/hieu": {
+  "gia_tri": 0.004708467805019295,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, ghép seed, Holm trên 2 phép đổi nguồn"
+ },
+ "mua2/ecmwf/test_b/p_holm": {
+  "gia_tri": 0.004,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, ghép seed, Holm trên 2 phép đổi nguồn"
+ },
+ "mua2/gfs_gsmap_nrt/test_b/hieu": {
+  "gia_tri": 0.004714654227372106,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:+.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, ghép seed, Holm trên 2 phép đổi nguồn"
+ },
+ "mua2/gfs_gsmap_nrt/test_b/p_holm": {
+  "gia_tri": 0.02,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, ghép seed, Holm trên 2 phép đổi nguồn"
+ },
+ "mua2/ecmwf/test_b/p_holm_k2": {
+  "gia_tri": 0.042,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, ghép seed, Holm trên 2 phép đổi nguồn"
+ },
+ "mua2/gfs_gsmap_nrt/test_b/p_holm_k2": {
+  "gia_tri": 0.085,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, ghép seed, Holm trên 2 phép đổi nguồn"
+ },
+ "mua2/ecmwf/test_b/p_holm_k5": {
+  "gia_tri": 0.214,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, ghép seed, Holm trên 2 phép đổi nguồn"
+ },
+ "mua2/gfs_gsmap_nrt/test_b/p_holm_k5": {
+  "gia_tri": 0.278,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, ghép seed, Holm trên 2 phép đổi nguồn"
+ },
+ "val/b0/csi": {
+  "gia_tri": 0.15117060658523548,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b0_val_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "val/b1/csi": {
+  "gia_tri": 0.1063012259170245,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b1_val_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "val/b2/csi": {
+  "gia_tri": 0.1702662729544829,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b2_val_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "val/b6/csi": {
+  "gia_tri": 0.07087082107395515,
+  "ham": "gt",
+  "nguon": [
+   "results/danh_gia/b6_val_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "val/unet_b3_gfs_s0/csi/tb": {
+  "gia_tri": 0.18165220983435956,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_s0_val_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s1_val_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s2_val_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "val/unet_b3_gfs_s0/csi/dlc": {
+  "gia_tri": 0.013589078531817728,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_s0_val_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s1_val_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s2_val_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "val/prithvi_b4_gfs_s0/csi/tb": {
+  "gia_tri": 0.16155803350955714,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/prithvi_b4_gfs_s0_val_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s1_val_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s2_val_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "val/prithvi_b4_gfs_s0/csi/dlc": {
+  "gia_tri": 0.010476428364458801,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/prithvi_b4_gfs_s0_val_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s1_val_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s2_val_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "val/utae_b5_gfs_s0/csi/tb": {
+  "gia_tri": 0.16068029784556478,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/utae_b5_gfs_s0_val_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s1_val_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s2_val_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "val/utae_b5_gfs_s0/csi/dlc": {
+  "gia_tri": 0.008691333695394772,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/utae_b5_gfs_s0_val_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s1_val_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s2_val_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "val/hop_nhat_gfs_s0/csi/tb": {
+  "gia_tri": 0.20425059781324473,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_val_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "val/hop_nhat_gfs_s0/csi/dlc": {
+  "gia_tri": 0.01795926667150052,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_val_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_val_gfs.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "val/hop_nhat_imerg_s0/csi/tb": {
+  "gia_tri": 0.21303131850173376,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_imerg_s0_val_imerg_final.json",
+   "results/danh_gia/hop_nhat_imerg_s1_val_imerg_final.json",
+   "results/danh_gia/hop_nhat_imerg_s2_val_imerg_final.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "val/hop_nhat_imerg_s0/csi/dlc": {
+  "gia_tri": 0.024188011688618914,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_imerg_s0_val_imerg_final.json",
+   "results/danh_gia/hop_nhat_imerg_s1_val_imerg_final.json",
+   "results/danh_gia/hop_nhat_imerg_s2_val_imerg_final.json"
+  ],
+  "khoa_json": "tong/csi_nguong_toi_uu",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "du_lieu/tong_mau": {
+  "gia_tri": 131270.0,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "tong_mau",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "du_lieu/so_mau_test_a": {
+  "gia_tri": 3153.0,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "theo_vai_tro_L/test_a/1",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "du_lieu/so_mau_test_b": {
+  "gia_tri": 3373.0,
+  "ham": "gt",
+  "nguon": [
+   "results/thong_ke_mau.json"
+  ],
+  "khoa_json": "theo_vai_tro_L/test_b/1",
+  "dinh_dang": "\\num{{{:,.0f}}}",
+  "mo_ta": ""
+ },
+ "csi05/test_a/hop_nhat_gfs_s0/tb": {
+  "gia_tri": 0.2404539470893446,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "csi05/test_a/hop_nhat_gfs_s0/dlc": {
+  "gia_tri": 0.009891295440452657,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "csi05/test_b/hop_nhat_gfs_s0/tb": {
+  "gia_tri": 0.17686457469150985,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "csi05/test_b/hop_nhat_gfs_s0/dlc": {
+  "gia_tri": 0.0120898410134325,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/hop_nhat_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/hop_nhat_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "csi05/test_a/unet_b3_gfs_s0/tb": {
+  "gia_tri": 0.2533886310429967,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "csi05/test_a/unet_b3_gfs_s0/dlc": {
+  "gia_tri": 0.03954425311009006,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "csi05/test_b/unet_b3_gfs_s0/tb": {
+  "gia_tri": 0.19732946315286604,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "csi05/test_b/unet_b3_gfs_s0/dlc": {
+  "gia_tri": 0.01845798784532235,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/unet_b3_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/unet_b3_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "csi05/test_a/utae_b5_gfs_s0/tb": {
+  "gia_tri": 0.27737679169808627,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/utae_b5_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "csi05/test_a/utae_b5_gfs_s0/dlc": {
+  "gia_tri": 0.0045947291559389515,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/utae_b5_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "csi05/test_b/utae_b5_gfs_s0/tb": {
+  "gia_tri": 0.17244602069242607,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/utae_b5_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "csi05/test_b/utae_b5_gfs_s0/dlc": {
+  "gia_tri": 0.018815211446846135,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/utae_b5_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/utae_b5_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "csi05/test_a/prithvi_b4_gfs_s0/tb": {
+  "gia_tri": 0.11346130071810183,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/prithvi_b4_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "csi05/test_a/prithvi_b4_gfs_s0/dlc": {
+  "gia_tri": 0.024459867325975996,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/prithvi_b4_gfs_s0_test_a_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s1_test_a_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s2_test_a_gfs.json"
+  ],
+  "khoa_json": "tong/csi",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "csi05/test_b/prithvi_b4_gfs_s0/tb": {
+  "gia_tri": 0.20119608109786818,
+  "ham": "tb",
+  "nguon": [
+   "results/danh_gia/prithvi_b4_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "csi05/test_b/prithvi_b4_gfs_s0/dlc": {
+  "gia_tri": 0.01770488742089427,
+  "ham": "dlc",
+  "nguon": [
+   "results/danh_gia/prithvi_b4_gfs_s0_test_b_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s1_test_b_gfs.json",
+   "results/danh_gia/prithvi_b4_gfs_s2_test_b_gfs.json"
+  ],
+  "khoa_json": "tong/csi",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ }
+}

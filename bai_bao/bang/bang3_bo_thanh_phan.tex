@@ -1,0 +1,78 @@
+% Sinh tự động bởi scripts/tong_hop.py, không sửa tay.
+\begin{tabular}{lccc}
+\toprule
+Variant & Val & Test A & Test B \\
+\midrule
+Full model
+& 0.204% nguon: bo/day_du/val/tb
+$\pm$ 0.018% nguon: bo/day_du/val/dlc
+& 0.242% nguon: bo/day_du/test_a/tb
+$\pm$ 0.016% nguon: bo/day_du/test_a/dlc
+& 0.174% nguon: bo/day_du/test_b/tb
+$\pm$ 0.012% nguon: bo/day_du/test_b/dlc
+\\
+No soil (texture + CN)
+& 0.205% nguon: bo/_bo_dat/val/tb
+$\pm$ 0.014% nguon: bo/_bo_dat/val/dlc
+& 0.195% nguon: bo/_bo_dat/test_a/tb
+$\pm$ 0.039% nguon: bo/_bo_dat/test_a/dlc
+& 0.193% nguon: bo/_bo_dat/test_b/tb
+$\pm$ 0.007% nguon: bo/_bo_dat/test_b/dlc
+\\
+No curve number
+& 0.187% nguon: bo/_bo_cn/val/tb
+$\pm$ 0.019% nguon: bo/_bo_cn/val/dlc
+& 0.233% nguon: bo/_bo_cn/test_a/tb
+$\pm$ 0.010% nguon: bo/_bo_cn/test_a/dlc
+& 0.191% nguon: bo/_bo_cn/test_b/tb
+$\pm$ 0.015% nguon: bo/_bo_cn/test_b/dlc
+\\
+No soil texture
+& 0.196% nguon: bo/_bo_dat_tho/val/tb
+$\pm$ 0.022% nguon: bo/_bo_dat_tho/val/dlc
+& 0.208% nguon: bo/_bo_dat_tho/test_a/tb
+$\pm$ 0.056% nguon: bo/_bo_dat_tho/test_a/dlc
+& 0.207% nguon: bo/_bo_dat_tho/test_b/tb
+$\pm$ 0.036% nguon: bo/_bo_dat_tho/test_b/dlc
+\\
+No weather
+& 0.114% nguon: bo/_bo_khi_tuong/val/tb
+$\pm$ 0.011% nguon: bo/_bo_khi_tuong/val/dlc
+& 0.245% nguon: bo/_bo_khi_tuong/test_a/tb
+$\pm$ 0.002% nguon: bo/_bo_khi_tuong/test_a/dlc
+& 0.152% nguon: bo/_bo_khi_tuong/test_b/tb
+$\pm$ 0.005% nguon: bo/_bo_khi_tuong/test_b/dlc
+\\
+No Sentinel-1
+& 0.162% nguon: bo/_bo_s1/val/tb
+$\pm$ 0.008% nguon: bo/_bo_s1/val/dlc
+& 0.132% nguon: bo/_bo_s1/test_a/tb
+$\pm$ 0.027% nguon: bo/_bo_s1/test_a/dlc
+& 0.210% nguon: bo/_bo_s1/test_b/tb
+$\pm$ 0.035% nguon: bo/_bo_s1/test_b/dlc
+\\
+No terrain
+& 0.180% nguon: bo/_bo_dia_hinh/val/tb
+$\pm$ 0.014% nguon: bo/_bo_dia_hinh/val/dlc
+& 0.196% nguon: bo/_bo_dia_hinh/test_a/tb
+$\pm$ 0.051% nguon: bo/_bo_dia_hinh/test_a/dlc
+& 0.195% nguon: bo/_bo_dia_hinh/test_b/tb
+$\pm$ 0.035% nguon: bo/_bo_dia_hinh/test_b/dlc
+\\
+\midrule
+Soil replaced by Gaussian noise
+& --
+& 0.203% nguon: bo/nhieu/test_a/tb
+$\pm$ 0.015% nguon: bo/nhieu/test_a/dlc
+& 0.155% nguon: bo/nhieu/test_b/tb
+$\pm$ 0.008% nguon: bo/nhieu/test_b/dlc
+\\
+Soil maps permuted across tiles
+& --
+& 0.178% nguon: bo/hoan_vi/test_a/tb
+$\pm$ 0.028% nguon: bo/hoan_vi/test_a/dlc
+& 0.161% nguon: bo/hoan_vi/test_b/tb
+$\pm$ 0.004% nguon: bo/hoan_vi/test_b/dlc
+\\
+\bottomrule
+\end{tabular}

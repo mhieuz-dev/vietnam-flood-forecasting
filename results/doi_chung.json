@@ -1,0 +1,83 @@
+{
+ "b1": {
+  "nguong_hand_m": 1.0,
+  "nguong_api_mm": 307.51654052734375,
+  "chon_tren": "val (9807 mẫu gianh)",
+  "luoi_hand": [
+   1,
+   2,
+   3,
+   5,
+   7,
+   10,
+   15,
+   20,
+   30
+  ],
+  "phan_vi_api": [
+   50,
+   60,
+   70,
+   80,
+   90,
+   95,
+   99
+  ],
+  "thoi_gian_giay": 174.4
+ },
+ "b2": {
+  "so_dong_train": 15261912,
+  "ty_le_ngap_train": 0.0287,
+  "so_cay_tot_nhat": 59,
+  "tham_so": {
+   "objective": "binary:logistic",
+   "eval_metric": "logloss",
+   "max_depth": 8,
+   "eta": 0.1,
+   "subsample": 0.8,
+   "colsample_bytree": 0.8,
+   "tree_method": "hist",
+   "device": "cuda",
+   "seed": 0
+  },
+  "do_quan_trong_gain": {
+   "s1_vh": 2879.59,
+   "s1_vv": 2427.91,
+   "worldcover": 1623.39,
+   "du_bao_mua_o_max": 1517.29,
+   "mua_tn_3n": 826.49,
+   "mua_tn_30n": 701.16,
+   "do_doc": 611.39,
+   "dem": 566.61,
+   "cat_30_100": 526.66,
+   "mua_o_3n": 469.12,
+   "hand": 455.56,
+   "cn": 420.25,
+   "du_bao_mua_tn": 376.25,
+   "t2m_7n": 374.54,
+   "du_bao_mua_o": 328.99,
+   "mua_tn_7n": 315.47,
+   "swvl4_t0": 274.52,
+   "rh_7n": 273.71,
+   "api_t0": 257.09,
+   "swvl2_t0": 251.56,
+   "swvl1_t0": 241.96,
+   "swvl3_t0": 240.3,
+   "mua_o_7n": 240.19,
+   "mua_o_30n": 228.46,
+   "L": 201.58,
+   "mua_o_1n": 178.27,
+   "cat_0_30": 163.83,
+   "set_0_30": 133.03,
+   "dung_trong_0_30": 125.06,
+   "set_30_100": 121.02,
+   "log_dien_tich_thuong_nguon": 100.05,
+   "s1_vv_tru_vh": 20.73,
+   "nuoc_thuong_xuyen": 0.0,
+   "glofas_t0": 0.0,
+   "glofas_max_7n": 0.0
+  },
+  "thoi_gian_huan_luyen_giay": 235.0,
+  "file": "b2_xgb.json"
+ }
+}

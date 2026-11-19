@@ -1,0 +1,162 @@
+% Sinh tự động bởi scripts/tong_hop.py, không sửa tay.
+\begin{tabular}{lccccc}
+\toprule
+Model & CSI & CSI (new flooding) & PR-AUC & Brier & ECE \\
+\midrule
+\multicolumn{6}{l}{\textit{Test A}} \\
+B0 Flood frequency
+& 0.085% nguon: ket_qua/test_a/b0/csi
+& 0.054% nguon: ket_qua/test_a/b0/csi_moi
+& 0.097% nguon: ket_qua/test_a/b0/pr_auc
+& 0.018% nguon: ket_qua/test_a/b0/brier
+& 0.012% nguon: ket_qua/test_a/b0/ece
+\\
+B1 HAND + rainfall
+& 0.033% nguon: ket_qua/test_a/b1/csi
+& 0.029% nguon: ket_qua/test_a/b1/csi_moi
+& 0.025% nguon: ket_qua/test_a/b1/pr_auc
+& 0.194% nguon: ket_qua/test_a/b1/brier
+& 0.194% nguon: ket_qua/test_a/b1/ece
+\\
+B2 XGBoost
+& 0.197% nguon: ket_qua/test_a/b2/csi
+& 0.102% nguon: ket_qua/test_a/b2/csi_moi
+& 0.256% nguon: ket_qua/test_a/b2/pr_auc
+& 0.016% nguon: ket_qua/test_a/b2/brier
+& 0.002% nguon: ket_qua/test_a/b2/ece
+\\
+B6 Persistence
+& 0.177% nguon: ket_qua/test_a/b6/csi
+& 0.000% nguon: ket_qua/test_a/b6/csi_moi
+& 0.107% nguon: ket_qua/test_a/b6/pr_auc
+& 0.024% nguon: ket_qua/test_a/b6/brier
+& 0.024% nguon: ket_qua/test_a/b6/ece
+\\
+B3 U-Net
+& 0.222% nguon: ket_qua/test_a/unet_b3_gfs_s0/csi/tb
+$\pm$ 0.046% nguon: ket_qua/test_a/unet_b3_gfs_s0/csi/dlc
+& 0.148% nguon: ket_qua/test_a/unet_b3_gfs_s0/csi_moi/tb
+$\pm$ 0.021% nguon: ket_qua/test_a/unet_b3_gfs_s0/csi_moi/dlc
+& 0.402% nguon: ket_qua/test_a/unet_b3_gfs_s0/pr_auc/tb
+$\pm$ 0.006% nguon: ket_qua/test_a/unet_b3_gfs_s0/pr_auc/dlc
+& 0.023% nguon: ket_qua/test_a/unet_b3_gfs_s0/brier/tb
+$\pm$ 0.008% nguon: ket_qua/test_a/unet_b3_gfs_s0/brier/dlc
+& 0.032% nguon: ket_qua/test_a/unet_b3_gfs_s0/ece/tb
+$\pm$ 0.022% nguon: ket_qua/test_a/unet_b3_gfs_s0/ece/dlc
+\\
+B4 Prithvi-EO-2.0
+& 0.102% nguon: ket_qua/test_a/prithvi_b4_gfs_s0/csi/tb
+$\pm$ 0.027% nguon: ket_qua/test_a/prithvi_b4_gfs_s0/csi/dlc
+& 0.094% nguon: ket_qua/test_a/prithvi_b4_gfs_s0/csi_moi/tb
+$\pm$ 0.028% nguon: ket_qua/test_a/prithvi_b4_gfs_s0/csi_moi/dlc
+& 0.138% nguon: ket_qua/test_a/prithvi_b4_gfs_s0/pr_auc/tb
+$\pm$ 0.035% nguon: ket_qua/test_a/prithvi_b4_gfs_s0/pr_auc/dlc
+& 0.024% nguon: ket_qua/test_a/prithvi_b4_gfs_s0/brier/tb
+$\pm$ 0.003% nguon: ket_qua/test_a/prithvi_b4_gfs_s0/brier/dlc
+& 0.018% nguon: ket_qua/test_a/prithvi_b4_gfs_s0/ece/tb
+$\pm$ 0.006% nguon: ket_qua/test_a/prithvi_b4_gfs_s0/ece/dlc
+\\
+B5 U-TAE
+& 0.274% nguon: ket_qua/test_a/utae_b5_gfs_s0/csi/tb
+$\pm$ 0.008% nguon: ket_qua/test_a/utae_b5_gfs_s0/csi/dlc
+& 0.153% nguon: ket_qua/test_a/utae_b5_gfs_s0/csi_moi/tb
+$\pm$ 0.011% nguon: ket_qua/test_a/utae_b5_gfs_s0/csi_moi/dlc
+& 0.367% nguon: ket_qua/test_a/utae_b5_gfs_s0/pr_auc/tb
+$\pm$ 0.006% nguon: ket_qua/test_a/utae_b5_gfs_s0/pr_auc/dlc
+& 0.016% nguon: ket_qua/test_a/utae_b5_gfs_s0/brier/tb
+$\pm$ 0.000% nguon: ket_qua/test_a/utae_b5_gfs_s0/brier/dlc
+& 0.008% nguon: ket_qua/test_a/utae_b5_gfs_s0/ece/tb
+$\pm$ 0.001% nguon: ket_qua/test_a/utae_b5_gfs_s0/ece/dlc
+\\
+TerraMind (GFS)
+& 0.242% nguon: ket_qua/test_a/hop_nhat_gfs_s0/csi/tb
+$\pm$ 0.016% nguon: ket_qua/test_a/hop_nhat_gfs_s0/csi/dlc
+& 0.143% nguon: ket_qua/test_a/hop_nhat_gfs_s0/csi_moi/tb
+$\pm$ 0.020% nguon: ket_qua/test_a/hop_nhat_gfs_s0/csi_moi/dlc
+& 0.341% nguon: ket_qua/test_a/hop_nhat_gfs_s0/pr_auc/tb
+$\pm$ 0.029% nguon: ket_qua/test_a/hop_nhat_gfs_s0/pr_auc/dlc
+& 0.019% nguon: ket_qua/test_a/hop_nhat_gfs_s0/brier/tb
+$\pm$ 0.002% nguon: ket_qua/test_a/hop_nhat_gfs_s0/brier/dlc
+& 0.018% nguon: ket_qua/test_a/hop_nhat_gfs_s0/ece/tb
+$\pm$ 0.007% nguon: ket_qua/test_a/hop_nhat_gfs_s0/ece/dlc
+\\
+\addlinespace
+\multicolumn{6}{l}{\textit{Test B}} \\
+B0 Flood frequency
+& 0.118% nguon: ket_qua/test_b/b0/csi
+& 0.087% nguon: ket_qua/test_b/b0/csi_moi
+& 0.162% nguon: ket_qua/test_b/b0/pr_auc
+& 0.045% nguon: ket_qua/test_b/b0/brier
+& 0.041% nguon: ket_qua/test_b/b0/ece
+\\
+B1 HAND + rainfall
+& 0.149% nguon: ket_qua/test_b/b1/csi
+& 0.164% nguon: ket_qua/test_b/b1/csi_moi
+& 0.117% nguon: ket_qua/test_b/b1/pr_auc
+& 0.157% nguon: ket_qua/test_b/b1/brier
+& 0.157% nguon: ket_qua/test_b/b1/ece
+\\
+B2 XGBoost
+& 0.201% nguon: ket_qua/test_b/b2/csi
+& 0.207% nguon: ket_qua/test_b/b2/csi_moi
+& 0.244% nguon: ket_qua/test_b/b2/pr_auc
+& 0.043% nguon: ket_qua/test_b/b2/brier
+& 0.025% nguon: ket_qua/test_b/b2/ece
+\\
+B6 Persistence
+& 0.041% nguon: ket_qua/test_b/b6/csi
+& 0.000% nguon: ket_qua/test_b/b6/csi_moi
+& 0.050% nguon: ket_qua/test_b/b6/pr_auc
+& 0.077% nguon: ket_qua/test_b/b6/brier
+& 0.077% nguon: ket_qua/test_b/b6/ece
+\\
+B3 U-Net
+& 0.211% nguon: ket_qua/test_b/unet_b3_gfs_s0/csi/tb
+$\pm$ 0.018% nguon: ket_qua/test_b/unet_b3_gfs_s0/csi/dlc
+& 0.206% nguon: ket_qua/test_b/unet_b3_gfs_s0/csi_moi/tb
+$\pm$ 0.016% nguon: ket_qua/test_b/unet_b3_gfs_s0/csi_moi/dlc
+& 0.286% nguon: ket_qua/test_b/unet_b3_gfs_s0/pr_auc/tb
+$\pm$ 0.016% nguon: ket_qua/test_b/unet_b3_gfs_s0/pr_auc/dlc
+& 0.054% nguon: ket_qua/test_b/unet_b3_gfs_s0/brier/tb
+$\pm$ 0.002% nguon: ket_qua/test_b/unet_b3_gfs_s0/brier/dlc
+& 0.044% nguon: ket_qua/test_b/unet_b3_gfs_s0/ece/tb
+$\pm$ 0.002% nguon: ket_qua/test_b/unet_b3_gfs_s0/ece/dlc
+\\
+B4 Prithvi-EO-2.0
+& 0.193% nguon: ket_qua/test_b/prithvi_b4_gfs_s0/csi/tb
+$\pm$ 0.029% nguon: ket_qua/test_b/prithvi_b4_gfs_s0/csi/dlc
+& 0.193% nguon: ket_qua/test_b/prithvi_b4_gfs_s0/csi_moi/tb
+$\pm$ 0.037% nguon: ket_qua/test_b/prithvi_b4_gfs_s0/csi_moi/dlc
+& 0.246% nguon: ket_qua/test_b/prithvi_b4_gfs_s0/pr_auc/tb
+$\pm$ 0.009% nguon: ket_qua/test_b/prithvi_b4_gfs_s0/pr_auc/dlc
+& 0.059% nguon: ket_qua/test_b/prithvi_b4_gfs_s0/brier/tb
+$\pm$ 0.006% nguon: ket_qua/test_b/prithvi_b4_gfs_s0/brier/dlc
+& 0.049% nguon: ket_qua/test_b/prithvi_b4_gfs_s0/ece/tb
+$\pm$ 0.009% nguon: ket_qua/test_b/prithvi_b4_gfs_s0/ece/dlc
+\\
+B5 U-TAE
+& 0.181% nguon: ket_qua/test_b/utae_b5_gfs_s0/csi/tb
+$\pm$ 0.014% nguon: ket_qua/test_b/utae_b5_gfs_s0/csi/dlc
+& 0.175% nguon: ket_qua/test_b/utae_b5_gfs_s0/csi_moi/tb
+$\pm$ 0.016% nguon: ket_qua/test_b/utae_b5_gfs_s0/csi_moi/dlc
+& 0.228% nguon: ket_qua/test_b/utae_b5_gfs_s0/pr_auc/tb
+$\pm$ 0.031% nguon: ket_qua/test_b/utae_b5_gfs_s0/pr_auc/dlc
+& 0.054% nguon: ket_qua/test_b/utae_b5_gfs_s0/brier/tb
+$\pm$ 0.005% nguon: ket_qua/test_b/utae_b5_gfs_s0/brier/dlc
+& 0.043% nguon: ket_qua/test_b/utae_b5_gfs_s0/ece/tb
+$\pm$ 0.005% nguon: ket_qua/test_b/utae_b5_gfs_s0/ece/dlc
+\\
+TerraMind (GFS)
+& 0.174% nguon: ket_qua/test_b/hop_nhat_gfs_s0/csi/tb
+$\pm$ 0.012% nguon: ket_qua/test_b/hop_nhat_gfs_s0/csi/dlc
+& 0.166% nguon: ket_qua/test_b/hop_nhat_gfs_s0/csi_moi/tb
+$\pm$ 0.014% nguon: ket_qua/test_b/hop_nhat_gfs_s0/csi_moi/dlc
+& 0.258% nguon: ket_qua/test_b/hop_nhat_gfs_s0/pr_auc/tb
+$\pm$ 0.006% nguon: ket_qua/test_b/hop_nhat_gfs_s0/pr_auc/dlc
+& 0.052% nguon: ket_qua/test_b/hop_nhat_gfs_s0/brier/tb
+$\pm$ 0.001% nguon: ket_qua/test_b/hop_nhat_gfs_s0/brier/dlc
+& 0.039% nguon: ket_qua/test_b/hop_nhat_gfs_s0/ece/tb
+$\pm$ 0.002% nguon: ket_qua/test_b/hop_nhat_gfs_s0/ece/dlc
+\\
+\bottomrule
+\end{tabular}

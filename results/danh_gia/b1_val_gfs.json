@@ -1,0 +1,612 @@
+{
+ "ten": "b1",
+ "vai_tro": "val",
+ "nguon_du_bao": "gfs",
+ "nguon_quan_trac": "imerg_final",
+ "so_mau": 9807,
+ "nguong_toi_uu": {
+  "gia_tri": 0.05,
+  "nguon": "val"
+ },
+ "luoi_nguong": [
+  0.05,
+  0.1,
+  0.15,
+  0.2,
+  0.25,
+  0.3,
+  0.35,
+  0.4,
+  0.45,
+  0.5,
+  0.55,
+  0.6,
+  0.65,
+  0.7,
+  0.75,
+  0.8,
+  0.85,
+  0.9,
+  0.95
+ ],
+ "tong": {
+  "csi": 0.1063012259170245,
+  "iou": 0.1063012259170245,
+  "f1": 0.19217410850993194,
+  "precision": 0.14622879377235073,
+  "recall": 0.28021951723415073,
+  "so_pixel": 65569425,
+  "so_ngap": 1650531,
+  "csi_nguong_toi_uu": 0.1063012259170245,
+  "pr_auc": 0.0590946676873443,
+  "brier": 0.059302578907775995,
+  "ece_15": 0.059302578907775995
+ },
+ "ngap_moi": {
+  "csi": 0.10737204536971443,
+  "iou": 0.10737204536971443,
+  "f1": 0.19392226093962214,
+  "precision": 0.13666859938605455,
+  "recall": 0.33372920153005897,
+  "so_pixel": 51467151,
+  "so_ngap": 1055907,
+  "csi_nguong_toi_uu": 0.10737204536971443
+ },
+ "theo_L": {
+  "1": {
+   "csi": 0.12804228933299192,
+   "iou": 0.12804228933299192,
+   "f1": 0.22701682471266738,
+   "precision": 0.1627112501280304,
+   "recall": 0.37536647297142556,
+   "so_pixel": 21856475,
+   "so_ngap": 550177,
+   "csi_nguong_toi_uu": 0.12804228933299192
+  },
+  "2": {
+   "csi": 0.11948482302391639,
+   "iou": 0.11948482302391639,
+   "f1": 0.21346394442609382,
+   "precision": 0.16441282816703845,
+   "recall": 0.30422754858890866,
+   "so_pixel": 21856475,
+   "so_ngap": 550177,
+   "csi_nguong_toi_uu": 0.11948482302391639
+  },
+  "3": {
+   "csi": 0.06626738028699862,
+   "iou": 0.06626738028699862,
+   "f1": 0.12429786658044806,
+   "precision": 0.10119727381528819,
+   "recall": 0.1610645301421179,
+   "so_pixel": 21856475,
+   "so_ngap": 550177,
+   "csi_nguong_toi_uu": 0.06626738028699862
+  }
+ },
+ "theo_tran": {
+  "gianh_20160913": {
+   "csi": 0.0,
+   "iou": 0.0,
+   "f1": 0.0,
+   "precision": NaN,
+   "recall": 0.0,
+   "so_pixel": 799701,
+   "so_ngap": 53007,
+   "csi_nguong_toi_uu": 0.0,
+   "so_mau": 111
+  },
+  "gianh_20161031": {
+   "csi": 0.004807986770380352,
+   "iou": 0.004807986770380352,
+   "f1": 0.009569961293468654,
+   "precision": 0.08333333333333333,
+   "recall": 0.00507647039803408,
+   "so_pixel": 177636,
+   "so_ngap": 30927,
+   "csi_nguong_toi_uu": 0.004807986770380352,
+   "so_mau": 135
+  },
+  "gianh_20170916": {
+   "csi": 0.0,
+   "iou": 0.0,
+   "f1": 0.0,
+   "precision": NaN,
+   "recall": 0.0,
+   "so_pixel": 184239,
+   "so_ngap": 14613,
+   "csi_nguong_toi_uu": 0.0,
+   "so_mau": 174
+  },
+  "gianh_20171010": {
+   "csi": 0.05476294946969999,
+   "iou": 0.05476294946969999,
+   "f1": 0.1038393498695285,
+   "precision": 0.31788011319783893,
+   "recall": 0.06205521487798386,
+   "so_pixel": 882990,
+   "so_ngap": 199113,
+   "csi_nguong_toi_uu": 0.05476294946969999,
+   "so_mau": 108
+  },
+  "gianh_20171103": {
+   "csi": 0.0,
+   "iou": 0.0,
+   "f1": 0.0,
+   "precision": NaN,
+   "recall": 0.0,
+   "so_pixel": 799443,
+   "so_ngap": 4848,
+   "csi_nguong_toi_uu": 0.0,
+   "so_mau": 111
+  },
+  "gianh_20181216": {
+   "csi": 0.0,
+   "iou": 0.0,
+   "f1": 0.0,
+   "precision": NaN,
+   "recall": 0.0,
+   "so_pixel": 1125057,
+   "so_ngap": 19845,
+   "csi_nguong_toi_uu": 0.0,
+   "so_mau": 108
+  },
+  "gianh_20190903": {
+   "csi": 0.28486381476088424,
+   "iou": 0.28486381476088424,
+   "f1": 0.4434147984997118,
+   "precision": 0.3845117422358299,
+   "recall": 0.5236291415117915,
+   "so_pixel": 1893333,
+   "so_ngap": 304116,
+   "csi_nguong_toi_uu": 0.28486381476088424,
+   "so_mau": 282
+  },
+  "gianh_20191016": {
+   "csi": 0.0,
+   "iou": 0.0,
+   "f1": 0.0,
+   "precision": NaN,
+   "recall": 0.0,
+   "so_pixel": 1134636,
+   "so_ngap": 19020,
+   "csi_nguong_toi_uu": 0.0,
+   "so_mau": 111
+  },
+  "gianh_20191024": {
+   "csi": 0.0,
+   "iou": 0.0,
+   "f1": 0.0,
+   "precision": NaN,
+   "recall": 0.0,
+   "so_pixel": 1124802,
+   "so_ngap": 6762,
+   "csi_nguong_toi_uu": 0.0,
+   "so_mau": 108
+  },
+  "gianh_20191028": {
+   "csi": 0.0,
+   "iou": 0.0,
+   "f1": 0.0,
+   "precision": NaN,
+   "recall": 0.0,
+   "so_pixel": 1134594,
+   "so_ngap": 5958,
+   "csi_nguong_toi_uu": 0.0,
+   "so_mau": 111
+  },
+  "gianh_20191129": {
+   "csi": 0.0,
+   "iou": 0.0,
+   "f1": 0.0,
+   "precision": NaN,
+   "recall": 0.0,
+   "so_pixel": 1124364,
+   "so_ngap": 19941,
+   "csi_nguong_toi_uu": 0.0,
+   "so_mau": 108
+  },
+  "gianh_20201010": {
+   "csi": 0.0,
+   "iou": 0.0,
+   "f1": 0.0,
+   "precision": NaN,
+   "recall": 0.0,
+   "so_pixel": 1134426,
+   "so_ngap": 111657,
+   "csi_nguong_toi_uu": 0.0,
+   "so_mau": 111
+  },
+  "gianh_20201018": {
+   "csi": 0.017038586024021213,
+   "iou": 0.017038586024021213,
+   "f1": 0.03350627254100816,
+   "precision": 0.017948099159974532,
+   "recall": 0.2516286938055646,
+   "so_pixel": 1385511,
+   "so_ngap": 27783,
+   "csi_nguong_toi_uu": 0.017038586024021213,
+   "so_mau": 312
+  },
+  "gianh_20201028": {
+   "csi": 0.15563788521160385,
+   "iou": 0.15563788521160385,
+   "f1": 0.2693540722457462,
+   "precision": 0.15813032588758721,
+   "recall": 0.9080399306593341,
+   "so_pixel": 2766708,
+   "so_ngap": 250935,
+   "csi_nguong_toi_uu": 0.15563788521160385,
+   "so_mau": 297
+  },
+  "gianh_20201105": {
+   "csi": 0.021449599586987653,
+   "iou": 0.021449599586987653,
+   "f1": 0.0419983513541159,
+   "precision": 0.02267220154222941,
+   "recall": 0.2845727332028702,
+   "so_pixel": 1017861,
+   "so_ngap": 12264,
+   "csi_nguong_toi_uu": 0.021449599586987653,
+   "so_mau": 108
+  },
+  "gianh_20201109": {
+   "csi": 0.0,
+   "iou": 0.0,
+   "f1": 0.0,
+   "precision": NaN,
+   "recall": 0.0,
+   "so_pixel": 1134528,
+   "so_ngap": 2556,
+   "csi_nguong_toi_uu": 0.0,
+   "so_mau": 111
+  },
+  "gianh_20201127": {
+   "csi": 0.0,
+   "iou": 0.0,
+   "f1": 0.0,
+   "precision": NaN,
+   "recall": 0.0,
+   "so_pixel": 1134042,
+   "so_ngap": 8970,
+   "csi_nguong_toi_uu": 0.0,
+   "so_mau": 111
+  },
+  "gianh_20210911": {
+   "csi": 0.04947780532402993,
+   "iou": 0.04947780532402993,
+   "f1": 0.09429033195943289,
+   "precision": 0.05114284654131223,
+   "recall": 0.603134230390548,
+   "so_pixel": 1134339,
+   "so_ngap": 36564,
+   "csi_nguong_toi_uu": 0.04947780532402993,
+   "so_mau": 111
+  },
+  "gianh_20210923": {
+   "csi": 0.0,
+   "iou": 0.0,
+   "f1": 0.0,
+   "precision": NaN,
+   "recall": 0.0,
+   "so_pixel": 1135080,
+   "so_ngap": 7875,
+   "csi_nguong_toi_uu": 0.0,
+   "so_mau": 111
+  },
+  "gianh_20211017": {
+   "csi": 0.03318063301224017,
+   "iou": 0.03318063301224017,
+   "f1": 0.06423007159068007,
+   "precision": 0.037314952452707245,
+   "recall": 0.2304596616990505,
+   "so_pixel": 620394,
+   "so_ngap": 15903,
+   "csi_nguong_toi_uu": 0.03318063301224017,
+   "so_mau": 138
+  },
+  "gianh_20211029": {
+   "csi": 0.0,
+   "iou": 0.0,
+   "f1": 0.0,
+   "precision": NaN,
+   "recall": 0.0,
+   "so_pixel": 1715805,
+   "so_ngap": 33423,
+   "csi_nguong_toi_uu": 0.0,
+   "so_mau": 192
+  },
+  "gianh_20221008": {
+   "csi": 0.0,
+   "iou": 0.0,
+   "f1": 0.0,
+   "precision": NaN,
+   "recall": 0.0,
+   "so_pixel": 2258409,
+   "so_ngap": 8832,
+   "csi_nguong_toi_uu": 0.0,
+   "so_mau": 219
+  },
+  "gianh_20221029": {
+   "csi": 0.0,
+   "iou": 0.0,
+   "f1": 0.0,
+   "precision": NaN,
+   "recall": 0.0,
+   "so_pixel": 565464,
+   "so_ngap": 2052,
+   "csi_nguong_toi_uu": 0.0,
+   "so_mau": 81
+  },
+  "gianh_20221122": {
+   "csi": 0.0,
+   "iou": 0.0,
+   "f1": 0.0,
+   "precision": NaN,
+   "recall": 0.0,
+   "so_pixel": 2814606,
+   "so_ngap": 200655,
+   "csi_nguong_toi_uu": 0.0,
+   "so_mau": 300
+  },
+  "gianh_20221207": {
+   "csi": 0.0,
+   "iou": 0.0,
+   "f1": 0.0,
+   "precision": NaN,
+   "recall": 0.0,
+   "so_pixel": 1123764,
+   "so_ngap": 4119,
+   "csi_nguong_toi_uu": 0.0,
+   "so_mau": 108
+  },
+  "gianh_20230925": {
+   "csi": 0.0,
+   "iou": 0.0,
+   "f1": 0.0,
+   "precision": NaN,
+   "recall": 0.0,
+   "so_pixel": 619869,
+   "so_ngap": 14859,
+   "csi_nguong_toi_uu": 0.0,
+   "so_mau": 138
+  },
+  "gianh_20231007": {
+   "csi": 0.0,
+   "iou": 0.0,
+   "f1": 0.0,
+   "precision": NaN,
+   "recall": 0.0,
+   "so_pixel": 1134915,
+   "so_ngap": 68364,
+   "csi_nguong_toi_uu": 0.0,
+   "so_mau": 111
+  },
+  "gianh_20231027": {
+   "csi": 0.09163145592278464,
+   "iou": 0.09163145592278464,
+   "f1": 0.16787983788049818,
+   "precision": 0.15615439959288485,
+   "recall": 0.1815091312092903,
+   "so_pixel": 2831007,
+   "so_ngap": 147078,
+   "csi_nguong_toi_uu": 0.09163145592278464,
+   "so_mau": 300
+  },
+  "gianh_20231120": {
+   "csi": 0.0,
+   "iou": 0.0,
+   "f1": 0.0,
+   "precision": NaN,
+   "recall": 0.0,
+   "so_pixel": 2258961,
+   "so_ngap": 9291,
+   "csi_nguong_toi_uu": 0.0,
+   "so_mau": 219
+  },
+  "gianh_20231206": {
+   "csi": 0.0,
+   "iou": 0.0,
+   "f1": 0.0,
+   "precision": NaN,
+   "recall": 0.0,
+   "so_pixel": 1134453,
+   "so_ngap": 3855,
+   "csi_nguong_toi_uu": 0.0,
+   "so_mau": 111
+  },
+  "gianh_ngoai_tran_2016": {
+   "csi": 0.0,
+   "iou": 0.0,
+   "f1": 0.0,
+   "precision": NaN,
+   "recall": 0.0,
+   "so_pixel": 2229489,
+   "so_ngap": 1554,
+   "csi_nguong_toi_uu": 0.0,
+   "so_mau": 663
+  },
+  "gianh_ngoai_tran_2017": {
+   "csi": 0.0,
+   "iou": 0.0,
+   "f1": 0.0,
+   "precision": NaN,
+   "recall": 0.0,
+   "so_pixel": 1480965,
+   "so_ngap": 207,
+   "csi_nguong_toi_uu": 0.0,
+   "so_mau": 273
+  },
+  "gianh_ngoai_tran_2018": {
+   "csi": NaN,
+   "iou": NaN,
+   "f1": NaN,
+   "precision": NaN,
+   "recall": NaN,
+   "so_pixel": 2722383,
+   "so_ngap": 0,
+   "csi_nguong_toi_uu": NaN,
+   "so_mau": 570
+  },
+  "gianh_ngoai_tran_2019": {
+   "csi": 0.0,
+   "iou": 0.0,
+   "f1": 0.0,
+   "precision": NaN,
+   "recall": 0.0,
+   "so_pixel": 8056491,
+   "so_ngap": 2037,
+   "csi_nguong_toi_uu": 0.0,
+   "so_mau": 1431
+  },
+  "gianh_ngoai_tran_2020": {
+   "csi": NaN,
+   "iou": NaN,
+   "f1": NaN,
+   "precision": NaN,
+   "recall": NaN,
+   "so_pixel": 2416062,
+   "so_ngap": 0,
+   "csi_nguong_toi_uu": NaN,
+   "so_mau": 495
+  },
+  "gianh_ngoai_tran_2021": {
+   "csi": 0.0,
+   "iou": 0.0,
+   "f1": 0.0,
+   "precision": 0.0,
+   "recall": 0.0,
+   "so_pixel": 4425435,
+   "so_ngap": 918,
+   "csi_nguong_toi_uu": 0.0,
+   "so_mau": 720
+  },
+  "gianh_ngoai_tran_2022": {
+   "csi": 0.0,
+   "iou": 0.0,
+   "f1": 0.0,
+   "precision": NaN,
+   "recall": 0.0,
+   "so_pixel": 4572081,
+   "so_ngap": 630,
+   "csi_nguong_toi_uu": 0.0,
+   "so_mau": 744
+  },
+  "gianh_ngoai_tran_2023": {
+   "csi": NaN,
+   "iou": NaN,
+   "f1": NaN,
+   "precision": NaN,
+   "recall": NaN,
+   "so_pixel": 1365582,
+   "so_ngap": 0,
+   "csi_nguong_toi_uu": NaN,
+   "so_mau": 255
+  }
+ },
+ "theo_lop_phu": {
+  "10": {
+   "csi": 0.0055899882385590256,
+   "iou": 0.0055899882385590256,
+   "f1": 0.011117827949641234,
+   "precision": 0.005688863545278243,
+   "recall": 0.2433551950293407,
+   "so_pixel": 16075758,
+   "so_ngap": 8691,
+   "csi_nguong_toi_uu": 0.0055899882385590256
+  },
+  "20": {
+   "csi": 0.0,
+   "iou": 0.0,
+   "f1": 0.0,
+   "precision": 0.0,
+   "recall": NaN,
+   "so_pixel": 2103,
+   "so_ngap": 0,
+   "csi_nguong_toi_uu": 0.0
+  },
+  "30": {
+   "csi": 0.029439037868924628,
+   "iou": 0.029439037868924628,
+   "f1": 0.05719432969992539,
+   "precision": 0.03218341371506978,
+   "recall": 0.256634277782314,
+   "so_pixel": 7440951,
+   "so_ngap": 36741,
+   "csi_nguong_toi_uu": 0.029439037868924628
+  },
+  "40": {
+   "csi": 0.13088072213294238,
+   "iou": 0.13088072213294238,
+   "f1": 0.23146689048883884,
+   "precision": 0.1963050848801494,
+   "recall": 0.2819734573466838,
+   "so_pixel": 34096203,
+   "so_ngap": 1580475,
+   "csi_nguong_toi_uu": 0.13088072213294238
+  },
+  "50": {
+   "csi": 0.004636281778646283,
+   "iou": 0.004636281778646283,
+   "f1": 0.00922977173477755,
+   "precision": 0.004710553976719742,
+   "recall": 0.2272300469483568,
+   "so_pixel": 4293954,
+   "so_ngap": 1065,
+   "csi_nguong_toi_uu": 0.004636281778646283
+  },
+  "60": {
+   "csi": 0.014374591040807636,
+   "iou": 0.014374591040807636,
+   "f1": 0.02834178057646035,
+   "precision": 0.015994637635937083,
+   "recall": 0.12428160919540229,
+   "so_pixel": 2521659,
+   "so_ngap": 11136,
+   "csi_nguong_toi_uu": 0.014374591040807636
+  },
+  "80": {
+   "csi": 0.03280176055236288,
+   "iou": 0.03280176055236288,
+   "f1": 0.0635199547584424,
+   "precision": 0.035628511872394415,
+   "recall": 0.29250372023809523,
+   "so_pixel": 1122021,
+   "so_ngap": 10752,
+   "csi_nguong_toi_uu": 0.03280176055236288
+  },
+  "90": {
+   "csi": 0.19027632039174536,
+   "iou": 0.19027632039174536,
+   "f1": 0.31971789597414046,
+   "precision": 0.3140877598152425,
+   "recall": 0.3255535607420706,
+   "so_pixel": 16776,
+   "so_ngap": 1671,
+   "csi_nguong_toi_uu": 0.19027632039174536
+  }
+ },
+ "khoang_tin_cay_95": {
+  "B": 1000,
+  "cum": "tile_id trong từng trận",
+  "csi_0.5": [
+   0.1063012259170245,
+   0.07811356510319507,
+   0.13416431007154983
+  ],
+  "csi_nguong_toi_uu": [
+   0.1063012259170245,
+   0.07811356510319507,
+   0.13416431007154983
+  ],
+  "ngap_moi_csi_0.5": [
+   0.10737204536971443,
+   0.08068500641896786,
+   0.13544877574832354
+  ]
+ },
+ "git": "42467a4",
+ "lenh": "scripts/chay_doi_chung.py --bo b6,b0,b1,b2 --dung_b2_da_luu",
+ "thoi_gian_giay": 214.4,
+ "luc": "2026-10-29T17:09:32+00:00"
+}

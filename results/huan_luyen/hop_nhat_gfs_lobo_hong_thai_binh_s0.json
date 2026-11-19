@@ -1,0 +1,94 @@
+{
+ "ten": "hop_nhat_gfs_lobo_hong_thai_binh_s0",
+ "cfg": {
+  "so_epoch": 30,
+  "so_mau_epoch": 20000,
+  "lr": 0.001,
+  "lr_lung": 0.0001,
+  "batch": 16,
+  "kien_nhan": 5,
+  "luu_vuc_bo_ra": "hong_thai_binh",
+  "bo": [],
+  "nguon_du_bao_train": "gfs",
+  "chay_o": "kaggle",
+  "ten": "hop_nhat_gfs_lobo_hong_thai_binh_s0",
+  "mo_hinh": "hop_nhat",
+  "seed": 0
+ },
+ "duong_cong": [
+  {
+   "epoch": 0,
+   "lr": 0.001,
+   "loss_train": 0.8861082278966904,
+   "csi_train": 0.2571931977120568,
+   "csi_val": 0.08688538936318273,
+   "giay": 527.6
+  },
+  {
+   "epoch": 1,
+   "lr": 0.001,
+   "loss_train": 0.8113659757852554,
+   "csi_train": 0.320745345504603,
+   "csi_val": 0.16263885845325982,
+   "giay": 527.6
+  },
+  {
+   "epoch": 2,
+   "lr": 0.001,
+   "loss_train": 0.7764230279922485,
+   "csi_train": 0.3331277803084779,
+   "csi_val": 0.21017492145422206,
+   "giay": 527.0
+  },
+  {
+   "epoch": 3,
+   "lr": 0.001,
+   "loss_train": 0.7392315013289451,
+   "csi_train": 0.36685558424180353,
+   "csi_val": 0.13975427117740014,
+   "giay": 527.0
+  },
+  {
+   "epoch": 4,
+   "lr": 0.001,
+   "loss_train": 0.7238453301429748,
+   "csi_train": 0.37885492717716246,
+   "csi_val": 0.03759730136398451,
+   "giay": 526.5
+  },
+  {
+   "epoch": 5,
+   "lr": 0.001,
+   "loss_train": 0.7026812262535095,
+   "csi_train": 0.4013989281850714,
+   "csi_val": 0.16072592053676085,
+   "giay": 527.4
+  },
+  {
+   "epoch": 6,
+   "lr": 0.001,
+   "loss_train": 0.6806027316451073,
+   "csi_train": 0.41755999300569047,
+   "csi_val": 0.09754267500244194,
+   "giay": 527.3
+  },
+  {
+   "epoch": 7,
+   "lr": 0.001,
+   "loss_train": 0.6643080902576447,
+   "csi_train": 0.43476677446815715,
+   "csi_val": 0.12168688858280487,
+   "giay": 527.4
+  }
+ ],
+ "epoch_tot": 2,
+ "csi_val_tot": 0.21017492145422206,
+ "nhiet_do": 1.2365262105796593,
+ "so_pixel_hieu_chinh": 1978961,
+ "thoi_gian_giay": 4300.5,
+ "thiet_bi": "cuda",
+ "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+ "so_gpu": 1,
+ "gpu_dinh_gb": 6.38,
+ "git": "304f0b1"
+}

@@ -1,0 +1,44 @@
+{
+ "vu_gia_thu_bon": {
+  "so_hybas10": 64,
+  "km2_thuong_nguon": 9526,
+  "lat_max_thuong_nguon": 16.08,
+  "km2_aoi": 870,
+  "so_o": 125
+ },
+ "huong": {
+  "so_hybas10": 13,
+  "km2_thuong_nguon": 2732,
+  "lat_max_thuong_nguon": 16.6,
+  "km2_aoi": 643,
+  "so_o": 65
+ },
+ "tra_khuc": {
+  "so_hybas10": 21,
+  "km2_thuong_nguon": 3196,
+  "lat_max_thuong_nguon": 15.26,
+  "km2_aoi": 225,
+  "so_o": 31
+ },
+ "gianh": {
+  "so_hybas10": 38,
+  "km2_thuong_nguon": 4864,
+  "lat_max_thuong_nguon": 18.13,
+  "km2_aoi": 534,
+  "so_o": 86
+ },
+ "ca": {
+  "so_hybas10": 188,
+  "km2_thuong_nguon": 27227,
+  "lat_max_thuong_nguon": 20.47,
+  "km2_aoi": 2950,
+  "so_o": 306
+ },
+ "hong_thai_binh": {
+  "so_hybas10": 1002,
+  "km2_thuong_nguon": 139084,
+  "lat_max_thuong_nguon": 25.6,
+  "km2_aoi": 19332,
+  "so_o": 1310
+ }
+}

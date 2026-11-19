@@ -1,0 +1,38 @@
+{
+ "vu_gia_thu_bon": {
+  "so_o": 125,
+  "so_ngay": 3380,
+  "ty_le_nan_9_cot": 0.0,
+  "imerg_provisional_ngay": 61
+ },
+ "huong": {
+  "so_o": 65,
+  "so_ngay": 3380,
+  "ty_le_nan_9_cot": 0.0,
+  "imerg_provisional_ngay": 61
+ },
+ "tra_khuc": {
+  "so_o": 31,
+  "so_ngay": 3380,
+  "ty_le_nan_9_cot": 0.0,
+  "imerg_provisional_ngay": 61
+ },
+ "gianh": {
+  "so_o": 86,
+  "so_ngay": 3380,
+  "ty_le_nan_9_cot": 0.0,
+  "imerg_provisional_ngay": 61
+ },
+ "ca": {
+  "so_o": 306,
+  "so_ngay": 3380,
+  "ty_le_nan_9_cot": 0.0,
+  "imerg_provisional_ngay": 61
+ },
+ "hong_thai_binh": {
+  "so_o": 1310,
+  "so_ngay": 3380,
+  "ty_le_nan_9_cot": 0.0,
+  "imerg_provisional_ngay": 61
+ }
+}

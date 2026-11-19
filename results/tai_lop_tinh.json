@@ -1,0 +1,45 @@
+{
+ "huong": {
+  "so_o": 65,
+  "giay_dia_hinh": 30,
+  "giay_dat_lop_phu": 124,
+  "pixel_dat_phai_lap": 7482830
+ },
+ "tra_khuc": {
+  "so_o": 31,
+  "giay_dia_hinh": 41,
+  "giay_dat_lop_phu": 65,
+  "pixel_dat_phai_lap": 821070
+ },
+ "gianh": {
+  "so_o": 86,
+  "giay_dia_hinh": 101,
+  "giay_dat_lop_phu": 170,
+  "pixel_dat_phai_lap": 3111710
+ },
+ "vu_gia_thu_bon": {
+  "so_o": 125,
+  "giay_dia_hinh": 121,
+  "giay_dat_lop_phu": 261,
+  "pixel_dat_phai_lap": 4113095
+ },
+ "ca": {
+  "so_o": 306,
+  "giay_dia_hinh": 314,
+  "giay_dat_lop_phu": 597,
+  "pixel_dat_phai_lap": 14731055
+ },
+ "hong_thai_binh": {
+  "so_o": 5,
+  "giay_dia_hinh": 95,
+  "giay_dat_lop_phu": 6,
+  "pixel_dat_phai_lap": 3763200,
+  "o_lap_trung_vi_luu_vuc": [
+   "hong_thai_binh_145_498",
+   "hong_thai_binh_151_509",
+   "hong_thai_binh_158_516",
+   "hong_thai_binh_159_515",
+   "hong_thai_binh_160_515"
+  ]
+ }
+}

@@ -1,0 +1,64 @@
+% Sinh tự động bởi scripts/tong_hop.py, không sửa tay.
+\begin{tabular}{lcccc}
+\toprule
+Reference map & Tiles & IoU & Omission & Commission \\
+\midrule
+UNOSAT, 2024-09-12
+& \num{1,032}% nguon: kiem/UNOSAT_ST1_20240912_RedRiverDelta/so_o
+& 0.530% nguon: kiem/UNOSAT_ST1_20240912_RedRiverDelta/iou
+& 0.451% nguon: kiem/UNOSAT_ST1_20240912_RedRiverDelta/bo_sot
+& 0.059% nguon: kiem/UNOSAT_ST1_20240912_RedRiverDelta/bao_nham
+\\
+UNOSAT, 2024-09-24
+& \num{1,031}% nguon: kiem/UNOSAT_ST1_20240925_RedRiverDelta/so_o
+& 0.415% nguon: kiem/UNOSAT_ST1_20240925_RedRiverDelta/iou
+& 0.571% nguon: kiem/UNOSAT_ST1_20240925_RedRiverDelta/bo_sot
+& 0.074% nguon: kiem/UNOSAT_ST1_20240925_RedRiverDelta/bao_nham
+\\
+\textit{UNOSAT, all}
+& \num{2} maps% nguon: kiem/test_a_unosat/so_ban_do
+& 0.497% nguon: kiem/test_a_unosat/iou
+& 0.486% nguon: kiem/test_a_unosat/bo_sot
+& 0.063% nguon: kiem/test_a_unosat/bao_nham
+\\
+\addlinespace
+Copernicus EMS, 2025-11-04
+& \num{11}% nguon: kiem/EMSR848_AOI01_mon3/so_o
+& 0.253% nguon: kiem/EMSR848_AOI01_mon3/iou
+& 0.714% nguon: kiem/EMSR848_AOI01_mon3/bo_sot
+& 0.311% nguon: kiem/EMSR848_AOI01_mon3/bao_nham
+\\
+Copernicus EMS, 2025-11-04
+& \num{32}% nguon: kiem/EMSR848_AOI02_mon2/so_o
+& 0.095% nguon: kiem/EMSR848_AOI02_mon2/iou
+& 0.689% nguon: kiem/EMSR848_AOI02_mon2/bo_sot
+& 0.880% nguon: kiem/EMSR848_AOI02_mon2/bao_nham
+\\
+Copernicus EMS, 2025-11-04
+& \num{81}% nguon: kiem/EMSR848_AOI03_mon2/so_o
+& 0.732% nguon: kiem/EMSR848_AOI03_mon2/iou
+& 0.233% nguon: kiem/EMSR848_AOI03_mon2/bo_sot
+& 0.059% nguon: kiem/EMSR848_AOI03_mon2/bao_nham
+\\
+\textit{Copernicus EMS, all}
+& \num{3} maps% nguon: kiem/test_b_ems/so_ban_do
+& 0.713% nguon: kiem/test_b_ems/iou
+& 0.246% nguon: kiem/test_b_ems/bo_sot
+& 0.070% nguon: kiem/test_b_ems/bao_nham
+\\
+\addlinespace
+\multicolumn{5}{l}{\textit{Optical EMS maps of Yagi, 1 to 2 days after the Sentinel-1 image}} \\
+GFM vs.\ optical EMS
+& \num{8} maps% nguon: kiem/quang_hoc/so_ban_do
+& 0.428% nguon: kiem/quang_hoc/gfm_so_tham_chieu/iou
+& 0.469% nguon: kiem/quang_hoc/gfm_so_tham_chieu/bo_sot
+& 0.311% nguon: kiem/quang_hoc/gfm_so_tham_chieu/bao_nham
+\\
+UNOSAT vs.\ optical EMS
+& 
+& 0.392% nguon: kiem/quang_hoc/phu_so_tham_chieu/iou
+& 0.376% nguon: kiem/quang_hoc/phu_so_tham_chieu/bo_sot
+& 0.487% nguon: kiem/quang_hoc/phu_so_tham_chieu/bao_nham
+\\
+\bottomrule
+\end{tabular}

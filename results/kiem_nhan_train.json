@@ -1,0 +1,427 @@
+{
+ "tong": {
+  "tp": 33639,
+  "fp": 478,
+  "fn": 29673,
+  "tn": 202751,
+  "iou": 0.5273397084182474,
+  "bo_sot": 0.46867892342683853,
+  "bao_nham": 0.01401061054606208,
+  "so_ban_do": 1
+ },
+ "theo_kich_hoat": {
+  "EMSR472": {
+   "tp": 33639,
+   "fp": 478,
+   "fn": 29673,
+   "tn": 202751,
+   "iou": 0.5273397084182474,
+   "bo_sot": 0.46867892342683853,
+   "bao_nham": 0.01401061054606208
+  }
+ },
+ "ban_do": [
+  {
+   "kich_hoat": "EMSR472",
+   "ban_do": "EMSR472_AOI01_DEL_PRODUCT_r1_RTP01_v1",
+   "ngay": "2020-10-10",
+   "anh": "Sentinel-1A",
+   "so_o": 34,
+   "tp": 33639,
+   "fp": 478,
+   "fn": 29673,
+   "tn": 202751,
+   "iou": 0.5273397084182474,
+   "bo_sot": 0.46867892342683853,
+   "bao_nham": 0.01401061054606208
+  }
+ ],
+ "bo": [
+  {
+   "ban_do": "EMSR450_AOI02_DEL_PRODUCT_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "COSMO-SkyMed",
+     "2020-08-04T10:34:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR450_AOI03_DEL_PRODUCT_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "COSMO-SkyMed",
+     "2020-08-04T10:34:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR450_AOI04_DEL_PRODUCT_r1_RTP01_v2",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "COSMO-SkyMed",
+     "2020-08-04T10:34:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR464_AOI01_DEL_PRODUCT_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "COSMO-SkyMed",
+     "2020-09-18T10:28:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR464_AOI04_DEL_PRODUCT_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "RADARSAT2Dataandproducts",
+     "2020-09-18T10:55:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR464_AOI05_DEL_PRODUCT_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "COSMO-SkyMed",
+     "2020-09-18T22:46:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR469_AOI01_DEL_PRODUCT_r1_RTP01_v2",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "COSMO-SkyMed",
+     "2020-10-08T10:22:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR469_AOI03_DEL_PRODUCT_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "COSMO-SkyMed",
+     "2020-10-08T22:40:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR469_AOI04_DEL_PRODUCT_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "COSMO-SkyMed",
+     "2020-10-08T10:22:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR469_AOI05_DEL_PRODUCT_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "RADARSAT2Dataandproducts",
+     "2020-10-07T22:28:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR469_AOI06_DEL_PRODUCT_r1_VECTORS_v1",
+   "ly_do": "khong_doc_duoc_pdf",
+   "anh_sau_su_kien": []
+  },
+  {
+   "ban_do": "EMSR469_AOI07_DEL_PRODUCT_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "COSMO-SkyMed",
+     "2020-10-08T22:40:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR469_AOI08_DEL_PRODUCT_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "COSMO-SkyMed",
+     "2020-10-08T10:23:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR469_AOI09_DEL_PRODUCT_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "COSMO-SkyMed",
+     "2020-10-08T10:05:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR469_AOI10_DEL_PRODUCT_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "COSMO-SkyMed",
+     "2020-10-08T10:05:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR469_AOI11_DEL_PRODUCT_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "COSMO-SkyMed",
+     "2020-10-08T10:05:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR472_AOI01_DEL_MONIT01_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "Sentinel-1A",
+     "2020-10-10T22:44:00"
+    ],
+    [
+     "Sentinel-1A",
+     "2020-10-18T11:05:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR472_AOI02_DEL_MONIT01_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "TerraSar-X",
+     "2020-10-16T23:16:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR472_AOI02_DEL_PRODUCT_r1_RTP01_v1",
+   "ly_do": "khong_co_nhan_gfm_cung_ngay_trong_vung",
+   "ngay": "2020-10-13"
+  },
+  {
+   "ban_do": "EMSR472_AOI03_DEL_MONIT01_r1_VECTORS_v1",
+   "ly_do": "khong_doc_duoc_pdf",
+   "anh_sau_su_kien": []
+  },
+  {
+   "ban_do": "EMSR472_AOI03_DEL_MONIT02_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "COSMO-SkyMed",
+     "2020-10-17T10:22:00"
+    ],
+    [
+     "COSMO-SkyMed",
+     "2020-10-17T10:23:00"
+    ],
+    [
+     "COSMO-SkyMed",
+     "2020-10-18T10:10:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR472_AOI03_DEL_PRODUCT_r1_RTP01_v1",
+   "ly_do": "khong_co_nhan_gfm_cung_ngay_trong_vung",
+   "ngay": "2020-10-13"
+  },
+  {
+   "ban_do": "EMSR472_AOI04_DEL_MONIT01_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "Sentinel-1A",
+     "2020-10-13T10:56:00"
+    ],
+    [
+     "Sentinel-1A",
+     "2020-10-17T22:36:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR472_AOI04_DEL_PRODUCT_r1_RTP01_v1",
+   "ly_do": "khong_co_nhan_gfm_cung_ngay_trong_vung",
+   "ngay": "2020-10-13"
+  },
+  {
+   "ban_do": "EMSR472_AOI05_DEL_MONIT01_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "TerraSar-X",
+     "2020-10-17T22:59:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR472_AOI05_DEL_PRODUCT_r1_RTP01_v1",
+   "ly_do": "khong_co_nhan_gfm_cung_ngay_trong_vung",
+   "ngay": "2020-10-13"
+  },
+  {
+   "ban_do": "EMSR475_AOI01_DEL_PRODUCT_r1_RTP01_v1",
+   "ly_do": "khong_co_nhan_gfm_cung_ngay_trong_vung",
+   "ngay": "2020-10-30"
+  },
+  {
+   "ban_do": "EMSR475_AOI02_DEL_PRODUCT_r1_RTP01_v3",
+   "ly_do": "khong_co_nhan_gfm_cung_ngay_trong_vung",
+   "ngay": "2020-10-30"
+  },
+  {
+   "ban_do": "EMSR475_AOI03_DEL_MONIT01_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "TerraSar-X",
+     "2020-10-28T22:59:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR475_AOI03_DEL_PRODUCT_r1_VECTORS_v1",
+   "ly_do": "khong_doc_duoc_pdf",
+   "anh_sau_su_kien": []
+  },
+  {
+   "ban_do": "EMSR475_AOI04_DEL_PRODUCT_r1_RTP01_v1",
+   "ly_do": "khong_co_nhan_gfm_cung_ngay_trong_vung",
+   "ngay": "2020-10-30"
+  },
+  {
+   "ban_do": "EMSR475_AOI05_DEL_PRODUCT_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "COSMO-SkyMed",
+     "2020-10-28T22:46:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR475_AOI06_DEL_MONIT01_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "COSMO-SkyMed",
+     "2020-10-28T22:46:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR475_AOI06_DEL_PRODUCT_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "COSMO-SkyMed",
+     "2020-10-28T22:46:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR475_AOI07_DEL_MONIT01_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "COSMO-SkyMed",
+     "2020-10-28T22:46:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR475_AOI07_DEL_PRODUCT_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "COSMO-SkyMed",
+     "2020-10-28T22:46:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR475_AOI08_DEL_MONIT01_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "COSMO-SkyMed",
+     "2020-10-28T22:46:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR475_AOI08_DEL_PRODUCT_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "COSMO-SkyMed",
+     "2020-10-28T22:46:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR475_AOI09_DEL_MONIT01_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "TerraSar-X",
+     "2020-10-28T22:59:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR475_AOI09_DEL_PRODUCT_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "TerraSar-X",
+     "2020-10-28T22:59:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR475_AOI10_DEL_MONIT01_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "TerraSar-X",
+     "2020-10-28T22:59:00"
+    ]
+   ]
+  },
+  {
+   "ban_do": "EMSR475_AOI10_DEL_PRODUCT_r1_RTP01_v1",
+   "ly_do": "anh_khong_phai_mot_ngay_s1",
+   "anh_sau_su_kien": [
+    [
+     "TerraSar-X",
+     "2020-10-28T22:59:00"
+    ]
+   ]
+  }
+ ]
+}

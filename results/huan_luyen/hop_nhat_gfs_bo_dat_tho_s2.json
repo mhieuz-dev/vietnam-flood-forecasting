@@ -1,0 +1,128 @@
+{
+ "ten": "hop_nhat_gfs_bo_dat_tho_s2",
+ "cfg": {
+  "so_epoch": 30,
+  "so_mau_epoch": 20000,
+  "lr": 0.001,
+  "lr_lung": 0.0001,
+  "batch": 16,
+  "kien_nhan": 5,
+  "luu_vuc_bo_ra": null,
+  "bo": [
+   "dat_tho"
+  ],
+  "nguon_du_bao_train": "gfs",
+  "chay_o": "kaggle",
+  "ten": "hop_nhat_gfs_bo_dat_tho_s2",
+  "mo_hinh": "hop_nhat",
+  "seed": 2
+ },
+ "duong_cong": [
+  {
+   "epoch": 0,
+   "lr": 0.001,
+   "loss_train": 0.8272832289457321,
+   "csi_train": 0.24237550979997166,
+   "csi_val": 0.09935741675841907,
+   "giay": 528.5
+  },
+  {
+   "epoch": 1,
+   "lr": 0.001,
+   "loss_train": 0.7722509077191353,
+   "csi_train": 0.2850075098795063,
+   "csi_val": 0.1462142149304122,
+   "giay": 528.2
+  },
+  {
+   "epoch": 2,
+   "lr": 0.001,
+   "loss_train": 0.7576808490037918,
+   "csi_train": 0.291626861434338,
+   "csi_val": 0.15521537481700404,
+   "giay": 527.9
+  },
+  {
+   "epoch": 3,
+   "lr": 0.001,
+   "loss_train": 0.7386790262937546,
+   "csi_train": 0.3074898197182209,
+   "csi_val": 0.10108138962907626,
+   "giay": 526.7
+  },
+  {
+   "epoch": 4,
+   "lr": 0.001,
+   "loss_train": 0.7113400133609772,
+   "csi_train": 0.32688872211846093,
+   "csi_val": 0.15559438753479693,
+   "giay": 526.7
+  },
+  {
+   "epoch": 5,
+   "lr": 0.001,
+   "loss_train": 0.6940714141368866,
+   "csi_train": 0.3484105130003722,
+   "csi_val": 0.1675094233928429,
+   "giay": 526.4
+  },
+  {
+   "epoch": 6,
+   "lr": 0.001,
+   "loss_train": 0.6880904689669609,
+   "csi_train": 0.35433382902770705,
+   "csi_val": 0.17413503403498823,
+   "giay": 525.9
+  },
+  {
+   "epoch": 7,
+   "lr": 0.001,
+   "loss_train": 0.6741562293767929,
+   "csi_train": 0.36202260542172016,
+   "csi_val": 0.07883728828466537,
+   "giay": 526.6
+  },
+  {
+   "epoch": 8,
+   "lr": 0.001,
+   "loss_train": 0.6711688121199608,
+   "csi_train": 0.36405298508319683,
+   "csi_val": 0.15918877683003874,
+   "giay": 526.6
+  },
+  {
+   "epoch": 9,
+   "lr": 0.001,
+   "loss_train": 0.6654062142252922,
+   "csi_train": 0.37027388810843614,
+   "csi_val": 0.12726322549044186,
+   "giay": 522.9
+  },
+  {
+   "epoch": 10,
+   "lr": 0.001,
+   "loss_train": 0.6581167534589768,
+   "csi_train": 0.366322511745026,
+   "csi_val": 0.15983094744483337,
+   "giay": 522.2
+  },
+  {
+   "epoch": 11,
+   "lr": 0.001,
+   "loss_train": 0.6511104524731636,
+   "csi_train": 0.3815501475112206,
+   "csi_val": 0.16213102855292397,
+   "giay": 523.2
+  }
+ ],
+ "epoch_tot": 6,
+ "csi_val_tot": 0.17413503403498823,
+ "nhiet_do": 1.7632637916371507,
+ "so_pixel_hieu_chinh": 1978961,
+ "thoi_gian_giay": 6397.5,
+ "thiet_bi": "cuda",
+ "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+ "so_gpu": 1,
+ "gpu_dinh_gb": 6.38,
+ "git": "5c033ed"
+}
