@@ -10,7 +10,7 @@ import geopandas as gpd
 import yaml
 from shapely.geometry import shape
 
-from floodlab.config import CAU_HINH_DIR, RESULTS_DIR
+from floodlab.config import CAU_HINH_DIR, EE_PROJECT, RESULTS_DIR
 from floodlab.luoi import DIR_LUU_VUC, luoi_o, sang_utm
 
 KHUNG = [97.0, 8.0, 110.0, 26.0]
@@ -54,7 +54,7 @@ def _ghi(ten, hinh_ee):
 
 
 def main():
-    ee.Initialize(project="vn-floodcast")
+    ee.Initialize(project=EE_PROJECT)
     cfg = yaml.safe_load((CAU_HINH_DIR / "luu_vuc.yaml").read_text(encoding="utf-8"))
     fc, nguoc = _do_thi_hybas()
     ket_qua = {}

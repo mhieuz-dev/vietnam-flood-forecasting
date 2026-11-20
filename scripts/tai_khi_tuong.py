@@ -16,7 +16,7 @@ from datetime import date, timedelta
 import ee
 import numpy as np
 
-from floodlab.config import DATA_DIR, KHUNG_MUA_THUONG_NGUON
+from floodlab.config import DATA_DIR, EE_PROJECT, KHUNG_MUA_THUONG_NGUON
 from floodlab.gee_tai import tai_luoi
 
 DO = 0.1
@@ -79,7 +79,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--gsmap", action="store_true")
     gsmap = ap.parse_args().gsmap
-    ee.Initialize(project="vn-floodcast")
+    ee.Initialize(project=EE_PROJECT)
     viec = []
     for a, b in (DOAN[1:] if gsmap else DOAN):
         d = a

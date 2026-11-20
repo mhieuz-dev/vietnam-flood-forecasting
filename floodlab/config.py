@@ -7,6 +7,8 @@ ROOT = Path(os.environ.get("FLOODLAB_ROOT") or Path(__file__).resolve().parents[
 DATA_DIR = ROOT / "data"
 RESULTS_DIR = ROOT / "results"
 CAU_HINH_DIR = ROOT / "cau_hinh"
+# Google Cloud project đã bật Earth Engine; người khác đặt EE_PROJECT là project của mình
+EE_PROJECT = os.environ.get("EE_PROJECT", "vn-floodcast")
 
 CRS = "EPSG:32648"
 PIXEL_M = 20

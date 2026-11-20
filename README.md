@@ -88,21 +88,22 @@ The benchmark is archived on Zenodo: [doi.org/10.5281/zenodo.24382480](https://d
 | `mau_<basin>.zip` (6 files) | sample shards (zarr), sample index (parquet), list of discarded samples with reasons | `data/mau/` | everything |
 | `mau_chung.zip` | target dates per basin | `data/mau/ngay_muc_tieu/` | rebuilding shards |
 | `nhan.zip` | GFM labels per tile and date, exclusion masks, daily flooded fractions | `data/nhan/` | evaluation (test labels are checked against the SHA-256 lock), B0 |
-| `s2_<basin>.zip` | dry-season Sentinel-2 composites | `data/s2/` | B4 only |
+| `s2_<basin>.zip` | dry-season Sentinel-2 composites (Red-Thai Binh in two parts, `_1` and `_2`) | `data/s2/` | B4 only |
 | `doi_chung_b0.zip` | B0 flood-frequency maps | `data/doi_chung/b0/` | B0 |
 | `du_bao.zip` | GFS and ECMWF forecast cache | `data/du_bao/` | ECMWF rainfall swap test |
-| `checkpoints_<group>.zip` | trained weights `checkpoints/<run>/best.pt` | `checkpoints/` | evaluation without retraining |
+| `checkpoints_<group>.zip` (7 files) | trained weights `checkpoints/<run>/best.pt` of all 44 training runs | `checkpoints/` | evaluation without retraining |
 | `ket_qua_tho.zip` | per-tile confusion counts of every evaluation, B2 XGBoost models | `results/raw/` | `scripts/tong_hop.py`, B2 |
 
 `SHA256SUMS.txt` on Zenodo lists the hash of every archive (`sha256sum -c SHA256SUMS.txt`).
 
-**Upstream area.** The static layer `log_dien_tich_thuong_nguon` (channel 4 of `tinh`) was taken from MERIT Hydro, whose license (CC BY-NC 4.0 or ODbL) does not allow it to be redistributed under CC BY 4.0. The shards on Zenodo therefore hold `NaN` in this channel. The checkpoints were trained with it, so restore it before evaluating or retraining (free Earth Engine account needed):
+**Upstream area.** The static layer `log_dien_tich_thuong_nguon` (channel 4 of `tinh`) was taken from MERIT Hydro, whose license (CC BY-NC 4.0 or ODbL) does not allow it to be redistributed under CC BY 4.0. The shards on Zenodo therefore hold `NaN` in this channel. The checkpoints were trained with it, so restore it before evaluating or retraining (free Earth Engine account and a Google Cloud project with Earth Engine enabled):
 
 ```bash
-uv run python scripts/them_dien_tich_thuong_nguon.py     # fills the channel in every shard from MERIT Hydro
+earthengine authenticate
+EE_PROJECT=<your-cloud-project> uv run python scripts/them_dien_tich_thuong_nguon.py   # fills the channel in every shard
 ```
 
-The script reproduces the original values bit for bit; it was checked on all six basins before release.
+The script downloads MERIT Hydro `upa` on the same 20 m grid of each tile and applies the same transform as `scripts/tai_lop_tinh.py`, `log10(max(upa, 0.01))` stored as float16.
 
 ## Reproducing the paper
 
@@ -129,7 +130,7 @@ Training ran on two Kaggle T4 GPUs and a laptop RTX 4060 (8 GB). On the laptop, 
 
 ### Rebuilding the dataset from the original sources
 
-The download scripts need a free Google Earth Engine account (`earthengine authenticate`) and a free GFM account (credentials in `.env` as `GFM_USER` and `GFM_PASS`). The order is:
+The download scripts need a free Google Earth Engine account (`earthengine authenticate`, then set `EE_PROJECT` to your Google Cloud project with Earth Engine enabled) and a free GFM account (credentials in `.env` as `GFM_USER` and `GFM_PASS`). The order is:
 
 ```bash
 uv run python scripts/lap_luu_vuc.py                 # catchments (HydroBASINS) and lowland tiles

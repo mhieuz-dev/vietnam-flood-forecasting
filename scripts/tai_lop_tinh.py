@@ -18,7 +18,7 @@ import ee
 import numpy as np
 
 from floodlab import dat, dia_hinh
-from floodlab.config import DATA_DIR, PIXEL_M, RESULTS_DIR, TILE_M, TILE_PX
+from floodlab.config import DATA_DIR, EE_PROJECT, PIXEL_M, RESULTS_DIR, TILE_M, TILE_PX
 from floodlab.gee_tai import tai_luoi
 from floodlab.luoi import luoi_o
 
@@ -99,7 +99,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--luu_vuc", required=True)
     lv = ap.parse_args().luu_vuc
-    ee.Initialize(project="vn-floodcast")
+    ee.Initialize(project=EE_PROJECT)
     o = luoi_o(lv)
     THU_MUC.mkdir(parents=True, exist_ok=True)
     tam = DATA_DIR / "tam_tinh" / lv

@@ -14,7 +14,7 @@ import numpy as np
 import pandas as pd
 
 from floodlab import dataset, mau, s2
-from floodlab.config import RESULTS_DIR
+from floodlab.config import EE_PROJECT, RESULTS_DIR
 from floodlab.luoi import luoi_o
 
 
@@ -23,7 +23,7 @@ def main():
     ap.add_argument("--luu_vuc", nargs="*", default=list(dataset.LUU_VUC))
     ap.add_argument("--chi_dem", action="store_true")
     a = ap.parse_args()
-    ee.Initialize(project="vn-floodcast")
+    ee.Initialize(project=EE_PROJECT)
     for lv in a.luu_vuc:
         d = mau.doc_chi_muc(lv)
         cap = sorted({(t, n) for t, n in zip(d.tile_id, pd.to_datetime(d.ngay_t).dt.year)})

@@ -4,7 +4,7 @@ Bản dữ liệu trên Zenodo để NaN ở kênh này vì giấy phép MERIT H
 theo CC BY 4.0. Script tải `upa` qua Earth Engine trên đúng lưới 20 m của từng ô và tính như scripts/tai_lop_tinh.py:
 log10(max(upa, 0,01)) rồi ép float16. --kiem chỉ so với giá trị đang có trong shard, không ghi (dùng để kiểm bản gốc).
 
-Chạy: .venv/bin/python scripts/them_dien_tich_thuong_nguon.py --du_an <earth-engine-project> [--luu_vuc huong] [--kiem]
+Chạy: EE_PROJECT=<earth-engine-project> .venv/bin/python scripts/them_dien_tich_thuong_nguon.py [--luu_vuc huong] [--kiem]
 """
 import argparse
 
@@ -12,7 +12,7 @@ import ee
 import numpy as np
 import zarr
 
-from floodlab.config import DATA_DIR, TILE_PX
+from floodlab.config import DATA_DIR, EE_PROJECT, TILE_PX
 from floodlab.gee_tai import tai_luoi
 from floodlab.luoi import luoi_o
 from floodlab.mau import DIR_MAU, KENH_TINH, doc_chi_muc
@@ -46,7 +46,7 @@ def mot_luu_vuc(lv: str, kiem: bool) -> dict:
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--du_an", required=True, help="Google Cloud project đã bật Earth Engine")
+    ap.add_argument("--du_an", default=EE_PROJECT, help="Google Cloud project đã bật Earth Engine (mặc định biến EE_PROJECT)")
     ap.add_argument("--luu_vuc", nargs="*", default=list(LUU_VUC))
     ap.add_argument("--kiem", action="store_true")
     a = ap.parse_args()

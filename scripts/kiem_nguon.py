@@ -8,7 +8,7 @@ import ee
 import requests
 from dotenv import dotenv_values
 
-from floodlab.config import ROOT
+from floodlab.config import EE_PROJECT, ROOT
 
 GFM = "https://api.gfm.eodc.eu/v2"
 AOI_THU_HUE = "ee29bbccf527fe56e835af415988359ac16cf93a3d29c0e168a2c6a1125ed66e"
@@ -23,7 +23,7 @@ def _thu(ten, f):
 
 
 def gee():
-    ee.Initialize(project="vn-floodcast")
+    ee.Initialize(project=EE_PROJECT)
     s1 = (ee.ImageCollection("COPERNICUS/S1_GRD").filterBounds(ee.Geometry.Point(107.58, 16.46))
           .filterDate("2020-10-13", "2020-10-14").first().select(["VV", "VH"]))
     _thu("GEE computePixels S1 224x224", lambda: ee.data.computePixels({

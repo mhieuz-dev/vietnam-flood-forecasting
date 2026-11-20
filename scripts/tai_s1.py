@@ -18,7 +18,7 @@ from pyproj import Transformer
 from shapely.ops import transform
 
 from floodlab import s1, su_kien
-from floodlab.config import CRS, DATA_DIR
+from floodlab.config import CRS, DATA_DIR, EE_PROJECT
 from floodlab.luoi import luoi_o
 
 
@@ -57,7 +57,7 @@ def main():
     ra.parent.mkdir(parents=True, exist_ok=True)
     ra.write_text(json.dumps({"nguong": nguong, "ngay": {n.isoformat(): v for n, v in sorted(muc_tieu.items())}},
                              indent=1))
-    ee.Initialize(project="vn-floodcast")
+    ee.Initialize(project=EE_PROJECT)
     o = luoi_o(lv)
     tu, den = min(muc_tieu) - timedelta(days=33), max(muc_tieu)
     with ThreadPoolExecutor(6) as ex:
