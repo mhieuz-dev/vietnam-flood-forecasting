@@ -3357,6 +3357,34 @@
   "dinh_dang": "{:.3f}",
   "mo_ta": ""
  },
+ "kiem/quang_hoc/iou_min": {
+  "gia_tri": 0.1336933153342333,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_quang_hoc/gfm_so_tham_chieu/theo_ban_do/EMSR754_AOI07_WorldView-2_1409/iou",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/quang_hoc/iou_max": {
+  "gia_tri": 0.6055411682492704,
+  "ham": "gt",
+  "nguon": [
+   "results/kiem_nhan_test.json"
+  ],
+  "khoa_json": "test_a_quang_hoc/gfm_so_tham_chieu/theo_ban_do/EMSR754_AOI11_WorldView-2_1409/iou",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": ""
+ },
+ "kiem/quang_hoc/so_ban_do_co_nuoc": {
+  "gia_tri": 7,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:d}",
+  "mo_ta": "số bản đồ quang học EMSR754 có tp+fp+fn > 0 trong results/kiem_nhan_test.json"
+ },
  "kiem/test_a_unosat/unet_b3_gfs/theo_tham_chieu/tb": {
   "gia_tri": 0.2882636206101646,
   "ham": "gt",
@@ -5117,358 +5145,6 @@
   "dinh_dang": "{:.3f}",
   "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
  },
- "bo2/_bo_dat/val/p_holm_k2": {
-  "gia_tri": 1.0,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_cn/val/p_holm_k2": {
-  "gia_tri": 0.8130000000000001,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_dat_tho/val/p_holm_k2": {
-  "gia_tri": 1.0,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_khi_tuong/val/p_holm_k2": {
-  "gia_tri": 0.0,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "$<$0.001",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_s1/val/p_holm_k2": {
-  "gia_tri": 0.52,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_dia_hinh/val/p_holm_k2": {
-  "gia_tri": 0.42500000000000004,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_dat/test_a/p_holm_k2": {
-  "gia_tri": 0.07,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_cn/test_a/p_holm_k2": {
-  "gia_tri": 0.658,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_dat_tho/test_a/p_holm_k2": {
-  "gia_tri": 0.624,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_khi_tuong/test_a/p_holm_k2": {
-  "gia_tri": 0.773,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_s1/test_a/p_holm_k2": {
-  "gia_tri": 0.0,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "$<$0.001",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_dia_hinh/test_a/p_holm_k2": {
-  "gia_tri": 0.076,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/__nhieu/test_a/p_holm_k2": {
-  "gia_tri": 0.0,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "$<$0.001",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/__hoan_vi/test_a/p_holm_k2": {
-  "gia_tri": 0.0,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "$<$0.001",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_dat/test_b/p_holm_k2": {
-  "gia_tri": 0.15000000000000002,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_cn/test_b/p_holm_k2": {
-  "gia_tri": 0.375,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_dat_tho/test_b/p_holm_k2": {
-  "gia_tri": 0.375,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_khi_tuong/test_b/p_holm_k2": {
-  "gia_tri": 0.14700000000000002,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_s1/test_b/p_holm_k2": {
-  "gia_tri": 0.375,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_dia_hinh/test_b/p_holm_k2": {
-  "gia_tri": 0.508,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/__nhieu/test_b/p_holm_k2": {
-  "gia_tri": 0.008,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/__hoan_vi/test_b/p_holm_k2": {
-  "gia_tri": 0.508,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_dat/val/p_holm_k5": {
-  "gia_tri": 1.0,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_cn/val/p_holm_k5": {
-  "gia_tri": 0.8999999999999999,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_dat_tho/val/p_holm_k5": {
-  "gia_tri": 1.0,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_khi_tuong/val/p_holm_k5": {
-  "gia_tri": 0.0,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "$<$0.001",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_s1/val/p_holm_k5": {
-  "gia_tri": 0.21999999999999997,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_dia_hinh/val/p_holm_k5": {
-  "gia_tri": 0.4,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_dat/test_a/p_holm_k5": {
-  "gia_tri": 0.155,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_cn/test_a/p_holm_k5": {
-  "gia_tri": 0.794,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_dat_tho/test_a/p_holm_k5": {
-  "gia_tri": 0.639,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_khi_tuong/test_a/p_holm_k5": {
-  "gia_tri": 0.824,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_s1/test_a/p_holm_k5": {
-  "gia_tri": 0.0,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "$<$0.001",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_dia_hinh/test_a/p_holm_k5": {
-  "gia_tri": 0.172,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/__nhieu/test_a/p_holm_k5": {
-  "gia_tri": 0.0,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "$<$0.001",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/__hoan_vi/test_a/p_holm_k5": {
-  "gia_tri": 0.0,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "$<$0.001",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_dat/test_b/p_holm_k5": {
-  "gia_tri": 0.33,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_cn/test_b/p_holm_k5": {
-  "gia_tri": 0.42000000000000004,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_dat_tho/test_b/p_holm_k5": {
-  "gia_tri": 0.42000000000000004,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_khi_tuong/test_b/p_holm_k5": {
-  "gia_tri": 0.21,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_s1/test_b/p_holm_k5": {
-  "gia_tri": 0.5940000000000001,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/_bo_dia_hinh/test_b/p_holm_k5": {
-  "gia_tri": 0.596,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/__nhieu/test_b/p_holm_k5": {
-  "gia_tri": 0.056,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
- "bo2/__hoan_vi/test_b/p_holm_k5": {
-  "gia_tri": 0.596,
-  "ham": "tinh_san",
-  "nguon": [],
-  "khoa_json": "",
-  "dinh_dang": "{:.3f}",
-  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
- },
  "bo2/_bo_dat/val/hieu": {
   "gia_tri": -0.0006700535560853205,
   "ham": "tinh_san",
@@ -5484,6 +5160,22 @@
   "khoa_json": "",
   "dinh_dang": "{:.3f}",
   "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dat/val/p_holm_k2": {
+  "gia_tri": 1.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dat/val/p_holm_k5": {
+  "gia_tri": 1.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
  },
  "bo2/_bo_dat/test_a/hieu": {
   "gia_tri": 0.05561056786745916,
@@ -5501,6 +5193,22 @@
   "dinh_dang": "{:.3f}",
   "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
  },
+ "bo2/_bo_dat/test_a/p_holm_k2": {
+  "gia_tri": 0.07,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dat/test_a/p_holm_k5": {
+  "gia_tri": 0.155,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
  "bo2/_bo_dat/test_b/hieu": {
   "gia_tri": -0.019051385672783805,
   "ham": "tinh_san",
@@ -5516,6 +5224,22 @@
   "khoa_json": "",
   "dinh_dang": "{:.3f}",
   "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dat/test_b/p_holm_k2": {
+  "gia_tri": 0.15000000000000002,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dat/test_b/p_holm_k5": {
+  "gia_tri": 0.33,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
  },
  "bo2/_bo_cn/val/hieu": {
   "gia_tri": 0.016744084074722138,
@@ -5533,6 +5257,22 @@
   "dinh_dang": "{:.3f}",
   "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
  },
+ "bo2/_bo_cn/val/p_holm_k2": {
+  "gia_tri": 0.8130000000000001,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_cn/val/p_holm_k5": {
+  "gia_tri": 0.8999999999999999,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
  "bo2/_bo_cn/test_a/hieu": {
   "gia_tri": 0.010958437566650076,
   "ham": "tinh_san",
@@ -5548,6 +5288,22 @@
   "khoa_json": "",
   "dinh_dang": "{:.3f}",
   "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_cn/test_a/p_holm_k2": {
+  "gia_tri": 0.658,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_cn/test_a/p_holm_k5": {
+  "gia_tri": 0.794,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
  },
  "bo2/_bo_cn/test_b/hieu": {
   "gia_tri": -0.017112845790088427,
@@ -5565,6 +5321,22 @@
   "dinh_dang": "{:.3f}",
   "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
  },
+ "bo2/_bo_cn/test_b/p_holm_k2": {
+  "gia_tri": 0.375,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_cn/test_b/p_holm_k5": {
+  "gia_tri": 0.42000000000000004,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
  "bo2/_bo_dat_tho/val/hieu": {
   "gia_tri": 0.005701569282809793,
   "ham": "tinh_san",
@@ -5580,6 +5352,22 @@
   "khoa_json": "",
   "dinh_dang": "{:.3f}",
   "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dat_tho/val/p_holm_k2": {
+  "gia_tri": 1.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dat_tho/val/p_holm_k5": {
+  "gia_tri": 1.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
  },
  "bo2/_bo_dat_tho/test_a/hieu": {
   "gia_tri": 0.05507253057034353,
@@ -5597,6 +5385,22 @@
   "dinh_dang": "{:.3f}",
   "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
  },
+ "bo2/_bo_dat_tho/test_a/p_holm_k2": {
+  "gia_tri": 0.624,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dat_tho/test_a/p_holm_k5": {
+  "gia_tri": 0.639,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
  "bo2/_bo_dat_tho/test_b/hieu": {
   "gia_tri": -0.03461523727757085,
   "ham": "tinh_san",
@@ -5612,6 +5416,22 @@
   "khoa_json": "",
   "dinh_dang": "{:.3f}",
   "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dat_tho/test_b/p_holm_k2": {
+  "gia_tri": 0.375,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dat_tho/test_b/p_holm_k5": {
+  "gia_tri": 0.42000000000000004,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
  },
  "bo2/_bo_khi_tuong/val/hieu": {
   "gia_tri": 0.0883234100819044,
@@ -5629,6 +5449,22 @@
   "dinh_dang": "$<$0.001",
   "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
  },
+ "bo2/_bo_khi_tuong/val/p_holm_k2": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_khi_tuong/val/p_holm_k5": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
  "bo2/_bo_khi_tuong/test_a/hieu": {
   "gia_tri": -0.0024308696946320762,
   "ham": "tinh_san",
@@ -5644,6 +5480,22 @@
   "khoa_json": "",
   "dinh_dang": "{:.3f}",
   "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_khi_tuong/test_a/p_holm_k2": {
+  "gia_tri": 0.773,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_khi_tuong/test_a/p_holm_k5": {
+  "gia_tri": 0.824,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
  },
  "bo2/_bo_khi_tuong/test_b/hieu": {
   "gia_tri": 0.022482156239822082,
@@ -5661,6 +5513,22 @@
   "dinh_dang": "{:.3f}",
   "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
  },
+ "bo2/_bo_khi_tuong/test_b/p_holm_k2": {
+  "gia_tri": 0.14700000000000002,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_khi_tuong/test_b/p_holm_k5": {
+  "gia_tri": 0.21,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
  "bo2/_bo_s1/val/hieu": {
   "gia_tri": 0.041703599740339936,
   "ham": "tinh_san",
@@ -5676,6 +5544,22 @@
   "khoa_json": "",
   "dinh_dang": "{:.3f}",
   "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_s1/val/p_holm_k2": {
+  "gia_tri": 0.52,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_s1/val/p_holm_k5": {
+  "gia_tri": 0.21999999999999997,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
  },
  "bo2/_bo_s1/test_a/hieu": {
   "gia_tri": 0.11335946026960086,
@@ -5693,6 +5577,22 @@
   "dinh_dang": "$<$0.001",
   "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
  },
+ "bo2/_bo_s1/test_a/p_holm_k2": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_s1/test_a/p_holm_k5": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
  "bo2/_bo_s1/test_b/hieu": {
   "gia_tri": -0.0414833052650172,
   "ham": "tinh_san",
@@ -5708,6 +5608,22 @@
   "khoa_json": "",
   "dinh_dang": "{:.3f}",
   "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_s1/test_b/p_holm_k2": {
+  "gia_tri": 0.375,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_s1/test_b/p_holm_k5": {
+  "gia_tri": 0.5940000000000001,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
  },
  "bo2/_bo_dia_hinh/val/hieu": {
   "gia_tri": 0.022773429705589404,
@@ -5725,6 +5641,22 @@
   "dinh_dang": "{:.3f}",
   "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
  },
+ "bo2/_bo_dia_hinh/val/p_holm_k2": {
+  "gia_tri": 0.42500000000000004,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dia_hinh/val/p_holm_k5": {
+  "gia_tri": 0.4,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
  "bo2/_bo_dia_hinh/test_a/hieu": {
   "gia_tri": 0.06234703157632479,
   "ham": "tinh_san",
@@ -5740,6 +5672,22 @@
   "khoa_json": "",
   "dinh_dang": "{:.3f}",
   "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dia_hinh/test_a/p_holm_k2": {
+  "gia_tri": 0.076,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dia_hinh/test_a/p_holm_k5": {
+  "gia_tri": 0.172,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
  },
  "bo2/_bo_dia_hinh/test_b/hieu": {
   "gia_tri": -0.0212194098460384,
@@ -5757,6 +5705,22 @@
   "dinh_dang": "{:.3f}",
   "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
  },
+ "bo2/_bo_dia_hinh/test_b/p_holm_k2": {
+  "gia_tri": 0.508,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/_bo_dia_hinh/test_b/p_holm_k5": {
+  "gia_tri": 0.596,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
  "bo2/__nhieu/test_a/hieu": {
   "gia_tri": 0.039834791420813115,
   "ham": "tinh_san",
@@ -5772,6 +5736,22 @@
   "khoa_json": "",
   "dinh_dang": "$<$0.001",
   "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/__nhieu/test_a/p_holm_k2": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/__nhieu/test_a/p_holm_k5": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
  },
  "bo2/__nhieu/test_b/hieu": {
   "gia_tri": 0.019284917836944526,
@@ -5789,6 +5769,22 @@
   "dinh_dang": "$<$0.001",
   "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
  },
+ "bo2/__nhieu/test_b/p_holm_k2": {
+  "gia_tri": 0.008,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/__nhieu/test_b/p_holm_k5": {
+  "gia_tri": 0.056,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
  "bo2/__hoan_vi/test_a/hieu": {
   "gia_tri": 0.06913406197199223,
   "ham": "tinh_san",
@@ -5805,6 +5801,22 @@
   "dinh_dang": "$<$0.001",
   "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
  },
+ "bo2/__hoan_vi/test_a/p_holm_k2": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/__hoan_vi/test_a/p_holm_k5": {
+  "gia_tri": 0.0,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "$<$0.001",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
  "bo2/__hoan_vi/test_b/hieu": {
   "gia_tri": 0.0137530840983148,
   "ham": "tinh_san",
@@ -5820,6 +5832,22 @@
   "khoa_json": "",
   "dinh_dang": "{:.3f}",
   "mo_ta": "bootstrap hai tầng (seed rồi khối 1x1 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/__hoan_vi/test_b/p_holm_k2": {
+  "gia_tri": 0.508,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 2x2 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
+ },
+ "bo2/__hoan_vi/test_b/p_holm_k5": {
+  "gia_tri": 0.596,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.3f}",
+  "mo_ta": "bootstrap hai tầng (seed rồi khối 5x5 ô) B=2000 seed=0, floodlab.tong_hop.bootstrap_cap_phan_cap, Holm"
  },
  "mua2/ecmwf/test_a/hieu": {
   "gia_tri": 0.011645198647989408,
@@ -6330,5 +6358,21 @@
   "khoa_json": "tong/csi",
   "dinh_dang": "{:.3f}",
   "mo_ta": ""
+ },
+ "du_lieu/tuoi_anh/test_a_9": {
+  "gia_tri": 53.42002325827254,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.0f}\\%",
+  "mo_ta": "% mẫu test_a có khoang_cach_s1_ngay == 9, data/mau/chi_muc_*.parquet"
+ },
+ "du_lieu/tuoi_anh/train_3": {
+  "gia_tri": 55.16121116945576,
+  "ham": "tinh_san",
+  "nguon": [],
+  "khoa_json": "",
+  "dinh_dang": "{:.0f}\\%",
+  "mo_ta": "% mẫu train có khoang_cach_s1_ngay == 3, data/mau/chi_muc_*.parquet"
  }
 }

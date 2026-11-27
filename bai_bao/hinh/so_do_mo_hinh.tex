@@ -1,0 +1,30 @@
+% Sơ đồ mô hình chính (Hình 3); dùng chung cho main.tex và tệp hình rời Figure_3 (scripts/goi_nop_ijdrr.py)
+\begin{tikzpicture}[font=\fontsize{7}{8.5}\selectfont,
+  box/.style={draw, rounded corners=1.5pt, align=center, inner sep=2pt, fill=white},
+  inp/.style={box, fill=gray!12, text width=25mm, minimum height=7mm},
+  arr/.style={-{Latex[length=1.6mm]}, semithick}]
+% cột đầu vào (cùng độ rộng, cạnh phải thẳng hàng)
+\node[inp] (s1)  at (0, 2.35) {Sentinel-1 VV, VH\\at or before $t_0$};
+\node[inp] (dem) at (0, 1.35) {DEM};
+\node[inp] (st)  at (0, 0)    {11 static layers\\(HAND, soil, CN, \dots)};
+\node[inp] (wx)  at (0,-1.35) {Weather series\\31 days + forecast};
+\node[inp] (lt)  at (0,-2.35) {$L$, image age};
+% ba nhánh mã hóa
+\node[box, fill=blue!8,   text width=20mm, minimum height=9mm] (tm)  at (3.4, 1.85) {TerraMind\\encoder (ViT)};
+\node[box, fill=green!8,  text width=20mm, minimum height=9mm] (cnn) at (3.4, 0)    {Static CNN\\4 stages};
+\node[box, fill=orange!10,text width=20mm, minimum height=9mm] (gru) at (3.4,-1.85) {GRU + MLP\\128-d vector};
+% bộ giải mã kéo dài từ hàng TerraMind tới hàng GRU, mọi mũi tên chạm cạnh trái
+\node[box, fill=purple!7, text width=18mm, minimum height=47mm] (dec) at (6.6, 0) {U-Net decoder\\with FiLM\\at every level};
+\node[box, text width=14mm, minimum height=12mm] (out) at (9.0, 0) {Flood\\probability\\$\sigma(z/T)$};
+% đầu vào -> nhánh (hai đầu vào của một nhánh đi vào ở hai độ cao khác nhau)
+\draw[arr] (s1.east)  -- ++(0.35,0) |- ([yshift= 1.5mm]tm.west);
+\draw[arr] (dem.east) -- ++(0.35,0) |- ([yshift=-1.5mm]tm.west);
+\draw[arr] (st.east)  -- (cnn.west);
+\draw[arr] (wx.east)  -- ++(0.35,0) |- ([yshift= 1.5mm]gru.west);
+\draw[arr] (lt.east)  -- ++(0.35,0) |- ([yshift=-1.5mm]gru.west);
+% nhánh -> bộ giải mã -> đầu ra
+\draw[arr] (tm.east)  -- (tm.east -| dec.west)  node[midway, above] {tokens};
+\draw[arr] (cnn.east) -- (cnn.east -| dec.west) node[midway, above] {skips};
+\draw[arr] (gru.east) -- (gru.east -| dec.west) node[midway, above] {FiLM};
+\draw[arr] (dec.east) -- (out.west);
+\end{tikzpicture}

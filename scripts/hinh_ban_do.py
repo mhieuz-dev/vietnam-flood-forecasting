@@ -36,9 +36,14 @@ VAI_TRO = {"hong_thai_binh": "train + Test A", "ca": "train + Test B", "gianh": 
            "huong": "train + Test B", "tra_khuc": "train + Test B", "vu_gia_thu_bon": "train + Test B"}
 
 
+# dời nhãn theo vĩ độ để ba lưu vực phía nam (cách nhau < 1°) không đè chữ lên nhau
+LECH_NHAN = {"hong_thai_binh": 0.35, "huong": 0.45, "vu_gia_thu_bon": -0.05, "tra_khuc": -0.55}
+
+
 def hinh_vung_nghien_cuu():
     nen = gpd.read_file(f"zip://{DATA_DIR / 'ne' / 'ne_50m_admin_0_countries.zip'}").cx[98:114, 8:27]
-    fig, ax = plt.subplots(figsize=(4.6, 6.2))
+    # khung 3,5 in + cột nhãn bên phải, in ở 0,85 khổ chữ nên chữ 7 pt in ra khoảng 7 pt; khung dừng ở 110,8°E, không với tới quần đảo Hoàng Sa
+    fig, ax = plt.subplots(figsize=(3.5, 4.6))
     nen.plot(ax=ax, color="#f2f2f2", edgecolor="#9a9a9a", lw=0.5)
     nen[nen.ADMIN == "Vietnam"].plot(ax=ax, color="#e3e3e3", edgecolor="#666666", lw=0.7)
     mau_lv = plt.get_cmap("tab10")
@@ -47,17 +52,24 @@ def hinh_vung_nghien_cuu():
         o = luoi_o(lv).to_crs(4326)
         gpd.GeoSeries([o.union_all()], crs=4326).plot(ax=ax, color=mau_lv(i), alpha=0.9, lw=0)
         c = o.union_all().centroid
-        ax.annotate(f"{TEN[lv]}\n({VAI_TRO[lv]})", (c.x, c.y), xytext=(109.2, c.y + (0.35 if lv == "hong_thai_binh" else 0)), fontsize=6.5, va="center",
+        # nhãn đặt ngoài khung bên phải (trục x theo phần trăm khung, trục y theo vĩ độ): trong khung thì bị
+        # đường viền khung và bờ biển Hải Nam cắt ngang chữ
+        ax.annotate(f"{TEN[lv]}\n({VAI_TRO[lv]})", (c.x, c.y), xytext=(1.04, c.y + LECH_NHAN.get(lv, 0)),
+                    textcoords=("axes fraction", "data"), fontsize=7, va="center", annotation_clip=False,
                     arrowprops={"arrowstyle": "-", "lw": 0.5, "color": "#444444"})
-    ax.set_xlim(100.5, 112.2)
+    ax.set_xlim(100.5, 110.8)
     ax.set_ylim(13.5, 25.6)
-    ax.set_xlabel("Longitude (°E)")
-    ax.set_ylabel("Latitude (°N)")
+    x0, y0, km = 108.6, 24.9, 100  # thước tỉ lệ 100 km, góc trên phải cho khỏi đè nhãn
+    dx = km / (111.32 * np.cos(np.radians(y0)))  # độ kinh tuyến ứng với 100 km tại vĩ độ đặt thước
+    ax.plot([x0, x0 + dx], [y0, y0], color="#222222", lw=1.5, solid_capstyle="butt")
+    ax.text(x0 + dx / 2, y0 + 0.15, f"{km} km", ha="center", va="bottom", fontsize=7)
+    ax.tick_params(labelsize=7.5)
+    ax.set_xlabel("Longitude (°E)", fontsize=8)
+    ax.set_ylabel("Latitude (°N)", fontsize=8)
     ax.legend(handles=[Patch(color="#888888", alpha=0.25, label="Upstream catchment"),
-                       Patch(color="#888888", alpha=0.9, label="Sample tiles (4.48 km)")], fontsize=6.5, frameon=False,
+                       Patch(color="#888888", alpha=0.9, label="Sample tiles (4.48 km)")], fontsize=7, frameon=False,
               loc="lower left")
-    fig.tight_layout()
-    fig.savefig(HINH / "hinh_vung_nghien_cuu.pdf")
+    fig.savefig(HINH / "hinh_vung_nghien_cuu.pdf", bbox_inches="tight")  # tight để giữ nhãn ngoài khung
     plt.close(fig)
 
 
@@ -158,7 +170,7 @@ def tinh_do_tin_cay(so_khoang=10):
 def hinh_do_tin_cay(toi_thieu=1000):
     """Vẽ từ results/do_tin_cay.json; bỏ khoảng có ít hơn toi_thieu pixel."""
     ra = json.loads((RESULTS_DIR / "do_tin_cay.json").read_text())
-    fig, ax = plt.subplots(1, 2, figsize=(6.4, 3.3), sharey=True)
+    fig, ax = plt.subplots(1, 2, figsize=(5.4, 2.9), sharey=True)  # in ở toàn khổ chữ (5,4 in)
     for a, vt in zip(ax, ("test_a", "test_b")):
         a.plot([0, 1], [0, 1], color="#888888", lw=0.8, ls="--", label="_nolegend_")
         for n, (_, mau_ve) in LUOT_TIN_CAY.items():

@@ -178,7 +178,7 @@ If you use the code or the benchmark, please cite the paper and the dataset. Git
 
 ## License
 
-The code is released under the [MIT License](LICENSE). The benchmark on Zenodo is released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) and contains data derived from Copernicus Sentinel-1 and Sentinel-2, Copernicus GFM, Copernicus DEM GLO-30, ESA WorldCover, JRC Global Surface Water, SoilGrids 2.0, ERA5-Land (Copernicus Climate Change Service), NASA GPM IMERG, GSMaP data by the Japan Aerospace Exploration Agency (JAXA), NCEP GFS and ECMWF open data. Please credit these providers when you use the data.
+The code is released under the [MIT License](LICENSE). The benchmark on Zenodo is released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) and contains data derived from Copernicus Sentinel-1 and Sentinel-2, Copernicus GFM, Copernicus DEM GLO-30, ESA WorldCover, JRC Global Surface Water, SoilGrids 2.0, ERA5-Land (Copernicus Climate Change Service), NASA GPM IMERG, GSMaP data by the Japan Aerospace Exploration Agency (JAXA), NCEP GFS and ECMWF open data. Please credit these providers when you use the data. The GSMaP-NRT values (test samples only, `quan_trac` source index 1) are derived from JAXA data and remain subject to the [JAXA Terms of Use of Research Data](https://earth.jaxa.jp/en/data/policy/): credit JAXA as the original distributor, and notify JAXA in advance of any commercial use.
 
 ## Acknowledgments
 

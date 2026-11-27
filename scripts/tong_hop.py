@@ -52,7 +52,7 @@ def o(khoa: str, ds: list[str], k: str) -> str:
     """Một ô: một tệp -> giá trị; nhiều tệp -> trung bình ± độ lệch chuẩn."""
     if len(ds) == 1:
         return sl.o(khoa, "gt", ds, k)
-    return sl.o(f"{khoa}/tb", "tb", ds, k) + "\n$\\pm$ " + sl.o(f"{khoa}/dlc", "dlc", ds, k)
+    return sl.o(f"{khoa}/tb", "tb", ds, k) + "\n${}\\pm{}$" + sl.o(f"{khoa}/dlc", "dlc", ds, k)
 
 
 def dong(nhan: str, o_list: list[str]) -> str:
@@ -73,7 +73,7 @@ def bang_du_lieu():
     for lv, nhan in LV.items():
         c = [sl.o(f"du_lieu/{lv}/{k}", "gt", [f], kj, "\\num{{{:,.0f}}}") for k, kj in
              (("o", f"so_o_so_ngay/{lv}/o"), ("ngay", f"so_o_so_ngay/{lv}/ngay"))]
-        c += ["--" if d["theo_vai_tro_luu_vuc"][vt][lv] == 0 else
+        c += ["-" if d["theo_vai_tro_luu_vuc"][vt][lv] == 0 else
               sl.o(f"du_lieu/{lv}/{vt}", "gt", [f], f"theo_vai_tro_luu_vuc/{vt}/{lv}", "\\num{{{:,.0f}}}")
               for vt in ("train", "val", "test_a", "test_b")]
         than.append(dong(nhan, c))
@@ -111,7 +111,7 @@ def bang_bo_thanh_phan():
     than.append("\\midrule")
     for nhan, phep in (("Soil replaced by Gaussian noise", "nhieu"), ("Soil maps permuted across tiles", "hoan_vi")):
         ten = [f"hop_nhat_gfs_s{s}" for s in SEED]
-        than.append(dong(nhan, ["--"] + [o(f"bo/{phep}/{vt}", tep(ten, vt, "gfs", f"__{phep}"), "tong/csi_nguong_toi_uu")
+        than.append(dong(nhan, ["-"] + [o(f"bo/{phep}/{vt}", tep(ten, vt, "gfs", f"__{phep}"), "tong/csi_nguong_toi_uu")
                                          for vt in ("test_a", "test_b")]))
     ghi_bang("bang3_bo_thanh_phan", "lccc", "Variant & Val & Test A & Test B \\\\", than)
 
@@ -150,7 +150,8 @@ def bang_kiem_nhan():
         g = d[phan]["gfm_so_tham_chieu"]
         for bd in g["theo_ban_do"]:
             kj = f"{phan}/gfm_so_tham_chieu/theo_ban_do/{bd}"
-            nhan = f"{nhan_tc}, {g['theo_ban_do'][bd]['ngay']}"
+            aoi = " " + " ".join(bd.split("_")[:2]) if phan == "test_b_ems" else ""  # vd EMSR848 AOI01: 3 bản đồ cùng ngày
+            nhan = f"{nhan_tc}{aoi}, {g['theo_ban_do'][bd]['ngay']}"
             than.append(dong(nhan, [sl.o(f"kiem/{bd}/so_o", "gt", f, f"{kj}/so_o", "\\num{{{:,.0f}}}")] +
                              [sl.o(f"kiem/{bd}/{k}", "gt", f, f"{kj}/{k}") for k in ("iou", "bo_sot", "bao_nham")]))
         kj = f"{phan}/gfm_so_tham_chieu/tong"
@@ -166,7 +167,14 @@ def bang_kiem_nhan():
                     "\\num{{{:,.0f}}} maps") if phan == "gfm_so_tham_chieu" else "")
         than.append(dong(nhan, [dau] + [sl.o(f"kiem/quang_hoc/{phan}/{k}", "gt", f, f"{kj}/{k}")
                                         for k in ("iou", "bo_sot", "bao_nham")]))
-    ghi_bang("bang6a_kiem_nhan", "lcccc", "Reference map & Tiles & IoU & Omission & Commission \\\\", than)
+    # IoU nhỏ nhất, lớn nhất giữa các bản đồ quang học có nước ở ít nhất một sản phẩm (AOI05: không pixel nước nào)
+    g = d["test_a_quang_hoc"]["gfm_so_tham_chieu"]["theo_ban_do"]
+    co_nuoc = sorted((v["iou"], k) for k, v in g.items() if v["tp"] + v["fp"] + v["fn"] > 0)
+    for ten, (_, k) in (("iou_min", co_nuoc[0]), ("iou_max", co_nuoc[-1])):
+        sl.o(f"kiem/quang_hoc/{ten}", "gt", f, f"test_a_quang_hoc/gfm_so_tham_chieu/theo_ban_do/{k}/iou")
+    sl.ghi("kiem/quang_hoc/so_ban_do_co_nuoc", len(co_nuoc), "tinh_san", dinh_dang="{:d}",
+           mo_ta="số bản đồ quang học EMSR754 có tp+fp+fn > 0 trong results/kiem_nhan_test.json")
+    ghi_bang("bang6a_kiem_nhan", "lcccc", "Reference map & Tiles (maps) & IoU & Omission & Commission \\\\", than)
     than = []
     for nhan, h in (("B3 U-Net", "unet_b3_gfs"), ("B4 Prithvi-EO-2.0", "prithvi_b4_gfs"), ("B5 U-TAE", "utae_b5_gfs"),
                     (CHINH, "hop_nhat_gfs")):
@@ -174,7 +182,7 @@ def bang_kiem_nhan():
         for phan in ("test_a_unosat", "test_a_quang_hoc", "test_b_ems"):
             for k in ("theo_tham_chieu", "theo_gfm"):
                 kj = f"{phan}/mo_hinh_tb_3_seed/{h}/{k}"
-                c.append(sl.o(f"kiem/{phan}/{h}/{k}/tb", "gt", f, f"{kj}/tb") + "\n$\\pm$ " +
+                c.append(sl.o(f"kiem/{phan}/{h}/{k}/tb", "gt", f, f"{kj}/tb") + "\n${}\\pm{}$" +
                          sl.o(f"kiem/{phan}/{h}/{k}/dlc", "gt", f, f"{kj}/dlc"))
         than.append(dong(nhan, c))
     ghi_bang("bang6b_diem_theo_tham_chieu", "lcccccc",
@@ -249,6 +257,7 @@ def bang_bo_thanh_phan_kiem_dinh():
                                                    B=2000, seed=0, ghep_seed=True)
     ph_holm = {vt: dict(zip(kq[vt], holm([r["p"] for r in kq[vt].values()]))) for vt in kq}
     ma = {**{n: h for n, h in bien.items()}, **{n: "__" + p for n, p in phep.items()}}
+    p_khoi = {}  # (kk, vt, n) -> p Holm theo khối, in cạnh p mức ô để người đọc kiểm tiêu chí "ô và 2x2"
     for kk in (2, 5):  # độ nhạy theo khối không gian, như bảng 7b
         for vt in ("val", "test_a", "test_b"):
             dd = _dem_seed(day_du, vt, "gfs")
@@ -259,8 +268,7 @@ def bang_bo_thanh_phan_kiem_dinh():
                     r[n] = bootstrap_cap_phan_cap(dd, _dem_seed([f"hop_nhat_gfs_s{s}__{ph}" for s in SEED], vt, "gfs"),
                                                   B=2000, seed=0, k=kk, ghep_seed=True)
             for n, pv in zip(r, holm([x["p"] for x in r.values()])):
-                sl.ghi(f"bo2/{ma[n]}/{vt}/p_holm_k{kk}", pv, "tinh_san", dinh_dang="$<$0.001" if pv < 0.001 else "{:.3f}",
-                       mo_ta=MO_TA_2T.format(k=kk) + ", Holm")
+                p_khoi[kk, vt, n] = pv
     than = []
     for n in list(bien) + list(phep):
         if n in phep and n == list(phep)[0]:
@@ -268,12 +276,14 @@ def bang_bo_thanh_phan_kiem_dinh():
         c = []
         for vt in ("val", "test_a", "test_b"):
             if n not in kq[vt]:
-                c += ["--", "--"]
+                c += ["-", "-"]
                 continue
             k0, r = f"bo2/{ma[n]}/{vt}", kq[vt][n]
             pv = ph_holm[vt][n]
             c += [sl.o_san(f"{k0}/hieu", r["hieu"], MO_TA_2T.format(k=1), "{:+.3f}"),
-                  sl.o_san(f"{k0}/p_holm", pv, MO_TA_2T.format(k=1) + ", Holm", "$<$0.001" if pv < 0.001 else "{:.3f}")]
+                  "\n\\,/\\,".join(sl.o_san(f"{k0}/p_holm" + ("" if kk == 1 else f"_k{kk}"), p, MO_TA_2T.format(k=kk) + ", Holm",
+                                        "$<$0.001" if p < 0.001 else "{:.3f}")
+                               for kk, p in ((1, pv), (2, p_khoi[2, vt, n]), (5, p_khoi[5, vt, n])))]
         than.append(dong(n, c))
     ghi_bang("bang3b_bo_thanh_phan_kiem_dinh", "lcccccc",
              "Variant & \\multicolumn{2}{c}{Val} & \\multicolumn{2}{c}{Test A} & \\multicolumn{2}{c}{Test B} \\\\\n"
@@ -326,9 +336,9 @@ def bang_ghep_cap():
 
 def hinh_theo_L():
     HINH.mkdir(parents=True, exist_ok=True)
-    nhom = {"B2 XGBoost": MO_HINH["B2 XGBoost"], "B3 U-Net": MO_HINH["B3 U-Net"], "B5 U-TAE": MO_HINH["B5 U-TAE"],
-            "B4 Prithvi-EO-2.0": MO_HINH["B4 Prithvi-EO-2.0"], CHINH: MO_HINH[CHINH]}
-    fig, ax = plt.subplots(1, 2, figsize=(7.2, 2.8), sharey=True)
+    nhom = {"B2 XGBoost": MO_HINH["B2 XGBoost"], "B3 U-Net": MO_HINH["B3 U-Net"],
+            "B4 Prithvi-EO-2.0": MO_HINH["B4 Prithvi-EO-2.0"], "B5 U-TAE": MO_HINH["B5 U-TAE"], CHINH: MO_HINH[CHINH]}
+    fig, ax = plt.subplots(1, 2, figsize=(5.4, 2.9), sharey=True)  # in ở toàn khổ chữ (5,4 in), chữ không bị thu nhỏ
     for a, (vt, nvt) in zip(ax, VT.items()):
         for nhan, (ten, ng) in nhom.items():
             y = np.array([[json.loads((ROOT / f).read_text())["theo_L"][str(L)]["csi_nguong_toi_uu"] for L in (1, 2, 3)]
@@ -340,8 +350,9 @@ def hinh_theo_L():
         a.set_xlabel("Lead time L (days)")
         a.grid(alpha=0.3)
     ax[0].set_ylabel("CSI (validation threshold)")
-    ax[1].legend(fontsize=7, frameon=False)
-    fig.tight_layout()
+    tay, nhan = ax[0].get_legend_handles_labels()  # chú giải dưới hình: đặt trong ô Test B thì đè lên đường
+    fig.legend(tay, nhan, fontsize=7.5, frameon=False, loc="lower center", ncol=5, bbox_to_anchor=(0.5, 0.0))
+    fig.tight_layout(rect=(0, 0.08, 1, 1))
     fig.savefig(HINH / "hinh_csi_theo_L.pdf")
     plt.close(fig)
 
@@ -439,6 +450,22 @@ def so_lieu_loi_van():
         for ma_bo, tat in (("_bo_dat", "Soil"), ("_bo_khi_tuong", "Wx"), ("_bo_s1", "Sone"), ("__hoan_vi", "Perm")):
             for kk, chu in ((2, "Two"), (5, "Five")):
                 ma[f"Dbo{tat}{c}PBlock{chu}"] = f"bo2/{ma_bo}/{vt}/p_holm_k{kk}"
+    from floodlab import mau  # tuổi ảnh S1: tỉ lệ mẫu Test A dùng ảnh 9 ngày, mẫu train dùng ảnh 3 ngày (hình 2)
+    from floodlab.config import LUU_VUC
+    c = pd.concat([mau.doc_chi_muc(lv)[["vai_tro", "khoang_cach_s1_ngay"]] for lv in LUU_VUC])
+    for vt, ngay, tat in (("test_a", 9, "AgeNineA"), ("train", 3, "AgeThreeTrain")):
+        x = c[c.vai_tro == vt].khoang_cach_s1_ngay
+        sl.ghi(f"du_lieu/tuoi_anh/{vt}_{ngay}", float((x == ngay).mean() * 100), "tinh_san", dinh_dang="{:.0f}\\%",
+               mo_ta=f"% mẫu {vt} có khoang_cach_s1_ngay == {ngay}, data/mau/chi_muc_*.parquet")
+        ma[tat] = f"du_lieu/tuoi_anh/{vt}_{ngay}"
+    for tat, t in (("Tm", "hop_nhat_gfs_s0"), ("Utae", "utae_b5_gfs_s0")):  # CSI ngập mới, mục cảnh báo sớm
+        ma[f"{tat}NewA"] = f"ket_qua/test_a/{t}/csi_moi/tb"
+    ma["BsixNewA"] = "ket_qua/test_a/b6/csi_moi"
+    ma["OptIoUMin"], ma["OptIoUMax"] = "kiem/quang_hoc/iou_min", "kiem/quang_hoc/iou_max"
+    ma["OptNWet"] = "kiem/quang_hoc/so_ban_do_co_nuoc"
+    for c, vt in (("A", "test_a"), ("B", "test_b")):
+        ma[f"DboNoise{c}PBlockTwo"], ma[f"DboNoise{c}PBlockFive"] = (f"bo2/__nhieu/{vt}/p_holm_k2",
+                                                                    f"bo2/__nhieu/{vt}/p_holm_k5")
     ma["NSamples"] = "du_lieu/tong_mau"
     ma["NTestA"], ma["NTestB"] = "du_lieu/so_mau_test_a", "du_lieu/so_mau_test_b"
     dong_ra = ["% Sinh tự động bởi scripts/tong_hop.py, không sửa tay. Mỗi macro kèm khóa trong results/tong_hop.json."]
